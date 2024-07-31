@@ -1,0 +1,26 @@
+view_label_a1_dial.aInFile "A1"
+view_label_a1_dial.aOutFile "A1"
+view_label_a1_dial.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>ANCHOR BOLT LAYOUT PLAN<Format font="Arial Bold" color="153" height="6.350" hidden="0" override="1"/></UserText></MarkPart></Mark>"
+view_label_a1_dial.ShowOn 0
+view_label_a1_dial.TextPosition 0
+view_label_a1_dial.TextRotation 0
+view_label_a1_dial.HorizontalOffset 0.000000
+view_label_a1_dial.VerticalOffset 0.000000
+view_label_a1_dial.Alignment 1
+view_label_a1_dial.Content_en 1
+view_label_a1_dial.ShowOn_en 1
+view_label_a1_dial.TextPosition_en 1
+view_label_a1_dial.HorizontalOffset_en 1
+view_label_a1_dial.VerticalOffset_en 1
+view_label_a1_dial.TextRotation_en 1
+view_label_a1_dial.Alignment_en 1
+view_label_a1_dial.FontAttr.font_name "Arial"
+view_label_a1_dial.FontAttr.text_colour 153
+view_label_a1_dial.FontAttr.height 4.762500
+view_label_a1_dial.FontAttr.font_enable 1
+view_label_a1_dial.FontAttr.text_colour_enable 1
+view_label_a1_dial.FontAttr.height_enable 1
+view_label_a1_dial.FrameAttr.frame_type 1
+view_label_a1_dial.FrameAttr.line_colour 155
+view_label_a1_dial.FrameAttr.frame_enable 1
+view_label_a1_dial.FrameAttr.line_colour_enable 1

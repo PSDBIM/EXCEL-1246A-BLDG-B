@@ -1,0 +1,47 @@
+page("TeklaStructures","")
+{
+   joint(1, "Sag Rod v2")
+   {
+       helpurl("TeklaInc_CC2.chm::/sag_rods.html")
+       tab_page("", " Picture", 1)
+	 { 
+
+		part ("Sag Rod",     P5,  ,  , SR1,P11 ,SR2 ,P10 ,1)
+	    attribute("LABEL1", "Finish", label2, "%s", no, none, "0.0", "0.0", 830, 5)   
+           parameter("", "P1", string, text, 830,26,80)
+	    attribute("LABEL2", "Class", label2, "%s", no, none, "0.0", "0.0", 940, 5)   
+           parameter("", "P12", integer, number, 940,26,40)
+
+		part ("Nut*",   SR4, , , NT1 , P14 , ,P13 ,3)
+           parameter("", "P15", string, text, 830,74,80)
+           parameter("", "P20", integer, number, 940,74,40)
+
+		part ("Washer*",   SR28, , , WS1  ,P22  , ,P21 ,4)
+           parameter("", "P23", string, text, 830,98,80)
+           parameter("", "P24", integer, number, 940,98,40)
+
+           picture("usa_thru_bolt_note", 635, 20, 15, 130)  
+           picture("usa_horz_line2", 720, 5, 25, 164)
+
+		picture("usa_sag_rod_elev",376,370,200,200)
+            parameter("", "P4", distance, number, 585,177,60)
+            parameter("", "P17", distance, number, 730,287,60)
+            parameter("", "P16", distance, number, 406,270,60)
+            parameter("", "GAP1", distance, number, 335,490,60)
+            parameter("", "P18", distance, number, 406,600,60)
+            parameter("", "P19", distance, number, 730,600,60)
+		attribute("Double_nut_lb", "Double (Outer) nuts", label, "%s", no, none, "0.0", "0.0",20,177)
+            parameter("", "P8", YesNo, number, 260,177,80)
+		attribute("Girt_hole_lb", "Girt hole tolerance", label, "%s", no, none, "0.0", "0.0",20,205)
+            parameter("", "P9", distance, number, 260,205,80)
+		attribute("Extra_nut_lb", "Inner nuts", label, "%s", no, none, "0.0", "0.0",20,233)
+           attribute("EN1", "", option, "%s", no, none, "0.0", "0.0", 260,233,80)
+                {
+                     value("No",1)
+                     value("Upper",0)
+                     value("Lower",0)
+                     value("Both",0)
+                }		
+	}
+   }
+}

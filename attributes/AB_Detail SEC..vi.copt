@@ -1,0 +1,41 @@
+TITLE_CLASSIFIER 
+{
+    Version= 1.00 
+    Count= 6 
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part 
+        Base_Plates 
+        Workshop_form 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part 
+        Braces 
+        Workshop_form 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part 
+        Concrete 
+        Concrete 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part 
+        Beams 
+        Workshop_form 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        Concrete 
+        No_Part_Mark 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        Beams 
+        No_Part_Mark 
+        }
+    }

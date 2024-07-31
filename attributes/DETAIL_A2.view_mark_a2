@@ -1,0 +1,26 @@
+view_label_a2_dial.aInFile "DETAIL_A2"
+view_label_a2_dial.aOutFile "DETAIL_A2"
+view_label_a2_dial.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>(20 LOCATIONS)<Format font="Arial " color="153" height="3.175" hidden="0" override="1"/></UserText></MarkPart></Mark>"
+view_label_a2_dial.ShowOn 0
+view_label_a2_dial.TextPosition 1
+view_label_a2_dial.TextRotation 0
+view_label_a2_dial.HorizontalOffset 0.000000
+view_label_a2_dial.VerticalOffset 0.000000
+view_label_a2_dial.Alignment 1
+view_label_a2_dial.Content_en 1
+view_label_a2_dial.ShowOn_en 1
+view_label_a2_dial.TextPosition_en 1
+view_label_a2_dial.HorizontalOffset_en 1
+view_label_a2_dial.VerticalOffset_en 1
+view_label_a2_dial.TextRotation_en 1
+view_label_a2_dial.Alignment_en 1
+view_label_a2_dial.FontAttr.font_name "Arial"
+view_label_a2_dial.FontAttr.text_colour 165
+view_label_a2_dial.FontAttr.height 4.365625
+view_label_a2_dial.FontAttr.font_enable 1
+view_label_a2_dial.FontAttr.text_colour_enable 1
+view_label_a2_dial.FontAttr.height_enable 1
+view_label_a2_dial.FrameAttr.frame_type 1
+view_label_a2_dial.FrameAttr.line_colour 155
+view_label_a2_dial.FrameAttr.frame_enable 1
+view_label_a2_dial.FrameAttr.line_colour_enable 1

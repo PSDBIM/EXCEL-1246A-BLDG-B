@@ -1,0 +1,274 @@
+-1000	1 Sided Beam to Column Flg MC	All|	Moment
+THUMBNAIL	usa_cc_1sidedbmcolflg_mc.bmp
+-1000	1 Sided Beam to Column Web MC	All|	Moment
+THUMBNAIL	usa_cc_1sidedbmcolweb_mc.bmp
+-1000	2 Sided Beam to Beam MC (2 NSC)	All|	Moment
+THUMBNAIL	usa_cc_2sidedbmbm2_mc.bmp
+-1000	2 Sided Beam to Beam MC (One NSC)	All|	Moment
+THUMBNAIL	usa_cc_2sidedbmbm1_mc.bmp
+-1000	2 Sided Beam to Column Flg MC	All|	Moment
+THUMBNAIL	usa_cc_2sidedbmcolflg_mc.bmp
+-1000	2 Sided Beam to Column Web MC	All|	Moment
+THUMBNAIL	usa_cc_2sidedbmcolweb_mc.bmp
+-10	2-Angle+Plate lintel	All
+THUMBNAIL	usa_cc_2angle+plate-lintel.bmp
+-10	3-Angles+Plate lintel	All
+THUMBNAIL	usa_cc_3angle+plate-lintel.bmp
+-10	Anchor-Bent Rod	All
+THUMBNAIL	usa_cc_bent_anchor_rod.bmp
+-10	Anchor-Epoxy	All
+THUMBNAIL	usa_cc_epoxy_anchor.bmp
+-10	Anchor-Straight Rod	All
+THUMBNAIL	usa_cc_anchor_rod.bmp
+-1000	Angle Rail Conx	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_AngleRailConx.bmp
+-1000	Angle Rail Cut	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_AngleRailCut.bmp
+-1000	Angle Rail-Angle Conx	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_anglerail_angleconx.bmp
+-1000	Bay Filler Seam	All
+THUMBNAIL	usa_cc_BayFiller_Seam.bmp
+-100	Beam Bearing Plate v2	All
+THUMBNAIL	usa_cc_Brg_Plate_v2.bmp
+-100	Beam Safety	All
+THUMBNAIL	usa_cc_safety-beam.bmp
+-10	Beam+Plate Lintel v2	All
+THUMBNAIL	usa_cc_beam+plate-lintel_v2.bmp
+-10	Bent Plate	All
+THUMBNAIL	usa_cc_bent_plate.bmp
+-1000	Bolted Moment Tee	All
+THUMBNAIL	usa_cc_bolted-mom-tee.bmp
+-1000	Built-up Plate Seat	All
+THUMBNAIL	usa_cc_plate-seat.bmp
+-1000	Chevron Beam to Beam	All|Bracing connections|	Bracing|Braces
+THUMBNAIL	usa_cc_ChevronBM_BM.bmp
+-100	Chevron Bottom	All|Bracing connections|	Bracing|Braces
+THUMBNAIL	usa_cc_ChevronBM_Base.bmp
+-100	CMU Wall Support Angle	All
+THUMBNAIL	usa_cc_CMU_Wall_Support_Angle.bmp
+-100	Column Safety	All
+THUMBNAIL	usa_cc_safety-column.bmp
+-100	Const Lines	All
+THUMBNAIL	usa_cc_const_line.bmp
+-100	Const Lines-Cross Section	All
+THUMBNAIL	usa_cc_const_csec.bmp
+-1000	Custom Step v2	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_custom_step_v2.bmp
+-100	Dogbone	All|	Moment
+THUMBNAIL	usa_cc_dogbone.bmp
+-10	Double Angles (Equal)	All|	Twin
+THUMBNAIL	usa_cc_Double_Angles_Equal.bmp
+-10	Double Angles (LLH)	All|	Twin
+THUMBNAIL	usa_cc_Double_Angles_LLH.bmp
+-10	Double Angles (LLV)	All|	Twin
+THUMBNAIL	usa_cc_Double_Angles_LLV.bmp
+-10	Embed Angle (Edge)	All
+THUMBNAIL	usa_cc_embedangle_edge.bmp
+-10	Embed Angle (Inside)	All
+THUMBNAIL	usa_cc_embedangle_inside.bmp
+-1000	Gage Example	All
+THUMBNAIL	usa_cc_gage_help.bmp
+-100	Grab Rail Bracket v2	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_grab_rail_v2.bmp
+-1000	Handrail Panel	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_handrail_panel.bmp
+-1000	Handrail Panel-Lower Bend	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_handrail_panel_lbend.bmp
+-100	Handrail Panel-Returns	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_handrail_panel_rtn.bmp
+-1000	Handrail Panel-Sloping	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_handrail_panel_slp.bmp
+-1000	Handrail Panel-Upper Bend	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_handrail_panel_ubend.bmp
+-1000	Handrail Splice	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_handrail-splice.bmp
+-10	Joist (Bar)	All|Joist connections
+THUMBNAIL	usa_cc_bar-joist.bmp
+-100	Joist Panel Opening	All|Joist connections
+THUMBNAIL	usa_cc_JoistPanelThumb.bmp
+-1000	Joist Pocket	All|Joist connections
+THUMBNAIL	usa_cc_joist-pocket.bmp
+-1000	Kick Plate-Angle Conx	All|Stairs and Railings|	Handrails|Kicker|Railings
+THUMBNAIL	usa_cc_kickplate_angleconx.bmp
+-1000	Kicker Brace	All|Bracing connections|	Bracing|Braces
+THUMBNAIL	usa_cc_kicker-brace.bmp
+-1000	Kicker Gusset	All|Bracing connections|	Bracing|Braces
+THUMBNAIL	usa_cc_kicker-gusset.bmp
+-100	Lifting Holes-Beam	All
+THUMBNAIL	usa_cc_liftingholesbeam.bmp
+-100	Lifting Holes-Column	All
+THUMBNAIL	usa_cc_liftingholescolumn.bmp
+-1000	MC Col Flg-Std Web	All|	Moment
+THUMBNAIL	usa_cc_mom-cfg-std-web.bmp
+-10	Mr TS	All
+THUMBNAIL	MrTS_Thumb.bmp
+-1000	Notch	All
+THUMBNAIL	usa_cc_notch.bmp
+-1000	Offset Beams-Left	All|Beam to beam connections
+THUMBNAIL	usa_cc_offset_beams-left.bmp
+-1000	Offset Beams-Right	All|Beam to beam connections
+THUMBNAIL	usa_cc_offset_beams-right.bmp
+-100	Ornamental Picket	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_picket_detail.bmp
+-1000	Ornamental Picket Panel	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_picket_panel.bmp
+-100	Outrigger (Angles)	All|Details
+THUMBNAIL	usa_cc_outrigger-angles.bmp
+-100	Outrigger (Plate)	All|Details
+THUMBNAIL	usa_cc_outrigger-plate.bmp
+-1000	Pipe Weld Prep (Conx)	All|	Moment
+THUMBNAIL	TJ_PipeWeldPrep_jnt_thm1.bmp
+-100	Pipe Weld Prep (Detail)	All|	Moment
+THUMBNAIL	TJ_PipeWeldPrep_det_thm1.bmp
+-100	Pourstop v3	All|Details|	Polybeam
+THUMBNAIL	usa_cc_pourstop_v3.bmp
+-100	Pourstop-Partial	All|	Polybeam
+THUMBNAIL	usa_cc_partial_polybeam.bmp
+-1000	Rail Connector-Beveled Tee	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_con_bev_tee.bmp
+-1000	Rail Connector-Tee	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_con_tee.bmp
+-100	Rail End Caps	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_end_caps.bmp
+-1000	Rail Fitting-Beveled Cross	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_fit_bev_cross.bmp
+-1000	Rail Fitting-Beveled Tee (Side)	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_fit_bev_tee_side.bmp
+-1000	Rail Fitting-Beveled Tee (Top)	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_fit_bev_tee_top.bmp
+-1000	Rail Fitting-Cross	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_fit_cross.bmp
+-1000	Rail Fitting-Elbow	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_fit_elbow.bmp
+-1000	Rail Fitting-Side Outlet Cross	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_fit_side_out_cross.bmp
+-1000	Rail Fitting-Side Outlet Elbow	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_fit_side_out_elbow.bmp
+-1000	Rail Fitting-Side Outlet Tee	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_fit_side_out_tee.bmp
+-1000	Rail Fitting-Tee (Side)	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_fit_tee_side.bmp
+-1000	Rail Fitting-Tee (Top)	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_fit_tee_top.bmp
+-100	Rail Flanges	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_rail_flanges.bmp
+-100	Rat Hole	All|	Moment
+THUMBNAIL	usa_cc_rat-hole.bmp
+-1000	Rod Bracing	All
+THUMBNAIL	usa_cc_rodbrace.bmp
+-1000	Rod Bracing with Turnbuckle	All
+THUMBNAIL	usa_cc_rodbrace_turnbuckle.bmp
+-10	Roof Frame	All
+THUMBNAIL	usa_cc_roof-frame.bmp
+-10	Roof Frame 2-Sided	All
+THUMBNAIL	usa_cc_roof-frame-2sided.bmp
+-10	Roof Frame 3-Sided	All
+THUMBNAIL	usa_cc_roof-frame-3sided.bmp
+-1000	Roof Frame Seam	All
+THUMBNAIL	usa_cc_roof-frame-connected.bmp
+-1000	S77 Bracket v2	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_bracket_v2.bmp
+-100	SSDA Slotted Web	All|	Moment
+THUMBNAIL	usa_cc_ssda-slot.bmp
+-1000	Sag Rod v2	All|Bracing connections|	Bracing|Braces
+THUMBNAIL	usa_cc_sag-rod_v2.bmp
+-1000	Shear K	All
+THUMBNAIL	usa_cc_shear-k.bmp
+-1000	SidePlate FRAME one-sided	All
+THUMBNAIL	usa_cc_SidePlate FRAME one-sided.bmp
+-1000	SidePlate FRAME two-sided	All
+THUMBNAIL	usa_cc_SidePlate FRAME two-sided.bmp
+-100	Stud Flange v2	All
+THUMBNAIL	usa_cc_stud-flange_v2.bmp
+-100	Thru Bolt	All|Bracing connections|	Braces|Bracing|Through
+THUMBNAIL	usa_cc_thru_bolt.bmp
+-10	Tower Crane	All
+THUMBNAIL	usa_cc_tower_crane.bmp
+-1000	WT Horz Brace	All|Bracing connections|	Bracing|Braces
+THUMBNAIL	usa_cc_WTHorz_Brace.bmp
+-100	Wall Bracket Type1	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_wrb_type1.bmp
+-100	Wall Bracket Type2	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_wrb_type2.bmp
+-100	Wall Bracket Type3	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_wrb_type3.bmp
+-100	Wall Bracket Type4	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_wrb_type4.bmp
+-100	Wall Bracket Type5	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_wrb_type5.bmp
+-100	Wall Bracket Type6	All|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	usa_cc_wrb_type6.bmp
+-100	Weld Bar 1Pc	All|	Moment
+THUMBNAIL	WeldBar_H_thm.bmp
+-100	Weld Bar 2Pc	All|	Moment
+THUMBNAIL	WeldBar_H_Type4_thm.bmp
+-100	Weld Bar Box 1Pc	All|	Moment
+THUMBNAIL	WeldBar_Box_1Pc_thm.bmp
+-100	Weld Bar Box 2Pc	All|	Moment
+THUMBNAIL	WeldBar_Box_2Pc_thm.bmp
+-100	Weld Bar Pipe 1Pc	All|	Moment
+THUMBNAIL	WeldBar_Pipe_1Pc_thm.bmp
+-100	Weld Prep Beam	All|	Moment
+THUMBNAIL	TJ_WeldPrep_Beam_det_thm.bmp
+-100	Weld Prep Flg	All|	Moment
+THUMBNAIL	TJ_WeldPrep_Flg_V_thm.bmp
+-100	Weld Prep Scallop	All|	Moment
+THUMBNAIL	TJ_WeldPrep_Scallop_thm.bmp
+-100	Weld Prep Web	All|	Moment
+THUMBNAIL	TJ_WeldPrep_Web_K_thm.bmp
+-100	Welded Nut	All
+THUMBNAIL	usa_cc_welded_nut.bmp
+41	Cranked beam (41)	All|Stairs and Railings|	Handrails|Miter|Railings
+THUMBNAIL	usa_rail_mitre.bmp
+ATTRIBUTE_FILE	Railing_Mitre
+1002	End plate detail (1002)	All|Details
+THUMBNAIL	usa_cap_plate.bmp
+ATTRIBUTE_FILE	Cap_Plate
+-100000	Ship Ladder	All|Plugins|Stairs and Railings|	Handrails|Stairs|Railings
+THUMBNAIL	et_element_ShipLadder
+-100000	Wall Rails	All|Plugins|Stairs and Railings|	Handrails|Railings
+THUMBNAIL	et_element_WallRails
+-200000	Tube-Chamfer	All|Plugins|Offshore|	Offshore
+THUMBNAIL	et_element_Tube-Chamfer
+-200000	Tube-Crossing Saddle	All|Plugins|Offshore|	Offshore
+THUMBNAIL	et_element_Tube-CrossingSaddle
+-200000	Tube-MitreSaddle+Hole	All|Plugins|Offshore|	Offshore
+THUMBNAIL	et_element_Tube-MitreSaddle+Hole
+-200000	Tube-Saddle+Hole	All|Plugins|Offshore|	Offshore
+THUMBNAIL	et_element_Tube-Saddle+Hole
+-200000	Tube-Slotted Hole	All|Plugins|Offshore|	Offshore
+THUMBNAIL	et_element_Tube-SlottedHole
+-100000	Floor Tool	All|Plugins
+THUMBNAIL	et_element_FloorTool
+-200000	Gusset+T	All|Plugins
+THUMBNAIL	et_element_Gusset+T
+-100000	Hollowcore Lifting Loops	All|Plugins
+THUMBNAIL	et_element_HollowCoreLiftingLoops
+-100000	Hollowcore Opening Tool	All|Plugins
+THUMBNAIL	et_element_HollowCoreOpeningTool
+-100000	Layout Line	All|Plugins
+THUMBNAIL	et_element_LayoutLinePlugin
+-100000	Layout Point	All|Plugins
+THUMBNAIL	et_element_LayoutPointPlugin
+-100000	Multi Wire Size Mesh	All|Plugins
+THUMBNAIL	et_element_MultiWireSizeMesh
+-100000	Opening Frame	All|Plugins
+THUMBNAIL	et_element_OpeningFrame
+-100000	Radial Grid	All|Plugins
+THUMBNAIL	et_element_RadialGrid
+-200000	Sandwich Wall Horizontal Seam	All|Plugins
+THUMBNAIL	et_element_SandwichWallHorizontalSeam
+-200000	Sandwich Wall Vertical Seam	All|Plugins
+THUMBNAIL	et_element_SandwichWallVerticalSeam
+-100000	Sandwich Wall Window	All|Plugins
+THUMBNAIL	et_element_SandwichWallWindow
+-100000	Sandwich and Double Wall	All|Plugins
+THUMBNAIL	et_element_SandwichAndDoubleWall
+-100000	Seam Applicator	All|Plugins
+THUMBNAIL	et_element_SeamApplicator
+-100000	Slab Reinforcement Tool	All|Plugins
+THUMBNAIL	et_element_SlabReinforcementTool
+-100000	Sloping Slab Drainage	All|Plugins
+THUMBNAIL	et_element_SlopingSlabDrainage
+-100000	Strand Pattern	All|Plugins
+THUMBNAIL	et_element_StrandPattern

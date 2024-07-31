@@ -1,0 +1,54 @@
+page("TeklaStructures","")
+{
+   macro(1, "Anchor-Epoxy")
+   {
+       helpurl("TeklaInc_CC2.chm::/anchor_rods.html")
+       tab_page("", " Parameters ", 1)
+       {
+		   part ("Anchor Rod", B1, P7, , B6, , B8, B2, 1) 
+		   attribute("LABEL_fin", "Finish", label2, "%s", no, none, "0.0", "0.0", 830, 5) 
+		   attribute("LABEL_cls", "Class", label2, "%s", no, none, "0.0", "0.0", 940, 5) 
+		   parameter("", "B4", string, text, 830,26,80) 
+		   parameter("", "B6", integer, number, 940,26,40)
+
+		   part ("Screen Tube", T2, P6, , T7, , , T3, 3)
+		   parameter("", "T5", string, text, 830,74,80) 
+		   parameter("", "T6", integer, number, 940,74,40) 		   
+
+         attribute("LABEL1_boi", "Item Name\Catalog Number (Anchor)", label, "%s", no, none, "0.0", "0.0", 19,98) 
+         parameter("", "BOI2", string, text, 398,98,200) 
+         attribute("LABEL2_boi", "Item Name\Catalog Number (Screen Tube)", label, "%s", no, none, "0.0", "0.0", 19,122) 
+         parameter("", "BOI4", string, text, 398,122,200) 
+		 
+		   attribute("LABEL3", "Create Screen?", label2, "%s", no, none, "0.0", "0.0", 20, 146) 
+		   attribute("O1", "", option, "%s", no, none, "0.0", "0.0", 398,146,200,"toggle_field:!usa_anchor_epoxy1=1;!usa_anchor_epoxy2=0;T2=0;P6=0;prefix_T7=0;startno_T7;T3=0;T5=0;T6=0") 
+			{ 
+                value("No",1) 
+                value("Yes",0) 
+            } 
+		   attribute("LABEL34", "Headed Bolt?", label2, "%s", no, none, "0.0", "0.0", 20, 170) 			
+		   attribute("O2", "", option, "%s", no, none, "0.0", "0.0", 398,170,200,"toggle_field:!usa_anchor_epoxy3=1;P1=1") 
+			{ 
+                value("No",1) 
+                value("Yes",0) 
+            } 
+			picture("usa_anchor_epoxy1",175, 150, 366, 220)
+			picture("usa_anchor_epoxy2",175, 150, 366, 220)			
+			picture("usa_anchor_epoxy3",175, 150, 366, 196)	
+			parameter("", "P1", distance, number, 271, 271, 108)
+           parameter("", "D5", distance, number, 593, 231, 81)
+
+/*  This option is for demo purposes. All it does it turn on an image.
+
+         picture("usa_vender_redhead_logo",235,60,650,300)
+          picture("usa_vender_hilti_logo",235,60,650,300)		  
+
+           attribute("V1", "", option, "%s", no, none, "0.0", "0.0", 750,365,160,"toggle_field:!usa_vender_redhead_logo=0,2;!usa_vender_hilti_logo=0,1")
+                {
+                     value("Default",1)
+                     value("Red Head",0)
+                     value("Hilti",0)
+					 }
+*/					 
+   }
+}

@@ -1,0 +1,6 @@
+dia_nc_files.CreatePartsOption 1
+dia_nc_files.SettingsName "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE SettingsName><SettingsName><SettingsNameObject><Element name="with assembly and project hard stamp" label="DSTV for angles" value="1" popmark="0" scribing="0"/></SettingsNameObject><SettingsNameObject><Element name="with assembly and project hard stamp" label="DSTV for plates" value="1" popmark="0" scribing="0"/></SettingsNameObject><SettingsNameObject><Element name="with assembly and project hard stamp" label="DSTV for profiles" value="1" popmark="0" scribing="1"/></SettingsNameObject><SettingsNameObject><Element name="with assembly and project hard stamp" label="NC file settings 1" value="0" popmark="0" scribing="0"/></SettingsNameObject></SettingsName>"
+dia_nc_files.aInFile "with assembly and project hard stamp"
+dia_nc_files.aOutFile "with assembly and project hard stamp"
+dia_nc_files.popmarks_used ""
+dia_nc_files.scribing_used ""

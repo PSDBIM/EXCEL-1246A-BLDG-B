@@ -1,0 +1,17 @@
+TITLE_CLASSIFIER 
+{
+    Version= 1.00 
+    Count= 2 
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        Sheet_Gage 
+        Sheet_Gage 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Dimensioning 
+        Sheet_Gage 
+        Sheet_Gage 
+        }
+    }

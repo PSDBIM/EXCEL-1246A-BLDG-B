@@ -1,0 +1,26 @@
+page("TeklaStructures","")
+{
+   macro(1, "Anchor-Straight Rod")
+   {
+       helpurl("TeklaInc_CC2.chm::/anchor_rods.html")
+       tab_page("", " Parameters ", 1)
+       {
+	       part ("Anchor Rod", R1, , , R6, R3, R7, R2, 1) 
+		   attribute("LABEL_fin", "Finish", label2, "%s", no, none, "0.0", "0.0", 830, 5) 
+		   attribute("LABEL_cls", "Class", label2, "%s", no, none, "0.0", "0.0", 940, 5) 
+		   parameter("", "R4", string, text, 830,26,80) 
+		   parameter("", "R6", integer, number, 940,26,40) 
+		   
+		   part ("Plate", P15, P7, P8, P15, P6, , P5, 3)
+		   parameter("", "P13", string, text, 830,74,80) 
+		   parameter("", "P14", integer, number, 940,74,40) 
+
+	       picture("usa_anchor_straight",175, 175, 345, 157)
+           parameter("", "P1", distance, number, 254, 257, 108)
+           parameter("", "P2", distance, number, 570, 189, 108)		   
+           parameter("", "P3", distance, number, 254, 175, 108)
+           parameter("", "P4", distance, number, 562, 291, 108)
+
+       }
+   }
+}

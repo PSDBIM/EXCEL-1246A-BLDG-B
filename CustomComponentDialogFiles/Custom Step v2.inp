@@ -1,0 +1,73 @@
+page("TeklaStructures","")
+{
+   joint(1, "Custom Step v2")
+   {
+       helpurl("TeklaInc_CC2.chm::/custom_step.html")
+       tab_page("", " Picture ", 1)
+       {
+	   picture("usa_custom_step_v2",700, 330, 50, 50)
+	     attribute("P32", "Tread Type", option, "%s", no, none, "0.0", "0.0", 1)
+                {
+                     value("Just Plate",1)
+                     value("Checkered_Plate",0)
+                     value("Expanded_Metal",0)
+                     value("Grating",0)
+                     value("Grip_Strut",0)
+                }
+           parameter("", "P1", distance, number, 125,35,65)
+           parameter("", "P3", distance, number, 312,189,65)
+           parameter("", "P4", distance, number, 312,354,80)
+
+           parameter("", "P21", distance, number, 565,170,65)
+           parameter("", "P26", distance, number, 930,155,65)
+           parameter("", "P25", distance, number, 730,282,65)
+           parameter("", "P24", distance, number, 830,282,65)
+           parameter("", "P22", distance, number, 653,335,65)
+           parameter("", "P23", distance, number, 730,388,65)
+	 }
+       tab_page("", " Parts ", 2)
+       {
+		profile ("", ,P12 , P8 ,P14 ,P11 ,1)
+
+		attribute("LABEL_F", "Finish", label2, "%s", no, none, "0.0", "0.0", 830, 5)
+		parameter("", "P6", string, text, 830,26,80)
+		attribute("LABEL_C", "Class", label2, "%s", no, none, "0.0", "0.0", 940, 5)
+		parameter("", "P5", integer, number, 940,26,40)
+
+		attribute("LABEL1", "Step Profile Prefix", label2, "%s", none, none, "0.0", "0.0", 20, 25)
+           attribute("P7", "", option, "%s", no, none, "0.0", "0.0", 180,25,125)
+	     {
+	         value("GRTG", 1)
+		   value("ALUM_GRTG", 0)
+		   value("PL", 0)
+		   value("PLT", 0)
+		   value("PLATE", 0)
+	     }
+           attribute("P9", "Bought Out Item?", option, "%s", yes, none, "0.0","0.0", 4)
+	     {
+                     value("",1)
+                     value("Yes",0)
+	     }
+           parameter("BOI Name", "P10", string, text, 5)
+
+		picture("usa_horz_line2", 720, 5, 25, 160)
+
+	  	attribute("number_lb", "Bolt size", label2,"%s",  none, none, "0.0", "0.0",20,180)
+	 	attribute("bolt_standard_lb", "j_bolt_standard", label3,"%s",  none, none, "0.0", "0.0",20,205)
+	  	attribute("tolerance_lb", "j_tolerance", label2,"%s",  none, none, "0.0", "0.0",20,230)
+	  	parameter("","P27_diameter", bolt_size, number,180,180,125)
+	 	parameter("","P27_screwdin", bolt_standard, text,180,205,125)
+ 	 	parameter("","P30", distance, number,180,230,125)
+		attribute("P29", "", option,"%s", none, none, "0.0", "0.0",180,255,125)
+		{
+		value("j_site", 1)
+		value("j_workshop", 0)
+		}
+
+		picture("usa_bolt_slots", 155, 155, 350, 175)
+		parameter("","P28", distance, number, 475,245,60)
+
+
+       }
+   }
+}

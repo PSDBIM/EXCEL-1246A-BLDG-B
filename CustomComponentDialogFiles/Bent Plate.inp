@@ -1,0 +1,45 @@
+page("TeklaStructures","")
+{
+   macro(1, "Bent Plate")
+   {
+	   helpurl("TeklaInc_CC2.chm::/bent_plate.html")
+       tab_page("", " Parameters ", 1)
+       {
+           part ("Bent Plate", BP4, , , BP6, BP3, BP7, BP2, 1)
+		   attribute("LABEL_fin", "Finish", label2, "%s", no, none, "0.0", "0.0", 830, 5) 
+		   attribute("LABEL_cls", "Class", label2, "%s", no, none, "0.0", "0.0", 940, 5) 
+		   parameter("", "BP8", string, text, 830,26,80) 
+		   parameter("", "BP9", integer, number, 940,26,40) 
+           picture("usa_bent_plate",190,194,185,75)  
+		   
+		   parameter("", "BP1", distance, number, 470,193,100)
+           parameter("", "BP10", angle, number, 383,115,100)
+           parameter("", "BP13", distance, number, 160,221,60)
+           parameter("", "BP14", distance, number, 340,285,60)
+
+		   attribute("BP17", "", option, "%s", no, none, "0.0", "0.0", 470,165,100,"toggle_field:!P1=0") 
+			{ 
+                value("Square",1) 
+                value("Rounded",0) 
+			} 
+         attribute("LABEL_cpp", "Create Partial Profile", label, "%s", no, none, "0.0", "0.0", 19,325) 
+			attribute("O1", "", option, "%s", no, none, "0.0", "0.0", 398,325,100,"toggle_field:!BP19=0;!BP20=0;!C7=0;!LABEL_ppl=0;!LABEL_ppc=0;!O2=0;!LABEL_ppw=0;!LABEL_ppo=0") 
+			{ 
+                value("No",1) 
+                value("Yes",0) 
+            } 			
+         attribute("LABEL_ppl", "Partial Profile Length", label, "%s", no, none, "0.0", "0.0", 19,350) 
+            parameter("", "BP19", distance, number, 398,350,100)
+         attribute("LABEL_ppc", "Partial Profile Class", label, "%s", no, none, "0.0", "0.0", 19,375) 
+			parameter("", "BP20", integer, number, 398,375,100) 
+           attribute("LABEL_ppw", "Attached or Loose?", label, "%s", no, none, "0.0", "0.0", 19,400) 
+		   attribute("O2", "", option, "%s", no, none, "0.0", "0.0", 398,400,100) 
+			{ 
+                value("Loose",1) 
+                value("Attached",0) 
+            } 
+           attribute("LABEL_ppo", "Partial Offset from Mid-Point", label, "%s", no, none, "0.0", "0.0", 19,425) 
+			parameter("", "C7", distance, number, 398,425,100) 			
+			}
+   }
+}

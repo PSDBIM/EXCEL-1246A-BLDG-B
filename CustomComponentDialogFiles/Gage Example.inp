@@ -1,0 +1,11 @@
+page("TeklaStructures","")
+{
+   joint(1, "Gage Example")
+   {
+       helpurl("TeklaInc_CC2.chm::/gage_example.html")
+       tab_page("", " Parameters ", 1)
+       {
+           parameter("If Gage = 0'' then use this", "P6", distance, number, 1)
+       }
+   }
+}

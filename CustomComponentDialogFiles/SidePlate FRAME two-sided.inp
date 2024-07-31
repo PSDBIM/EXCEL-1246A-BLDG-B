@@ -1,0 +1,381 @@
+page("TeklaStructures","")
+{
+   joint(1, "SidePlate FRAME two-sided")
+   {
+       helpurl("TeklaInc_CC2.chm::/side_plate_two.html")
+       tab_page("", " Picture ", 1)
+       {
+           picture("usa_sideplatetwo_0",475,325,290,50)
+           picture("usa_sideplatetwo_1",475,325,290,50)
+           picture("usa_sideplatetwo_2",475,325,290,50)
+           picture("usa_sideplatetwo_2res",475,325,290,50)
+           picture("usa_sideplatetwoA_4",238,261,50,460)
+           picture("usa_sideplatetwo_3",241,250,405,470)
+           picture("usa_sideplatetwo_4",238,261,810,460)
+
+           attribute("RoofConn", "Condition at Roof?", option, "%s", no, none, "0.0", "0.0", 374,0,160,"toggle_field:!usa_sideplatetwo_0=1,2,3;!usa_sideplatetwo_1=0,2,3;!usa_sideplatetwo_2=0,1,3;!usa_sideplatetwo_2res=0,1,2;!RoofRound=1,3")
+                {
+                     value("Default",1)
+                     value("No",0)
+                     value("Yes-Popped Out",0)
+                     value("Yes-Recessed",0)
+                }
+           parameter("", "DIMA", distance, number, 710,43,80)
+           parameter("", "DIMB", distance, number, 950,223,80)
+           parameter("", "DIMC", distance, number, 740,373,80)
+           parameter("", "BM_Setback", distance, number, 725,123,60)
+           parameter("", "AngleOff", distance, number, 740,321,60)
+
+           parameter("", "DIMA1", distance, number, 410,43,80)
+           parameter("", "DIMC1", distance, number, 390,373,80)
+           parameter("", "BM_Setback1", distance, number, 415,123,60)
+           parameter("", "AngleOff1", distance, number, 405,321,60)
+
+           parameter("", "Top_Clear1", distance, number, 280,455,60)
+           parameter("", "AClear1", distance, number, 45,549,60)
+           parameter("", "Clearance1", distance, number, 365,500,60)
+           parameter("", "Clip1Type", chamfer_type, number, 45,689,90)
+           parameter("", "Clip1Size2", distance, number, 75,714,60)
+           parameter("", "Clip1Size", distance, number, 75,739,60)
+           parameter("", "EClear1", distance, number, 355,651,80)
+
+           parameter("", "CClipSize2", distance, number, 520,450,60)
+           parameter("", "CClipSize", distance, number, 410,560,60)
+           parameter("", "CClipType", chamfer_type, number, 363,610,90)
+           parameter("", "ColStiffClear", distance, number, 545,685,60)
+
+           parameter("", "Top_Clear", distance, number, 1040,455,60)
+           parameter("", "AClear", distance, number, 805,549,60)
+           parameter("", "Clearance", distance, number, 1115,544,60)
+           parameter("", "ClipType", chamfer_type, number, 800,689,90)
+           parameter("", "ClipSize2", distance, number, 830,714,60)
+           parameter("", "ClipSize", distance, number, 830,739,60)
+           parameter("", "EClear", distance, number, 1115,651,80)
+
+       }
+
+       tab_page("", " Parts ", 2)
+       {
+	attribute("LABEL1", "Finish", label2, "%s", no, none, "0.0", "0.0", 830, 5)
+	attribute("LABEL2", "Class", label2, "%s", no, none, "0.0", "0.0", 940, 5)
+
+	part ("{A} Side Plate",     Thick_A,   ,   ,SidePL1 , SidePL1Mat, ,SidePL1Name ,1)
+	parameter("", "SidePL1Fin", string, text, 830,25,80)
+	parameter("", "SidePL1Class", integer, number, 940,25,40)
+
+	part ("{B} Cover Plate",     Thick_B,   ,   ,BeamCoverPL , BeamCoverPLMat, ,BeamCoverPLName ,3)
+	parameter("", "BeamCoverPLFin", string, text, 830,73,80)
+	parameter("", "BeamCoverPLClass", integer, number, 940,73,40)
+
+	part ("{B1} Cover Plate",     Thick_B1,   ,   ,BM1CoverPL , BM1CoverPLMat, ,BM1CoverPLName ,5)
+	parameter("", "BM1CoverPLFin", string, text, 830,121,80)
+	parameter("", "BM1CoverPLClass", integer, number, 940,121,40)
+
+	part ("{C} Vert Shear Pl",     Thick_C,   ,   ,BeamStiff1 , BeamStiff1Mat, ,BeamStiff1Name ,7)
+	parameter("", "BeamStiff1Finish", string, text, 830,169,80)
+	parameter("", "BeamStiff1Class", integer, number, 940,169,40)
+
+	part ("{C1} Vert Shear Pl",     Thick_C1,   ,   ,BM1Stiff1 , BM1Stiff1Mat, ,BM1Stiff1Name ,9)
+	parameter("", "BM1Stiff1Finish", string, text, 830,217,80)
+	parameter("", "BM1Stiff1Class", integer, number, 940,217,40)
+
+	part ("{D} Horz Shear Pl",     Thick_D,   ,   ,ColStiff1 , ColStiff1Mat, ,ColStiff1Name ,11)
+	parameter("", "ColStiff1Finish", string, text, 830,266,80)
+	parameter("", "ColStiff1Class", integer, number, 940,266,40)
+
+	profile ("{E} Erection L", Angle1Profile,Angle1 , Angle1Material , ,Angle1Name ,13)
+	parameter("", "Angle1Finish", string, text, 830,315,80)
+	parameter("", "Angle1Class", integer, number, 940,315,40)
+
+	profile ("{E1} Erection L", Angle1Profile1,Angle11 , Angle1Mat1 , ,Angle1Name1 ,15)
+	parameter("", "Angle1Fin1", string, text, 830,364,80)
+	parameter("", "Angle1Class1", integer, number, 940,364,40)
+
+	part ("Bent Stiffener",     BntPLTkns,   , ,BntPL , BntPLMat, ,BntPLName ,17)
+	parameter("", "BntPLFin", string, text, 830,413,80)
+	parameter("", "BntPLClass", integer, number, 940,413,40)
+
+	part ("S1-Bent Stiffener",     BntPLTkns1,   , ,BntPL1 , BntPLMat1, ,BntPLName1 ,19)
+	parameter("", "BntPLFin1", string, text, 830,462,80)
+	parameter("", "BntPLClass1", integer, number, 940,462,40)
+
+	picture("usa_horz_line", 200, 5, 25, 509)
+
+	attribute("LABELBS", "Use Bent Stiffeners", label2, "%s", no, none, "0.0", "0.0", 20, 533)
+           attribute("BntStiffeners", "", option, "%s", no, none, "0.0", "0.0", 375,533,160,"dia_enable_field_ocb:
+Angle1Profile=2,3;Angle1Material=2,3;Angle1Name=2,3;Angle1Prefix=2,3;Angle1NumSeries=2,3;
+Angle1Finish=2,3;Angle1Class=2,3;BntPLTkns=0,1;BntPLMat=0,1;BntPLName=0,1;BntPLPrefix=0,1;
+BntPLNumS=0,1;BntPLFin=0,1;BntPLClass=0,1;Thick_C=2,3;BeamStiff1Mat=2,3;BeamStiff1Name=2,3;
+BeamStiff1Prefix=2,3;BeamStiff1NumS=2,3;BeamStiff1Finish=2,3;BeamStiff1Class=2,3;ClipType=2,3;
+!usa_sideplate_bntpl=0;!BntPL_OSL=0;Angle1Profile1=1,3;Angle1Mat1=1,3;Angle1Name1=1,3;
+Angle1Prefix1=1,3;Angle1NumS1=1,3;Angle1Fin1=1,3;Angle1Class1=1,3;BntPLTkns1=0,2;
+BntPLMat1=0,2;BntPLName1=0,2;BntPLPrefix1=0,2;BntPLNumS1=0,2;BntPLFin1=0,2;BntPLClass1=0,2;
+Thick_C1=1,3;BM1Stiff1Mat=1,3;BM1Stiff1Name=1,3;BM1Stiff1Prefix=1,3;BM1Stiff1NumS=1,3;
+BM1Stiff1Finish=1,3;BM1Stiff1Class=1,3;Clip1Type=1,3;!usa_sideplate_bntpl=0,1;!BntPL_OSL=0,1;!usa_sideplatetwo_bntpl=0,2;!S1_lb=0,2;!S2_lb=0,1;!BntPL_OSL1=0,2;AClear=2,3;AClear1=1,3;StiffRound=2,3;StiffRound1=1,3")
+                {
+                     value("No",1)
+                     value("Secondary 1",0)
+                     value("Secondary 2",0)
+                     value("Both",0)
+                }
+           parameter("Round Roof Plate Width To", "RoofRound", distance, number, 21)
+           parameter("Round Bottom Cover Plate Width To", "Bott_Round", distance, number, 22)
+           parameter("S1-Round Bottom Cover Plate Width To", "Bott_Round1", distance, number, 23)
+
+           attribute("StiffRound", "Round Vertical Shear Plate Width To", option, "%s", no, none, "0.0", "0.0",375,643,160)
+                {
+                     value("1/16",0)
+                     value("1/4",1)
+                     value("1/2",0)
+                }
+           attribute("StiffRound1", "S1-Round Vertical Shear Plate Width To", option, "%s", no, none, "0.0", "0.0",375,670,160)
+                {
+                     value("1/16",0)
+                     value("1/4",1)
+                     value("1/2",0)
+                }
+
+	   attribute("SStiff_lb", "Select the desired option under SidePlate at Column", label, "%s", no, none, "0.0", "0.0",20,715)
+           attribute("SlopeStiff", "", option, "%s", no, none, "0.0", "0.0", 45,740,365)
+                {
+                     value("usa_sideplate_opt0.xbm",1)
+                     value("usa_sideplate_opt1.xbm",0)
+                     value("usa_sideplate_opt2.xbm",0)
+                }
+
+	   attribute("S1_lb", "Secondary 1", label, "%s", no, none, "0.0", "0.0",610,525)
+	   attribute("S2_lb", "Secondary 2", label, "%s", no, none, "0.0", "0.0",860,525)
+
+           picture("usa_sideplatetwo_bntpl", 222,205,550,510)
+           picture("usa_sideplate_bntpl", 222,205,770,510)
+
+           parameter("", "BntPL_OSL1", distance, number, 615,740,60)
+           parameter("", "BntPL_OSL", distance, number, 885,740,60)
+       }
+
+
+       tab_page("", " Bolts ", 3)
+       {
+	  attribute("Sec2_ Bolts", "Secondary 2 (S2) Bolts", label, "%s", no, none, "0.0", "0.0",20,5)
+	  attribute("number_lb", "Bolt size", label2,"%s",  none, none, "0.0", "0.0",20,30)
+	  attribute("bolt_standard_lb", "Bolt standard", label3,"%s",  none, none, "0.0", "0.0",20,55)
+	  attribute("tolerance_lb", "Tolerance", label2,"%s",  none, none, "0.0", "0.0",20,80)
+	  parameter("","B_diameter", bolt_size, number,160,30,90)
+	  parameter("","B_screwdin", bolt_standard, text,160,55,90)
+	  parameter("","B_tolerance", distance, number,160,80,90)
+
+	  attribute("B_Type", "", option,"%s",  none, none, "0.0", "0.0",160,105,90)
+	  {
+	      value("Site", 1)
+	      value("Workshop", 0)
+	  }
+           picture("jnt_bpic_long_holes2", 110,312,40,150)
+           parameter("", "SlotLengthX", distance, number, 70,170)
+           parameter("", "SlotLength", distance, number, 160,230)
+
+          picture("usa_sideplate_bolts", 222,205,350,0)
+
+           parameter("", "BoltFirst", distance, number, 630,60)
+	attribute("LABELNOB", "Number of Bolts", label2, "%s", no, none, "0.0", "0.0", 610, 110)
+           parameter("", "NumBolts", integer, number, 610,135)
+	attribute("LABELAH", "Alignment Hole", label2, "%s", no, none, "0.0", "0.0", 610, 175)
+           attribute("AlignHole", "", option, "%s", no, none, "0.0", "0.0", 610,200,100)
+                {
+                     value("Neither",1)
+                     value("Near Side",0)
+                     value("Far Side",0)
+                     value("Both Sides",0)
+                }
+
+	picture("usa_horz_line", 200, 5, 25, 313)
+
+	  attribute("Sec1_ Bolts", "Secondary 1 (S1) Bolts", label, "%s", no, none, "0.0", "0.0",20,325)
+	  attribute("number1_lb", "Bolt size", label2,"%s",  none, none, "0.0", "0.0",20,350)
+	  attribute("bolt_standard1_lb", "Bolt standard", label3,"%s",  none, none, "0.0", "0.0",20,375)
+	  attribute("tolerance1_lb", "Tolerance", label2,"%s",  none, none, "0.0", "0.0",20,400)
+	  parameter("","B1_diameter", bolt_size, number,160,350,90)
+	  parameter("","B1_screwdin", bolt_standard, text,160,375,90)
+	  parameter("","B1_tolerance", distance, number,160,400,90)
+
+	  attribute("B1_Type", "", option,"%s",  none, none, "0.0", "0.0",160,425,90)
+	  {
+	      value("Site", 1)
+	      value("Workshop", 0)
+	  }
+           picture("jnt_bpic_long_holes2", 110,312,40,450)
+           parameter("", "SlotLength1X", distance, number, 70,470)
+           parameter("", "SlotLength1", distance, number, 160,530)
+
+          picture("usa_sideplatetwo_bolts", 222,205,350,320)
+
+           parameter("", "BoltFirst1", distance, number, 340,380)
+	attribute("LABELNOB1", "Number of Bolts", label2, "%s", no, none, "0.0", "0.0", 300, 430)
+           parameter("", "NumBolts1", integer, number, 345,455)
+	attribute("LABELAH1", "Alignment Hole", label2, "%s", no, none, "0.0", "0.0", 320, 495)
+           attribute("AlignHole1", "", option, "%s", no, none, "0.0", "0.0", 320,520,100)
+                {
+                     value("Neither",1)
+                     value("Near Side",0)
+                     value("Far Side",0)
+                     value("Both Sides",0)
+                }
+
+       }
+
+
+       tab_page("", " Welds ", 5)
+       {
+
+	  attribute("ws2_lb", "Secondary 2", label2,"%s",  none, none, "0.0", "0.0",505,5)
+	  attribute("ws1_lb", "Secondary 1", label2,"%s",  none, none, "0.0", "0.0",885,5)
+
+	  attribute("wsize_lb", "Size", label2,"%s",  none, none, "0.0", "0.0",145,30)
+	  attribute("wsetback_lb", "Setback", label2,"%s",  none, none, "0.0", "0.0",245,30)
+
+	  attribute("weld1_lb", "Weld {1}", label2,"%s",  none, none, "0.0", "0.0",20,55)
+	  attribute("weld2_lb", "Weld {2}", label2,"%s",  none, none, "0.0", "0.0",20,80)
+	  attribute("weld3_lb", "Weld {3}", label2,"%s",  none, none, "0.0", "0.0",20,105)
+	  parameter("","Weld_1", distance, number,140,55,70)
+	  parameter("","Weld_2", distance, number,140,80,70)
+	  parameter("","Weld_3", distance, number,140,105,70)
+	  parameter("","w1sb", distance, number,240,55,70)
+	  parameter("","w2sb", distance, number,240,80,70)
+	  parameter("","w3sb", distance, number,240,105,70)
+
+
+	  attribute("wsize2_lb", "Size", label2,"%s",  none, none, "0.0", "0.0",490,30)
+	  attribute("wsetback2_lb", "Setback", label2,"%s",  none, none, "0.0", "0.0",590,30)
+
+	  attribute("weld5_lb", "Weld {4}", label2,"%s",  none, none, "0.0", "0.0",365,55)
+	  attribute("weld6_lb", "Weld {5}", label2,"%s",  none, none, "0.0", "0.0",365,80)
+	  attribute("weld7_lb", "Weld {6}", label2,"%s",  none, none, "0.0", "0.0",365,105)
+	  attribute("weld4_lb", "Weld {7}", label2,"%s",  none, none, "0.0", "0.0",365,130)
+	  parameter("","Weld_4", distance, number,485,55,70)
+	  parameter("","Weld_5", distance, number,485,80,70)
+	  parameter("","Weld_6", distance, number,485,105,70)
+	  parameter("","Weld_7", distance, number,485,130,70)
+	  parameter("","w4sb", distance, number,585,55,70)
+	  parameter("","w5sb", distance, number,585,80,70)
+	  parameter("","w5sb2", distance, number,685,80,70)
+	  parameter("","w6sb", distance, number,585,105,70)
+	  parameter("","w7sb", distance, number,585,130,70)
+
+
+	  attribute("wsize2_lb", "Size", label2,"%s",  none, none, "0.0", "0.0",905,30)
+	  attribute("wsetback2_lb", "Setback", label2,"%s",  none, none, "0.0", "0.0",1005,30)
+
+	  attribute("weld5_lb", "Weld {4.1}", label2,"%s",  none, none, "0.0", "0.0",780,55)
+	  attribute("weld6_lb", "Weld {5.1}", label2,"%s",  none, none, "0.0", "0.0",780,80)
+	  attribute("weld7_lb", "Weld {6.1}", label2,"%s",  none, none, "0.0", "0.0",780,105)
+	  attribute("weld4_lb", "Weld {7.1}", label2,"%s",  none, none, "0.0", "0.0",780,130)
+	  parameter("","Weld_4_1", distance, number,900,55,70)
+	  parameter("","Weld_5_1", distance, number,900,80,70)
+	  parameter("","Weld_6_1", distance, number,900,105,70)
+	  parameter("","Weld_7_1", distance, number,900,130,70)
+	  parameter("","w41sb", distance, number,1000,55,70)
+	  parameter("","w51sb", distance, number,1000,80,70)
+	  parameter("","w51sb2", distance, number,1100,80,70)
+	  parameter("","w61sb", distance, number,1000,105,70)
+	  parameter("","w71sb", distance, number,1000,130,70)
+
+         picture("usa_sideplatetwo_welds", 875,365,20,175)
+
+           attribute("FlgWelds", "", option, "%s", no, none, "0.0", "0.0", 408,345,105)
+                {
+                     value(" Web Only",1)
+                     value(" 3 Sides",0)
+                }
+
+       }
+
+       tab_page("", " Deck Supports ", 6)
+       {
+	attribute("LABEL3", "Finish", label2, "%s", no, none, "0.0", "0.0", 830, 5)
+	attribute("LABEL4", "Class", label2, "%s", no, none, "0.0", "0.0", 940, 5)
+
+	profile ("Ledger Angle", LedgerL1Profile,LedgerL1 , LedgerL1Mat , ,LedgerL1Name ,1)
+	parameter("", "LedgerL1Fin", string, text, 830,25,80)
+	parameter("", "LedgerL1Class", integer, number, 940,25,40)
+
+	attribute("LABELNOTE", "<- Only used when Protected Zones are on", label2, "%s", no, none, "0.0", "0.0", 568, 52)
+	attribute("LABELFSCL", "Create FS Ledger(s)", label2, "%s", no, none, "0.0", "0.0", 20, 52)
+           attribute("CreateNSLedger", "", option, "%s", no, none, "0.0", "0.0",398,52,160,"toggle_field:
+!usa_sideplatetwo_5fs=0,1,2,3;!usa_sideplatetwo_6fs=0,1,2,4;!usa_sideplatetwo_7fs=0,1,3,4;!usa_sideplatetwo_8fs=0,2,3,4;!usa_sideplatetwo_9fs=1,2,3,4;!LABELNOTE=0,1,2;!DS_NS_3Len=0,1,2,3;!DS_NS_4Len=0,1,2,3;!DS_NS_Edge1=0;!DS_NS_Edge2=0;!DS_NS_1Len=0,1,3,4;
+!DS_NS_2Len=0,1,3,4;!DS_NS_ZEdge1=0")
+                {
+                     value("No",1)
+                     value("1 Piece",0)
+                     value("2 Pieces",0)
+                     value("3 Pieces",0)
+                     value("4 Pieces",0)
+                }
+
+           parameter("", "DS_NS_Edge1", distance, number, 145,205,60)
+           parameter("", "DS_NS_ZEdge1", distance, number, 200,175,60)
+           parameter("", "DS_NS_1Len", distance, number, 420,225,60)
+           parameter("", "DS_NS_3Len", distance, number, 365,165,60)
+           parameter("", "DS_NS_4Len", distance, number, 460,165,60)
+           parameter("", "DS_NS_2Len", distance, number, 430,200,60)
+           parameter("", "DS_NS_Edge2", distance, number, 700,205,60)
+
+	attribute("LABELNOTE2", "<- Only used when Protected Zones are on", label2, "%s", no, none, "0.0", "0.0", 568, 77)
+	attribute("LABELNSCL", "Create NS Ledger(s)", label2, "%s", no, none, "0.0", "0.0", 20, 77)
+           attribute("CreateFSLedger", "", option, "%s", no, none, "0.0", "0.0",398,77,160,"toggle_field:
+!usa_sideplatetwo_5=0,1,2,3;!usa_sideplatetwo_6=0,1,2,4;!usa_sideplatetwo_7=0,1,3,4;!usa_sideplatetwo_8=0,2,3,4;!usa_sideplatetwo_9=1,2,3,4;!LABELNOTE2=0,1,2;!DS_FS_3Len=0,1,2,3;!DS_FS_4Len=0,1,2,3;!DS_FS_Edge1=0;!DS_FS_Edge2=0;!DS_FS_1Len=0,1,3,4;!DS_FS_2Len=0,1,3,4;
+!DS_FS_ZEdge1=0")
+                {
+                     value("No",1)
+                     value("1 Piece",0)
+                     value("2 Pieces",0)
+                     value("3 Pieces",0)
+                     value("4 Pieces",0)
+                }
+
+           parameter("", "DS_FS_Edge1", distance, number, 145,405,60)
+           parameter("", "DS_FS_ZEdge1", distance, number, 200,435,60)
+           parameter("", "DS_FS_1Len", distance, number, 420,385,60)
+           parameter("", "DS_FS_3Len", distance, number, 365,445,60)
+           parameter("", "DS_FS_4Len", distance, number, 460,445,60)
+           parameter("", "DS_FS_2Len", distance, number, 430,410,60)
+           parameter("", "DS_FS_Edge2", distance, number, 700,405,60)
+
+	attribute("LABELPZ", "Show Protected Zones", label2, "%s", no, none, "0.0", "0.0", 20, 103)
+           attribute("PZone", "", option, "%s", no, none, "0.0", "0.0", 398,103,160,"toggle_field:
+!usa_sideplatetwo_zone1=0,2;!usa_sideplatetwo_zone2=0;!usa_sideplatetwo_zone3=0;!usa_sideplatetwo_zone4=0,2;DS_FS_1Len=1,2;DS_FS_2Len=1,2;DS_FS_ZEdge1=0;DS_NS_1Len=1,2;DS_NS_2Len=1,2;DS_NS_ZEdge1=0")
+                {
+                     value("None",1)
+                     value("All",0)
+                     value("SidePlate Only",0)
+                }
+           picture("usa_sideplatetwo_zone1",435,125,158,244)
+           picture("usa_sideplatetwo_zone2",435,125,322,244)
+           picture("usa_sideplatetwo_zone3",435,125,514,244)
+           picture("usa_sideplatetwo_zone4",435,125,649,244)
+           picture("usa_sideplatetwo_5fs",435,125,150,190)
+           picture("usa_sideplatetwo_5",435,125,150,315)
+           picture("usa_sideplatetwo_6fs",435,125,150,190)
+           picture("usa_sideplatetwo_6",435,125,150,315)
+           picture("usa_sideplatetwo_7fs",435,125,150,190)
+           picture("usa_sideplatetwo_7",435,125,150,315)
+           picture("usa_sideplatetwo_8fs",435,125,150,190)
+           picture("usa_sideplatetwo_8",435,125,150,315)
+           picture("usa_sideplatetwo_9fs",435,125,150,190)
+           picture("usa_sideplatetwo_9",435,125,150,315)
+
+	picture("usa_horz_line", 200, 5, 25, 485)
+
+	attribute("wheader1", "         Size                 Type                         Setback", label, "%s", no, none, "0.0", "0.0",20,510)
+	attribute("wheader2", "Wshop/site", label, "%s", no, none, "0.0", "0.0",395,510)
+
+           parameter("", "Weld_LedgerL0", distance, number, 64,540,60)
+           parameter("", "Weld_LedgerL1", distance, number, 64,566,60)
+           parameter("", "W_LedgerType0", weld_type, number, 160,540,100)
+           parameter("", "W_LedgerType1", weld_type, number, 160,566,100)
+           parameter("", "w8sb", distance, number, 294,553,60)
+           parameter("", "W_LedgerSite", welding_site, number, 395,553,60)
+
+           picture("usa_sideplate_ldgr_welds",265,180,100,610)
+
+       }
+   }
+}

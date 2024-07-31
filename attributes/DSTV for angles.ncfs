@@ -1,0 +1,37 @@
+**DSTV for angles
+**0
+**NC_files\Angles
+**.nc1
+**0
+**
+**0
+**MIS_list
+**
+**25019.000000
+**4013.200000
+**4013.200000
+**1
+**1.984375
+**0.000000
+**1 0 0 0 19.050
+F D
+S 25019.000000 4013.200000 4013.200000
+P L
+H 2
+2006.600000 30.162500
+60.325000 44.450000
+L 
+I 60.325000
+
+XML <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+XML <!DOCTYPE HardStamp><HardStamp>
+XML <HardStampPart>
+XML <UserText>
+XML 23071  
+XML </UserText>
+XML </HardStampPart>
+XML <HardStampPart>
+XML <Element name="ASSEMBLY_POS" type="12" value=""/>
+XML </HardStampPart>
+XML </HardStamp>
+

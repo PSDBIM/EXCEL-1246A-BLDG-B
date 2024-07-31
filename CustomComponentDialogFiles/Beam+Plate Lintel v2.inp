@@ -1,0 +1,35 @@
+page("TeklaStructures","")
+{
+   macro(1, "Beam+Plate Lintel v2")
+   {
+       helpurl("TeklaInc_CC2.chm::/lintels.html")
+	   tab_page("", "Parts", 1)
+        {
+            profile("Beam Profile",BM_Profile ,P6 ,BM_Material ,P7 ,BM_Name , 1)
+		attribute("", "Finish", label, "%s", none, none, "0", "0", 830, 5)
+            parameter("", "BM_Finish", string, text, 830,26,80)
+		attribute("", "Class", label, "%s", none, none, "0", "0", 940, 5)
+            parameter("", "BM_Class", integer, number, 940, 26, 40)
+
+            profile("Plate Profile",PL_Profile ,P11 ,PL_Material , P12,PL_Name , 3)
+            parameter("", "PL_Finish", string, text, 830, 74, 80)
+            parameter("", "PL_Class", integer, number, 940, 74, 40)
+
+            picture("usa_beam_lintel2", 754, 271, 105, 158)
+            parameter("", "P2", distance, number, 670, 175, 100)
+            parameter("", "BM_Brg_L", distance, number, 120, 176, 50)
+            parameter("", "BM_Brg_R", distance, number, 467, 176, 50)
+            parameter("", "PL_Setback_L", distance, number, 205, 359, 50)
+            parameter("", "PL_Setback_R", distance, number, 394, 359, 50)
+        }
+        tab_page("", "Welds", 2)
+        {
+            attribute("", "Weld Size", label, "%s", none, none, "0", "0", 81, 5)
+            attribute("", "Type", label, "%s", none, none, "0", "0", 243, 5)
+            attribute("", "Site", label, "%s", none, none, "0", "0", 405, 5)
+            parameter("", "w1", distance, number, 81, 30, 108)
+            parameter("", "w2", weld_type, number, 243, 30, 108)
+            parameter("", "w3", welding_site, number, 405, 30, 108)
+       }
+   }
+}

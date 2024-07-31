@@ -1,0 +1,35 @@
+TITLE_CLASSIFIER 
+{
+    Version= 1.00 
+    Count= 5 
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        Parts_StudsNutsWashers 
+        Secondary_Profile 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        BOI 
+        BOI 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        Angle 
+        Angle_gage 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Dimensioning 
+        Base_Plates 
+        Base_Plates 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Bolt 
+        Shop_Bolts 
+        Exact 
+        }
+    }

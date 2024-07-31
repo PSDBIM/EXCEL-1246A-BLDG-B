@@ -1,0 +1,8 @@
+xs_report_dialog.user_title1 ""
+xs_report_dialog.user_title2 ""
+xs_report_dialog.user_title3 ""
+xs_report_dialog.xs_report_file "150   Assembly Phase list.xsr"
+xs_report_dialog.display_report 1
+xs_report_dialog.display_type 0
+xs_report_dialog.aInFile "standard"
+xs_report_dialog.aOutFile "standard"

@@ -1,0 +1,13 @@
+page("TeklaStructures","")
+{
+   detail(1, "Const Lines")
+   {
+       helpurl("TeklaInc_CC2.chm::/construction_lines_tools.html")
+       tab_page("", " Parameters ", 1)
+       {
+           parameter("Show Web K lines", "P1", YesNo, number, 1)
+           parameter("Show Flange Gage Lines", "P2", YesNo, number, 2)
+           parameter("Show Flange K Lines", "P3", YesNo, number, 3)
+       }
+   }
+}

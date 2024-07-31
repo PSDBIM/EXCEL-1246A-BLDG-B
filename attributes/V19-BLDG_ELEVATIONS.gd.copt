@@ -1,0 +1,35 @@
+TITLE_CLASSIFIER 
+{
+    Version= 1.00 
+    Count= 5 
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        joist 
+        No_Part_Mark 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        Anchor_Bolts 
+        No_Part_Mark 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        grout 
+        No_Part_Mark 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        columns 
+        column-el-view 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        concrete 
+        No_Part_Mark 
+        }
+    }

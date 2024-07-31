@@ -1,0 +1,170 @@
+page("TeklaStructures","")
+{
+   detail(1, "Pourstop v3")
+   {
+       helpurl("TeklaInc_CC2.chm::/pourstop.html")
+       tab_page("", " Picture ", 1)
+       {
+           picture("usa_pourstop3",220, 250, 380, 50)
+           picture("usa_pourstop3a",250, 250, 50, 50)
+           picture("usa_pourstop3b",250, 250, 50, 50)		   
+           parameter("", "P10", distance, number, 70,115,70)
+           parameter("", "P11", distance, number, 285,115,70)
+           parameter("", "P4", distance, number, 500,42,70)
+           parameter("", "P12", distance, number, 500,85,70)
+           parameter("", "P3", distance, number, 675,155,70)
+           attribute("NSFS","",option,"%s",no,none,"0.0","0.0",110,320,200,"toggle_field:!usa_pourstop3a=1;!usa_pourstop3b=0")
+           {
+            value("usa_pourstop2_ns.xbm",1)
+            value("usa_pourstop2_fs.xbm",0)
+		   }
+		   attribute("P5", "", option, "%s", no, none, "0.0", "0.0", 648,232,100,"toggle_field:!P7=0") 
+			{ 
+                value("Square",1) 
+                value("Rounded",0) 
+			} 		   
+           parameter("", "P7", distance, number, 648,260,100)	
+       }
+       tab_page("", " Parts ", 2)
+       {
+	   attribute("CLPTC1","",option,"%s",no,none,"0.0","0.0",629,273,200,
+           "toggle_field:!usa_pourstop2_chamfer_dim=0;CLPTC2=0;CLPTC3=0;")
+           {
+            value("usa_pourstop2_chamfer_no.xbm",1)
+            value("usa_pourstop2_chamfer.xbm",0)
+           }
+           part ("Pourstop",     P2, P1,  , N5, N1, N6,N2 ,1)
+           attribute("LABEL_fin", "Finish", label2, "%s", no, none, "0.0", "0.0", 830, 5) 
+		   attribute("LABEL_cls", "Class", label2, "%s", no, none, "0.0", "0.0", 940, 5) 
+		   parameter("", "N3", string, text, 830,26,80) 
+		   parameter("", "N4", integer, number, 940,26,40) 
+	   
+           part ("Closure PL",     P16, ,  , N11, N7, N12 ,N8 ,3)
+		   
+           picture("usa_pourstop2_parts",196, 112, 171, 162)
+           attribute("CLPT1","",option,"%s",no,none,"0.0","0.0",43,187,120,"toggle_field:!usa_pourstop2_closure_l-offset=0;!CLPT3=0")
+           {
+            value("usa_pourstop2_sect_b1.xbm",1)
+            value("usa_pourstop2_sect_b2.xbm",0)
+           }
+           attribute("CLPT2","",option,"%s",no,none,"0.0","0.0",468,187,120,"toggle_field:!usa_pourstop2_closure_r-offset=0;!CLPT4=0")
+           {
+            value("usa_pourstop2_sect_a1.xbm",1)
+            value("usa_pourstop2_sect_a2.xbm",0)
+           }
+           picture("usa_pourstop2_chamfer_dim",100, 99, 757, 305)
+           parameter("", "CLPTC3", distance, number, 886,311,70)
+           parameter("", "CLPTC2", distance, number, 750,398,70)
+		   
+            picture("usa_pourstop2_closure_l-offset", 100, 98, 12,365)
+            parameter("", "CLPT3", distance, number, 100,342, 81)
+            picture("usa_pourstop2_closure_r-offset", 100, 98, 382,365)	   
+            parameter("", "CLPT4", distance, number, 421,342, 81)		   
+		   
+       }
+       tab_page("", " Bolts ", 3)
+       {
+           attribute("include_lb","Include bolts",label2,"%s",no,none,"0.0","0.0",20,5)
+           attribute("P8","",option,"%s",no,none,"0.0","0.0",160,5,90)
+           {
+            value("j_no",0)
+            value("j_yes",1)
+           }
+           attribute("number_lb","Bolt size",label2,"%s",no,none,"0.0","0.0",20,55)
+           parameter("", "B5_diameter", bolt_size, number, 160,55,90)
+           attribute("bolt_standard_lb","j_bolt_standard",label3,"%s",no,none,"0.0","0.0",20,80)
+           parameter("", "B5_screwdin", bolt_standard, text, 160,80,90)
+           attribute("tolerance_lb","j_tolerance",label2,"%s",no,none,"0.0","0.0",20,105)
+           parameter("", "B10", distance, number, 160,105,90)
+           attribute("thread_in_material_lb","j_thread_in_material",label3,"%s",no,none,"0.0","0.0",20,130)
+           attribute("B7","",option,"%s",no,none,"0.0","0.0",160,130,90)
+           {
+            value("j_no", 0)
+            value("j_yes", 1)
+           }
+           attribute("cutlength_lb","Cut Length",label,"%s",no,none,"0.0","0.0",20,155)
+           parameter("", "B8", distance, number, 160,155,90)
+           attribute("B6","",option,"%s",no,none,"0.0","0.0",160,180,120)
+           {
+            value("j_site", 1)
+            value("j_workshop", 0)
+           }
+           picture("jnt_bpic_long_holes2",110,312,280,5)
+           parameter("", "B11", distance, number, 313,30,60)
+           parameter("", "B12", distance, number, 410,80,60)
+           attribute("BLT01_SLOT","",option,"%s",no,none,"0.0","0.0",380,110,90)
+           {
+            value("None",1)
+            value("Plate",0)
+            value("Beam",0)
+            value("Both",0)
+           } 
+           attribute("slot_lb","Slot in",label,"%s",no,none,"0.0","0.0",292,110)
+           picture("jnt_bpic_bolt_parts_in_modify",100,100,500,5)
+           toggle_group(532,110,
+              "BLT01_W1",-20,-20,"1",
+              "BLT01_W2",  7,-20,"0",
+              "BLT01_W3", 32,-20,"1",
+              "BLT01_N1", 57,-20,"1",
+              "BLT01_N2",102,-40,"0",
+              "BLT01_BOLT",102,-80,"1")
+           picture("jnt_bpic_extra_length",100,100,551,150)
+           attribute("B9","",distance,"%s",no,none,"0.0","0.0",586,200,50)
+            {
+            value("",0.0)
+            }
+           attribute("B22","",option,"%s",no,none,"0.0","0.0",160,304,300,
+           "toggle_field:!d_lb=1;!B25=1;!B4=0;!B2=0;B25_1=1;B25_9=1;B4_1=0;B4_9=0;!d_lb2=1;!LABEL_ext=0;!LABEL_min=1;!LABEL_ext2=0")
+           {
+            value("usa_pourstop2_bolts.xbm",0)
+            value("usa_pourstop2_bolts2.xbm",1)
+           } 
+		   attribute("LABEL_ext", "Exactly", label, "%s", no, none, "0.0", "0.0", 160,249)
+		   attribute("LABEL_min", "Minimum", label, "%s", no, none, "0.0", "0.0", 160,249)
+		   attribute("LABEL_ext2", "Exactly", label, "%s", no, none, "0.0", "0.0", 370,249)		   
+           attribute("d_lb","d=",label2,"%s",no,none,"0.0","0.0",280,274)
+           parameter("", "B25", distance, number, 330,274,60)
+           parameter("", "B3", distance, number, 500,374,60)
+
+           parameter("", "B1a", distance, number, 160,274,60)
+           parameter("", "B4", integer, number, 270,274,50) 
+           parameter("", "B2", distance, number, 370,274,60)
+
+           attribute("", "Use these fields to control the first or last bent plate if the bolt distance is shorter", label, "%s", none, none, "0", "0", 20, 449)
+           attribute("first_lb","FIRST",label2,"%s",no,none,"0.0","0.0",274,478)	
+           attribute("last_lb","LAST",label2,"%s",no,none,"0.0","0.0",374,478)	
+           attribute("d_lb2","d=",label2,"%s",no,none,"0.0","0.0",225,506)	
+           attribute("bolt_spa_lb","Bolt spacing",label2,"%s",no,none,"0.0","0.0",20,506)	
+           attribute("num_bolts_lb","Number of bolts",label2,"%s",no,none,"0.0","0.0",20,532)		   
+           parameter("", "B25_9", distance, number, 374,506,60)		   
+           parameter("", "B4_9", integer, number, 374,532,60)		   
+           parameter("", "B25_1", distance, number, 274,506,60)		   
+           parameter("", "B4_1", integer, number, 274,532,60)
+		   }
+       tab_page("", " Welds ", 5)
+       {
+           attribute("header1","No",label,"%s",no,none,"0.0","0.0",10,0)
+           attribute("header2","Size",label,"%s",no,none,"0.0","0.0",64,0)
+           attribute("header3","Type",label,"%s",no,none,"0.0","0.0",160,0)
+           attribute("header4","Length",label,"%s",no,none,"0.0","0.0",294,0)
+           attribute("header5","Wshop/site",label,"%s",no,none,"0.0","0.0",395,0)
+           attribute("weld1","1",label,"%s",no,none,"0.0","0.0",10,25)
+           parameter("", "WLD1", distance, number, 64,30,60)
+           parameter("", "WLD2", distance, number, 64,56,60)
+           parameter("", "WLD5", weld_type, number, 160,30,100)
+           parameter("", "WLD6", weld_type, number, 160,56,100)
+           parameter("", "WLD3", distance, number, 294,30,60)
+           parameter("", "WLD4", distance, number, 294,56,60)
+           parameter("", "WLD7", welding_site, number, 395,43,60)
+           attribute("weld2","2",label,"%s",no,none,"0.0","0.0",10,85)
+           parameter("", "WLD8", distance, number, 64,90,60)
+           parameter("", "WLD9", distance, number, 64,116,60)
+           parameter("", "WLD12", weld_type, number, 160,90,100)
+           parameter("", "WLD13", weld_type, number, 160,116,100)
+           parameter("", "WLD10", distance, number, 294,90,60)
+           parameter("", "WLD11", distance, number, 294,116,60)
+           parameter("", "WLD14", welding_site, number, 395,103,60)
+           picture("usa_pourstop2_welds",170, 208, 50, 180)
+       }
+   }
+}

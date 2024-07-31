@@ -1,0 +1,15 @@
+screw_dial.in_file "standard"
+screw_dial.out_file "standard"
+screw_dial.main 0
+screw_dial.sec 0
+screw_dial.draw_as 9
+screw_dial.sym_hole 1
+screw_dial.sym_axis 1
+screw_dial.line_colour 159
+screw_dial.Subassembly 0
+screw_dial.main_en 0
+screw_dial.sec_en 0
+screw_dial.draw_as_en 1
+screw_dial.sym_en 1
+screw_dial.line_colour_en 1
+screw_dial.Subassembly_en 0

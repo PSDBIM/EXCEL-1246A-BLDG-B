@@ -1,0 +1,10 @@
+
+*** Numbering (Admin): Wed Mar 06 20:47:06 2024
+  Modified numbering for selected series
+  Compare modified to old parts
+  Compare new to old parts
+  Use old numbers
+  Tolerance: 0.793750
+  SteelTolerance: 0.793750
+  ConcreteTolerance: 6.350000
+  RebarTolerance: 6.350000

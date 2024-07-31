@@ -1,0 +1,29 @@
+TITLE_CLASSIFIER 
+{
+    Version= 1.00 
+    Count= 4 
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part 
+        Concrete 
+        Not_Visible 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        Concrete 
+        No_Part_Mark 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        Columns 
+        No_Part_Mark 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        Plates 
+        No_Part_Mark 
+        }
+    }

@@ -1,0 +1,15 @@
+page("TeklaStructures", "")
+{
+    joint(1, "Joist Panel Opening")
+    {
+       helpurl("TeklaInc_CC2.chm::/joist_panel_opening.html")
+        tab_page("", "Joist Panel Openings", 1)
+        {
+            attribute("", "Number of panels", label, "%s", none, none, "0", "0", 515, 45)
+            parameter("", "P13", integer, number, 704, 45, 85)
+            picture("usa_cc_JoistPaneldiag", 933, 450, 61, 58)
+            attribute("", "The calculated number of panel openings may need adjusting depending on the length of the joist.", label, "%s", none, none, "0", "0", 335, 17)
+            attribute("", "This component is not for design purposes, but only for visually aesthetic model coordination.", label, "%s", none, none, "0", "0", 346, 329)
+        }
+    }
+}

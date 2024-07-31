@@ -1,0 +1,35 @@
+**NC file settings 1
+**0
+**
+**.nc1
+**0
+**
+**0
+**MIS_list
+**
+**15000.089063
+**3999.904687
+**3999.904687
+**1
+**10.914063
+**10.914063
+**1 0 0 0 0.000
+F D
+S 15000.089063 3999.904687 3999.904687
+P IULMRBCTS
+H 2
+2000.000000 30.000000
+60.000000 45.000000
+L 
+I 59.928125
+
+XML <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+XML <!DOCTYPE HardStamp><HardStamp>
+XML <HardStampPart>
+XML <Element name="PROJECT.NUMBER" type="7" value=""/>
+XML </HardStampPart>
+XML <HardStampPart>
+XML <Element name="ASSEMBLY_POS" type="12" value=""/>
+XML </HardStampPart>
+XML </HardStamp>
+

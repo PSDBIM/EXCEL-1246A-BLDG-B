@@ -1,0 +1,57 @@
+TITLE_OBJECT_GROUP 
+{
+    Version= 1.05 
+    Count= 4 
+    SECTION_OBJECT_GROUP 
+    {
+        0 
+        1 
+        co_part 
+        proNAME 
+        albl_Name 
+        == 
+        albl_Equals 
+        COLUMN 
+        0 
+        && 
+        }
+    SECTION_OBJECT_GROUP 
+    {
+        0 
+        1 
+        co_part 
+        proPrimaryPart 
+        albl_Primary_part 
+        == 
+        albl_Equals 
+        1 
+        0 
+        && 
+        }
+    SECTION_OBJECT_GROUP 
+    {
+        0 
+        1 
+        co_part 
+        proMATERIAL 
+        albl_Material 
+        != 
+        albl_DoesNotEqual 
+        5000 
+        0 
+        && 
+        }
+    SECTION_OBJECT_GROUP 
+    {
+        0 
+        1 
+        co_part 
+        proPROFILE 
+        albl_Profile 
+        *NOTBEGINS* 
+        albl_DoesNotBeginW 
+        C 
+        0 
+        && 
+        }
+    }

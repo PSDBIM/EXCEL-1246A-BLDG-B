@@ -1,0 +1,19 @@
+page("TeklaStructures","")
+{
+   joint(1, "Bay Filler Seam")
+   {
+       helpurl("TeklaInc_CC2.chm::/bay_filler_seam2.html")
+       tab_page("", " Parameters ", 1)
+       {
+          profile ("Filler Beams",   Profile, X1 , Material , X3 ,Name ,1)
+	    attribute("LABEL1", "Finish", label2, "%s", no, none, "0.0", "0.0", 830, 5)   
+           parameter("", "Finish", string, text, 830,26,80)
+	    attribute("LABEL2", "Class", label2, "%s", no, none, "0.0", "0.0", 940, 5)   
+           parameter("", "Class", integer, number, 940,26,40)
+
+           parameter("Number of Beams", "NBeams", integer, number, 4)
+
+	   picture("usa_bay_filler",340, 255, 150, 170)
+       }
+   }
+}

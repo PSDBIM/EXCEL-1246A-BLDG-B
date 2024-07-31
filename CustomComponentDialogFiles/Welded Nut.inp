@@ -1,0 +1,32 @@
+page("TeklaStructures","")
+{
+   joint(1, "Welded Nut")
+   {
+	   helpurl("TeklaInc_CC2.chm::/welded_nut.html")
+       tab_page("", " Parameters ", 1)
+       {
+           parameter("Diameter", "P4_diameter", bolt_size, number, 1)
+           parameter("Bolt standard", "P4_screwdin", bolt_standard, text, 2)
+           parameter("Hole Tolerance", "P6", distance, number, 3)
+           attribute("LABEL_ch", "Create Hole?", label, "%s", no, none, "0.0", "0.0", 19,81) 
+           attribute("P5", "", option, "%s", no, none, "0.0", "0.0", 374,81,160,"toggle_field:!usa_welded_nut_hole0=1;!usa_welded_nut_hole1=0")
+			{ 
+                value("No",1) 
+                value("Yes",0) 
+            } 		   
+           attribute("LABEL_ln", "Locate Nut", label, "%s", no, none, "0.0", "0.0", 19,108) 		   
+           attribute("P8", "", option, "%s", no, none, "0.0", "0.0", 374,108,160,"toggle_field:!usa_welded_nut_up1=1;!usa_welded_nut_down0=1;!usa_welded_nut_up0=0;usa_welded_nut_down1=0")
+			{ 
+                value("Outside",1) 
+                value("Inside",0) 
+            } 		   
+		   
+           picture("usa_welded_nut_up0",200,27,127,180)
+           picture("usa_welded_nut_up1",200,27,127,180)
+           picture("usa_welded_nut_hole0",200,7,127,213)
+           picture("usa_welded_nut_hole1",200,7,127,213)
+           picture("usa_welded_nut_down0",200,116,127,221)
+           picture("usa_welded_nut_down1",200,116,127,221)		   
+       }
+   }
+}

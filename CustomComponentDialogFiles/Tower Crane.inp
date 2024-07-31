@@ -1,0 +1,50 @@
+page("TeklaStructures","")
+{
+   macro(1, "Tower Crane")
+   {
+       helpurl("TeklaInc_CC2.chm::/TowerCrane.html")
+       tab_page("", " Main ", 1)
+       {
+           parameter("Crane Name", "CraneName", string, text, 1)
+		
+           parameter("Show Current Lift Radius", "ShowLift", YesNo, number, 2)
+	   parameter("Lift Height", "LiftHeight", distance, number, 3)
+           parameter("Lift Radius", "LiftRadius", distance, number, 4)
+
+           parameter("Show Max Radius", "ShowMax", YesNo, number, 6)
+           parameter("Max Down Dimension", "MaxDown", distance, number, 7)
+           parameter("Max Outside Setback", "MaxOutside", distance, number, 8)
+           parameter("Min Inside Dimension", "MinInside", distance, number, 9)    
+       }
+       tab_page("", " Platform, Tower, Boom ", 2)
+       {
+           parameter("Platform Width", "PlatformWidth", distance, number, 1)
+           parameter("Platform Length", "PlatformLength", distance, number, 2)
+           parameter("Platform Height", "PlatformHeight", distance, number, 3)
+
+	   parameter("Tower Height", "Height", distance, number, 5)
+           parameter("Tower Width", "TowerWidth", distance, number, 6)
+           parameter("Top Tower Width", "UpperWidth", distance, number, 7)
+           parameter("Top Tower Height", "TopTowerHeight", distance, number, 8)
+           
+           parameter("Boom Length", "BoomLength", distance, number, 10)
+           parameter("Boom Width", "BoomWidth", distance, number, 11)
+           parameter("Back Boom Length", "BackBoomLength", distance, number, 12)    
+       }
+       tab_page("", " Weight and Cable ", 3)
+       {
+           parameter("Weight Width", "WeightWidth", distance, number, 1)
+           parameter("Weight Length", "WeightLength", distance, number, 2)
+           parameter("Weight Height", "WeightHeight", distance, number, 3)
+
+           parameter("Support Cable Diameter", "SupportCableDia", distance, number, 5)
+           parameter("Upper Cable Setback", "UpperCableDropDim", distance, number, 6)
+           parameter("Back Cable Setback", "BackCableDim", distance, number, 7)
+           parameter("Front Cable Setback", "FrontCableDim", distance, number, 8)
+           
+           parameter("Lift Cable Diameter", "LiftDia", distance, number, 10)
+           parameter("Lock Diameter", "LockDia", distance, number, 11)
+           parameter("Lock Length", "LockLength", distance, number, 12)
+       }
+   }
+}

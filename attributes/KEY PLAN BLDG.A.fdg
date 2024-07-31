@@ -1,0 +1,16 @@
+fo_dwg_dial.in_file "KEY PLAN BLDG.A"
+fo_dwg_dial.out_file "KEY PLAN BLDG.A"
+fo_dwg_dial.linetype 1
+fo_dwg_dial.color 152
+fo_dwg_dial.linetype_en 1
+fo_dwg_dial.color_en 1
+fo_dwg_dial.identifier ".\Building A-Left.dwg"
+fo_dwg_dial.extra_info ""
+fo_dwg_dial.scale_x 0.100000
+fo_dwg_dial.scale_y 0.100000
+fo_dwg_dial.scaling_type 3
+fo_dwg_dial.identifier_en 1
+fo_dwg_dial.extra_info_en 0
+fo_dwg_dial.scale_x_en 1
+fo_dwg_dial.scale_y_en 1
+fo_dwg_dial.scaling_type_en 1

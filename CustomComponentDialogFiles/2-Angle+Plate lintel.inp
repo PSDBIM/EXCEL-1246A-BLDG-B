@@ -1,0 +1,32 @@
+page("TeklaStructures","")
+{
+   macro(1, "2-Angle+Plate lintel")
+   {
+       helpurl("TeklaInc_CC2.chm::/lintels.html")
+       tab_page("", " Parameters ", 1)
+       {
+	profile ("Plate",   P1, A20 , P17 ,A23 ,P16 ,1)
+	    attribute("LABEL1", "Finish", label2, "%s", no, none, "0.0", "0.0", 830, 5)   
+           parameter("", "P18", string, text, 830,26,80)
+	    attribute("LABEL2", "Class", label2, "%s", no, none, "0.0", "0.0", 940, 5)   
+           parameter("", "P19", integer, number, 940,26,40)
+
+	profile ("Angle 1",   P2, B16 , P13 ,B19 ,P21 ,3)
+           parameter("", "P14", string, text, 830,74,80)
+           parameter("", "P15", integer, number, 940,74,40)
+
+	profile ("Angle 2",   P3, C13 , P10 ,C15 ,P9 ,5)
+           parameter("", "P11", string, text, 830,122,80)
+           parameter("", "P12", integer, number, 940,122,40)
+         
+           picture("usa_L_lintel", 315,196,120,213)
+           picture("usa_L_lintel_sect", 168,200,480,180)
+
+           parameter("", "P6", distance, number, 600,186,80)
+           parameter("", "P4", distance, number, 130,186,80)
+           parameter("", "P5", distance, number, 480,186,80)
+           parameter("", "D1", distance, number, 270,405,80)
+       }
+       
+   }
+}
