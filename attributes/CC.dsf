@@ -1,0 +1,44 @@
+TITLE_OBJECT_GROUP 
+{
+    Version= 1.05 
+    Count= 3 
+    SECTION_OBJECT_GROUP 
+    {
+        0 
+        1 
+        co_part 
+        proMATERIAL 
+        albl_Material 
+        == 
+        albl_Equals 
+        5000 
+        0 
+        && 
+        }
+    SECTION_OBJECT_GROUP 
+    {
+        0 
+        1 
+        co_bolt 
+        proSTANDARD 
+        albl_Standard 
+        != 
+        albl_DoesNotEqual 
+        A325N 
+        0 
+        && 
+        }
+    SECTION_OBJECT_GROUP 
+    {
+        0 
+        1 
+        co_bolt 
+        proSTANDARD 
+        albl_Standard 
+        != 
+        albl_DoesNotEqual 
+        STUD 
+        0 
+        || 
+        }
+    }

@@ -1,0 +1,41 @@
+dia_grid_dialog.xcoord "0.0 8382.0"
+dia_grid_dialog.ycoord "0.0 8534.4"
+dia_grid_dialog.zcoord "0.0 15062.2 18110.2 21158.2 24384.0 27711.4 30759.4 33959.8 36931.6 39903.4 42875.2 45847.0 48818.8 51790.6 54762.4 57734.2 60706.0 63677.8 66649.6 69621.4 72898.0 75869.8 78841.6 81940.4 85598.0 88646.0"
+dia_grid_dialog.xtext "4 5"
+dia_grid_dialog.ytext "N M"
+dia_grid_dialog.ztext "+0 +49'-5"(L-B3) +59'-5"(L-B2) +69'-5"(L-B1) +80'-0"(L-1) +90'-11"(L-2) +100'-11"(L-3) +111'-5"(L-4) +121'-2"(L-5) +130'-11"(L-6) +140'-8"(L-7) +150'-5"(L-8) +160'-2"(L-9) +169'-11"(L-10) +179'-8"(L-11) +189'-5"(L-12) +199'-2"(L-13) +208'-11"(L-14) +218'-8"(L-15) +228'-5"(L-16) +239'-2"(L-17) +248'-11"(L-18) +258'-8"(L-19) +268'-10"(L-20) +280'-10"(ROOF) +290'-10"(M.ROOF)"
+dia_grid_dialog.xleft 1828.800000
+dia_grid_dialog.xright 1828.800000
+dia_grid_dialog.yleft 1828.800000
+dia_grid_dialog.yright 1828.800000
+dia_grid_dialog.zleft 1828.800000
+dia_grid_dialog.zright 1828.800000
+dia_grid_dialog.x0 0.000000
+dia_grid_dialog.y0 0.000000
+dia_grid_dialog.z0 0.000000
+dia_grid_dialog.aInFile "11"
+dia_grid_dialog.aOutFile "11"
+dia_grid_dialog.XCoordEnabled 1
+dia_grid_dialog.YCoordEnabled 1
+dia_grid_dialog.ZCoordEnabled 1
+dia_grid_dialog.XLabelEnabled 1
+dia_grid_dialog.YLabelEnabled 1
+dia_grid_dialog.ZLabelEnabled 1
+dia_grid_dialog.XLeftBelowEnabled 1
+dia_grid_dialog.YLeftBelowEnabled 1
+dia_grid_dialog.ZLeftBelowEnabled 1
+dia_grid_dialog.XRightAboveEnabled 1
+dia_grid_dialog.YRightAboveEnabled 1
+dia_grid_dialog.ZRightAboveEnabled 1
+dia_grid_dialog.X0Enabled 1
+dia_grid_dialog.Y0Enabled 1
+dia_grid_dialog.Z0Enabled 1
+dia_grid_dialog.MagneticEnabled 1
+dia_grid_dialog.Magnetic 0
+dia_grid_dialog.ExtForMagAreaEnabled 1
+dia_grid_dialog.ExtForMagArea 0.000000
+dia_grid_dialog.LockedEnabled 1
+dia_grid_dialog.Locked 0
+dia_grid_dialog.UserDefinedAttrEnabled 1
+dia_grid_dialog.ColorEnabled 1
+dia_grid_dialog.Color 1

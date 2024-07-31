@@ -1,0 +1,38 @@
+Pipe Weld Prep (Conx)_attributes.saveas_file "tuve weld prep"
+Pipe Weld Prep (Conx)_attributes.get_menu "tuve weld prep"
+Pipe Weld Prep (Conx)_attributes.name_enable 1
+Pipe Weld Prep (Conx)_attributes.AD_profile_len "0"
+Pipe Weld Prep (Conx)_attributes.AD_profile ";;;;;;;"
+Pipe Weld Prep (Conx)_attributes.analysis_offset_x "0"
+Pipe Weld Prep (Conx)_attributes.rz_spring "0"
+Pipe Weld Prep (Conx)_attributes.rz_type 172647168
+Pipe Weld Prep (Conx)_attributes.ry_spring "0"
+Pipe Weld Prep (Conx)_attributes.ry_type 172647168
+Pipe Weld Prep (Conx)_attributes.rx_spring "0"
+Pipe Weld Prep (Conx)_attributes.rx_type 172647168
+Pipe Weld Prep (Conx)_attributes.uz_spring "0"
+Pipe Weld Prep (Conx)_attributes.uz_type 172647168
+Pipe Weld Prep (Conx)_attributes.uy_spring "0"
+Pipe Weld Prep (Conx)_attributes.uy_type 172647168
+Pipe Weld Prep (Conx)_attributes.ux_spring "0"
+Pipe Weld Prep (Conx)_attributes.ux_type 172647168
+Pipe Weld Prep (Conx)_attributes.support_condition 172647168
+Pipe Weld Prep (Conx)_attributes.restraint_comb 1737418240
+Pipe Weld Prep (Conx)_attributes.restraints_sec 0
+Pipe Weld Prep (Conx)_attributes.use_restraints -2147483648
+Pipe Weld Prep (Conx)_attributes.ac_root ""
+Pipe Weld Prep (Conx)_attributes.ad_root ""
+Pipe Weld Prep (Conx)_attributes.joint_code ""
+Pipe Weld Prep (Conx)_attributes.group_no 0
+Pipe Weld Prep (Conx)_attributes.OBJECT_LOCKED 0
+Pipe Weld Prep (Conx)_attributes.zang2 0.013000
+Pipe Weld Prep (Conx)_attributes.zang1 0.000000
+Pipe Weld Prep (Conx)_attributes.zsuunta 7
+Pipe Weld Prep (Conx)_attributes.Comp1_offset 0.000000
+Pipe Weld Prep (Conx)_attributes.Comp1_attrfile "standard"
+Pipe Weld Prep (Conx)_attributes.Comp1_name "Weld Bar Box 1Pc"
+Pipe Weld Prep (Conx)_attributes.Comp1_create 1
+Pipe Weld Prep (Conx)_attributes.RootFace 3.175000
+Pipe Weld Prep (Conx)_attributes.RootGap 6.350000
+Pipe Weld Prep (Conx)_attributes.Prep_Ang 45.000000
+Pipe Weld Prep (Conx)_attributes.Prof_Type 2

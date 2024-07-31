@@ -1,0 +1,26 @@
+view_label_a2_dial.aInFile ""
+view_label_a2_dial.aOutFile "EE"
+view_label_a2_dial.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>ELEV. VIEW<Format font="ARIAL" color="153" height="2.580" hidden="0"/></UserText></MarkPart></Mark>"
+view_label_a2_dial.ShowOn 0
+view_label_a2_dial.TextPosition 1
+view_label_a2_dial.TextRotation 0
+view_label_a2_dial.HorizontalOffset 0.000000
+view_label_a2_dial.VerticalOffset 0.000000
+view_label_a2_dial.Alignment 1
+view_label_a2_dial.Content_en 1
+view_label_a2_dial.ShowOn_en 1
+view_label_a2_dial.TextPosition_en 1
+view_label_a2_dial.HorizontalOffset_en 1
+view_label_a2_dial.VerticalOffset_en 1
+view_label_a2_dial.TextRotation_en 1
+view_label_a2_dial.Alignment_en 1
+view_label_a2_dial.FontAttr.font_name "ARIAL"
+view_label_a2_dial.FontAttr.text_colour 153
+view_label_a2_dial.FontAttr.height 2.579687
+view_label_a2_dial.FontAttr.font_enable 1
+view_label_a2_dial.FontAttr.text_colour_enable 1
+view_label_a2_dial.FontAttr.height_enable 1
+view_label_a2_dial.FrameAttr.frame_type 1
+view_label_a2_dial.FrameAttr.line_colour 153
+view_label_a2_dial.FrameAttr.frame_enable 1
+view_label_a2_dial.FrameAttr.line_colour_enable 1

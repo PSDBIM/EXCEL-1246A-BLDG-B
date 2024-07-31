@@ -12,7 +12,7 @@ PROJ-DESIGNER
 PROJ-DESCRIPTION
 </Description>
 <Version>
-19.0
+19.0 Service Release 5
 </Version>
 <Language>
 enu
@@ -33,7 +33,7 @@ FALSE
 
 </XS_FIRM>
 <XS_SYSTEM>
-C:\TeklaStructures\19.0\environments\usimp\us_roles\steel\inp\;C:\TeklaStructures\19.0\environments\usimp\us_roles\steel\system\;C:\TeklaStructures\19.0\environments\usimp\system\
+C:\ProgramData\Tekla Structures\19.0\environments\usimp\us_roles\steel\inp\;C:\ProgramData\Tekla Structures\19.0\environments\usimp\us_roles\steel\system\;C:\ProgramData\Tekla Structures\19.0\environments\usimp\system\
 </XS_SYSTEM>
 </Model>
 </TeklaStructuresModels>

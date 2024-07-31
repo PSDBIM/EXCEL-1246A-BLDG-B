@@ -1,0 +1,16 @@
+dia_project_attr.pd_projectno "PROJ-NUM"
+dia_project_attr.pd_name "PROJ-NAME"
+dia_project_attr.pd_builder "PROJ-BUILDER"
+dia_project_attr.pd_object "PROJ-OBJECT"
+dia_project_attr.pd_address "PROJ-ADDRESS"
+dia_project_attr.pd_designer "PROJ-DESIGNER"
+dia_project_attr.pd_startdate ""
+dia_project_attr.pd_enddate ""
+dia_project_attr.pd_extra1 "PROJ-INFO_1"
+dia_project_attr.pd_extra2 "PROJ-INFO_2"
+dia_project_attr.pd_extra3 "PROJ-INFO_3"
+dia_project_attr.pd_Description "PROJ-DESCRIPTION"
+dia_project_attr.pd_vextra1 4.000000
+dia_project_attr.pd_vextra2 0.000000
+dia_project_attr.pd_vextra3 0.000000
+dia_project_attr.more_enable 1

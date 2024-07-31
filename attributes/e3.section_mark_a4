@@ -1,0 +1,26 @@
+section_mark_a4_dial.aInFile ""
+section_mark_a4_dial.aOutFile ""
+section_mark_a4_dial.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="SOURCE_DRAWING_NAME_WHEN_MOVED" value="" subType="85"><Format font="Arial " color="153" height="2.500" hidden="0" override="1"/></Element></MarkPart></Mark>"
+section_mark_a4_dial.ShowOn 0
+section_mark_a4_dial.TextPosition 4
+section_mark_a4_dial.TextRotation 0
+section_mark_a4_dial.HorizontalOffset 0.000000
+section_mark_a4_dial.VerticalOffset 0.000000
+section_mark_a4_dial.Alignment 1
+section_mark_a4_dial.Content_en 1
+section_mark_a4_dial.ShowOn_en 1
+section_mark_a4_dial.TextPosition_en 1
+section_mark_a4_dial.HorizontalOffset_en 1
+section_mark_a4_dial.VerticalOffset_en 1
+section_mark_a4_dial.TextRotation_en 1
+section_mark_a4_dial.Alignment_en 1
+section_mark_a4_dial.FontAttr.font_name "romsim"
+section_mark_a4_dial.FontAttr.text_colour 155
+section_mark_a4_dial.FontAttr.height 2.579687
+section_mark_a4_dial.FontAttr.font_enable 1
+section_mark_a4_dial.FontAttr.text_colour_enable 1
+section_mark_a4_dial.FontAttr.height_enable 1
+section_mark_a4_dial.FrameAttr.frame_type 1
+section_mark_a4_dial.FrameAttr.line_colour 155
+section_mark_a4_dial.FrameAttr.frame_enable 1
+section_mark_a4_dial.FrameAttr.line_colour_enable 1

@@ -1,0 +1,41 @@
+dia_grid_dialog.xcoord "0.0 457.2 5829.3 5943.6 304.8 6883.4 6578.6 609.6 7442.2 7315.2 7442.2 609.6 6578.6 7315.2 6883.4 304.8 6553.2 457.2"
+dia_grid_dialog.ycoord "0.0 457.2 5810.25 1047.75 3314.7 1905.0 4876.8 3848.1"
+dia_grid_dialog.zcoord "-838.2 -203.2 0.0 5981.7 7648.575"
+dia_grid_dialog.xtext "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18"
+dia_grid_dialog.ytext "A B C D E F G H "
+dia_grid_dialog.ztext "-2'-9" -8" +0" +19'-7"1/2 +25'-1"1/8"
+dia_grid_dialog.xleft 1828.800000
+dia_grid_dialog.xright 1828.800000
+dia_grid_dialog.yleft 1828.800000
+dia_grid_dialog.yright 1828.800000
+dia_grid_dialog.zleft 1828.800000
+dia_grid_dialog.zright 1828.800000
+dia_grid_dialog.x0 0.000000
+dia_grid_dialog.y0 0.000000
+dia_grid_dialog.z0 0.000000
+dia_grid_dialog.aInFile "EXCEL-1054"
+dia_grid_dialog.aOutFile "EXCEL-1054 GRID"
+dia_grid_dialog.XCoordEnabled 1
+dia_grid_dialog.YCoordEnabled 1
+dia_grid_dialog.ZCoordEnabled 1
+dia_grid_dialog.XLabelEnabled 1
+dia_grid_dialog.YLabelEnabled 1
+dia_grid_dialog.ZLabelEnabled 1
+dia_grid_dialog.XLeftBelowEnabled 1
+dia_grid_dialog.YLeftBelowEnabled 1
+dia_grid_dialog.ZLeftBelowEnabled 1
+dia_grid_dialog.XRightAboveEnabled 1
+dia_grid_dialog.YRightAboveEnabled 1
+dia_grid_dialog.ZRightAboveEnabled 1
+dia_grid_dialog.X0Enabled 1
+dia_grid_dialog.Y0Enabled 1
+dia_grid_dialog.Z0Enabled 1
+dia_grid_dialog.MagneticEnabled 1
+dia_grid_dialog.Magnetic 0
+dia_grid_dialog.ExtForMagAreaEnabled 1
+dia_grid_dialog.ExtForMagArea 0.000000
+dia_grid_dialog.LockedEnabled 1
+dia_grid_dialog.Locked 0
+dia_grid_dialog.UserDefinedAttrEnabled 1
+dia_grid_dialog.ColorEnabled 1
+dia_grid_dialog.Color 1

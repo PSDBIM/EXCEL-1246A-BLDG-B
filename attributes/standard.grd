@@ -1,0 +1,41 @@
+dia_grid_dialog.xcoord "0.0 5257.8 5918.2 5486.4 5791.2"
+dia_grid_dialog.ycoord "0.0 8077.2 2*8534.4 2057.4 2463.8"
+dia_grid_dialog.zcoord "0.0 23977.6 24384.0 24739.6 28714.7 28867.1 29019.5 29159.2 31750.0 32448.5 32524.7 32664.4 33439.1 33578.8 35052.0 35712.4"
+dia_grid_dialog.xtext "12 13 14 15 16 "
+dia_grid_dialog.ytext "F E D C B A "
+dia_grid_dialog.ztext "+0" +78'-8" +80'-0" +81'-2" +94'-2"1/2 +94'-8"1/2 +95'-2"1/2 +95'-8" +104'-2" +106'-5"1/2 +106'-8"1/2  +107'-2" +109'-8"1/2 +110'-2" +115' +117'-2""
+dia_grid_dialog.xleft 1828.800000
+dia_grid_dialog.xright 1828.800000
+dia_grid_dialog.yleft 1828.800000
+dia_grid_dialog.yright 1828.800000
+dia_grid_dialog.zleft 1828.800000
+dia_grid_dialog.zright 1828.800000
+dia_grid_dialog.x0 0.000000
+dia_grid_dialog.y0 0.000000
+dia_grid_dialog.z0 0.000000
+dia_grid_dialog.aInFile "standard"
+dia_grid_dialog.aOutFile "standard"
+dia_grid_dialog.XCoordEnabled 1
+dia_grid_dialog.YCoordEnabled 1
+dia_grid_dialog.ZCoordEnabled 1
+dia_grid_dialog.XLabelEnabled 1
+dia_grid_dialog.YLabelEnabled 1
+dia_grid_dialog.ZLabelEnabled 1
+dia_grid_dialog.XLeftBelowEnabled 1
+dia_grid_dialog.YLeftBelowEnabled 1
+dia_grid_dialog.ZLeftBelowEnabled 1
+dia_grid_dialog.XRightAboveEnabled 1
+dia_grid_dialog.YRightAboveEnabled 1
+dia_grid_dialog.ZRightAboveEnabled 1
+dia_grid_dialog.X0Enabled 1
+dia_grid_dialog.Y0Enabled 1
+dia_grid_dialog.Z0Enabled 1
+dia_grid_dialog.MagneticEnabled 1
+dia_grid_dialog.Magnetic 0
+dia_grid_dialog.ExtForMagAreaEnabled 1
+dia_grid_dialog.ExtForMagArea 0.000000
+dia_grid_dialog.LockedEnabled 1
+dia_grid_dialog.Locked 0
+dia_grid_dialog.UserDefinedAttrEnabled 1
+dia_grid_dialog.ColorEnabled 1
+dia_grid_dialog.Color 1

@@ -1,0 +1,23 @@
+dia_rev_handl.revh_mark "1"
+dia_rev_handl.revh_date "JUN-02-2022"
+dia_rev_handl.revh_text1 "ISSUED FOR CONSTRUCTION (CANOPY REVISION)"
+dia_rev_handl.revh_text2 ""
+dia_rev_handl.revh_text3 ""
+dia_rev_handl.revh_number " "
+dia_rev_handl.revh_mark_enable 1
+dia_rev_handl.revh_date_enable 1
+dia_rev_handl.revh_text1_enable 1
+dia_rev_handl.revh_text2_enable 1
+dia_rev_handl.revh_text3_enable 1
+dia_rev_handl.extra1 ""
+dia_rev_handl.extra2 ""
+dia_rev_handl.extra3 ""
+dia_rev_handl.extra4 ""
+dia_rev_handl.extra5 ""
+dia_rev_handl.extra1_enable 1
+dia_rev_handl.extra2_enable 1
+dia_rev_handl.extra3_enable 1
+dia_rev_handl.extra4_enable 1
+dia_rev_handl.extra5_enable 1
+dia_rev_handl.aInFile "IFC-R1"
+dia_rev_handl.aOutFile "IFC-R1"

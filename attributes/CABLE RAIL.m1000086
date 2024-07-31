@@ -1,0 +1,14 @@
+macro_attributes.saveas_file "CABLE RAIL"
+macro_attributes.get_menu "standard"
+macro_attributes.KickCreate 0
+macro_attributes.GrabCreate 1
+macro_attributes.RailCreate 1
+macro_attributes.StCreate 1
+macro_attributes.KickAttr_attrfile "0"
+macro_attributes.KickAttr_name "1000075"
+macro_attributes.GrabAttr_attrfile "EXCEL 1035 GRAB RAIL-2"
+macro_attributes.GrabAttr_name "1000077"
+macro_attributes.RailAttr_attrfile "cable rail"
+macro_attributes.RailAttr_name "1000077"
+macro_attributes.StAttr_attrfile "cable rail-1"
+macro_attributes.StAttr_name "1000076"

@@ -1,0 +1,53 @@
+TITLE_CLASSIFIER 
+{
+    Version= 1.00 
+    Count= 8 
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part 
+        joist 
+        Joist 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part 
+        concrete 
+        Panel 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        joist 
+        Joist 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        columns 
+        No_Part_Mark 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        concrete 
+        No_Part_Mark 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        Beams 
+        Beams 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        Angle_Bentplate 
+        Angle 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        ConcreteCol 
+        No_Part_Mark 
+        }
+    }
