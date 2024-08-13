@@ -1,6 +1,6 @@
 text_dial.in_file "FAB DATE"
 text_dial.out_file "FAB DATE"
-text_dial.text_io "FOR FABRICATIONMAY-27-2020"
+text_dial.text_io "FOR FABRICATIONFEB-02-2021"
 text_dial.font_name "Arial"
 text_dial.type 0
 text_dial.text_type 0

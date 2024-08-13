@@ -1,29 +1,29 @@
-pmark_dial.in_file "GROUT"
-pmark_dial.out_file "GROUT"
+pmark_dial.in_file "grout"
+pmark_dial.out_file "grout"
 pmark_dial.create 0
 pmark_dial.for_main 1
 pmark_dial.for_sec 1
 pmark_dial.for_which_parts 1
 pmark_dial.in_all_views 0
 pmark_dial.OutOfPlane 1
-pmark_dial.text_type 1
-pmark_dial.text_colour 161
+pmark_dial.text_type 2
+pmark_dial.text_colour 153
 pmark_dial.frame_type 0
 pmark_dial.line_colour 153
 pmark_dial.Angle 0.000000
-pmark_dial.ArrowType 17
+pmark_dial.ArrowType 16
 pmark_dial.ArrowHeight 2.000000
 pmark_dial.ArrowLength 2.500000
-pmark_dial.height 2.381250
+pmark_dial.height 3.175000
 pmark_dial.default_size 0.000000
 pmark_dial.mark_nsfs 0
 pmark_dial.content_1 1
 pmark_dial.flags 0
 pmark_dial.mark_use_part_end 0
-pmark_dial.ContentString1 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="WEB_THICKNESS" value="" subType="16"><Format font="Arial" color="153" height="2.381" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><UserText>" NS GROUT<Format font="Arial" color="153" height="2.381" hidden="0"/></UserText></MarkPart></Mark>"
-pmark_dial.ContentString2 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="WEB_THICKNESS" value="" subType="16"><Format font="Arial" color="153" height="2.381" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><UserText>" NS GROUT<Format font="Arial" color="153" height="2.381" hidden="0"/></UserText></MarkPart></Mark>"
-pmark_dial.ContentString3 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="WEB_THICKNESS" value="" subType="16"><Format font="Arial" color="153" height="2.381" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><UserText>" NS GROUT<Format font="Arial" color="153" height="2.381" hidden="0"/></UserText></MarkPart></Mark>"
-pmark_dial.ContentString4 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="WEB_THICKNESS" value="" subType="16"><Format font="Arial" color="153" height="2.381" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><UserText>" NS GROUT<Format font="Arial" color="153" height="2.381" hidden="0"/></UserText></MarkPart></Mark>"
+pmark_dial.ContentString1 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="WEB_THICKNESS" value="" subType="16"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="3.175" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart></Mark>"
+pmark_dial.ContentString2 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="WEB_THICKNESS" value="" subType="16"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="3.175" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart></Mark>"
+pmark_dial.ContentString3 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="WEB_THICKNESS" value="" subType="16"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="3.175" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart></Mark>"
+pmark_dial.ContentString4 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="WEB_THICKNESS" value="" subType="16"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="3.175" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart></Mark>"
 pmark_dial.ChamferContentString ""
 pmark_dial.PourContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="MATERIAL" value="" subType="10"><Format font="Arial" color="155" height="2.500" hidden="0"/></Element></MarkPart></Mark>"
 pmark_dial.PourBreakContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>POUR BREAK<Format font="Arial" color="155" height="2.500" hidden="0"/></UserText></MarkPart></Mark>"
@@ -54,7 +54,7 @@ pmark_dial.content_en 1
 pmark_dial.place_en 1
 pmark_dial.default_size_en 1
 pmark_dial.mark_nsfs_en 1
-pmark_dial.use_part_end_en 0
+pmark_dial.use_part_end_en 1
 pmark_dial.leader_line_type_en 1
 pmark_dial.merge_dir_en 1
 pmark_dial.MergeMarks_en 1
@@ -62,20 +62,20 @@ pmark_dial.ForSubassMain_en 1
 pmark_dial.ForSubassSecondary_en 1
 pmark_dial.UseHiddenLines_en 1
 pmark_dial.Rotation_en 1
-pmark_dial.txpl.text_placing_mode 0
+pmark_dial.txpl.text_placing_mode 1
 pmark_dial.txpl.quarter_1 1
-pmark_dial.txpl.quarter_2 0
+pmark_dial.txpl.quarter_2 2
 pmark_dial.txpl.quarter_3 4
-pmark_dial.txpl.quarter_4 0
-pmark_dial.txpl.text_freepl_min 9.921875
-pmark_dial.txpl.text_freepl_margin 0.992188
+pmark_dial.txpl.quarter_4 8
+pmark_dial.txpl.text_freepl_min 10.000000
+pmark_dial.txpl.text_freepl_margin 1.000000
 pmark_dial.txpl.text_place_en 1
 pmark_dial.txpl.text_quarter_en 1
 pmark_dial.txpl.text_freepl_min_en 1
 pmark_dial.txpl.text_freepl_margin_en 1
 pmark_dial.FontAttr.font_name "Arial"
 pmark_dial.FontAttr.text_colour 153
-pmark_dial.FontAttr.height 2.381250
+pmark_dial.FontAttr.height 3.175000
 pmark_dial.FontAttr.font_enable 1
 pmark_dial.FontAttr.text_colour_enable 1
 pmark_dial.FontAttr.height_enable 1

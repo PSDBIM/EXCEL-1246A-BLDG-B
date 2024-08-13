@@ -16,6 +16,12 @@ TITLE_CLASSIFIER
         }
     SECTION_CLASSIFIER_GROUP 
     {
+        albl_Part 
+        Angle_Bentplate 
+        symbol_no_cl 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
         albl_Part_mark 
         joist 
         Joist 
@@ -49,11 +55,5 @@ TITLE_CLASSIFIER
         albl_Part_mark 
         ConcreteCol 
         No_Part_Mark 
-        }
-    SECTION_CLASSIFIER_GROUP 
-    {
-        albl_Part 
-        Angle_Bentplate 
-        symbol_no_cl 
         }
     }

@@ -13,7 +13,7 @@ template
     gridyspacing = 0.5;
     version = 3.21;
     created = "24.11.2011 12:24";
-    modified = "29.06.2023 09:23";
+    modified = "31.07.2024 10:22";
     notes = "Converted template";
 
     header 
@@ -24,11 +24,11 @@ template
         text 
         {
             name = "text_5489";
-            x1 = 30.5;
+            x1 = 25;
             y1 = 13;
-            x2 = 88;
-            y2 = 15.5;
-            string = "1\"1/2 U/N @ PL, 1\"1/4 U/N @ L";
+            x2 = 25;
+            y2 = 13;
+            string = "PREP ALL SHOP COATED SURFACES";
             fontname = "Arial Narrow";
             fontcolor = 153;
             fonttype = 2;
@@ -212,48 +212,6 @@ template
 
         text 
         {
-            name = "text_5484";
-            x1 = 2;
-            y1 = 12.5;
-            x2 = 30.5;
-            y2 = 14.5;
-            string = "EDGE DIST.";
-            fontname = "Arial Narrow";
-            fontcolor = 153;
-            fonttype = 2;
-            fontsize = 2;
-            fontratio = 1;
-            fontslant = 0;
-            fontstyle = 0;
-            angle = 0;
-            justify = LEFT;
-            pen = 0;
-            fontlinewidth = 1;
-        };
-
-        text 
-        {
-            name = "text_5481";
-            x1 = 2;
-            y1 = 6;
-            x2 = 30.5;
-            y2 = 8;
-            string = "PAINT NOTE:";
-            fontname = "Arial Narrow";
-            fontcolor = 153;
-            fonttype = 2;
-            fontsize = 2;
-            fontratio = 1;
-            fontslant = 0;
-            fontstyle = 0;
-            angle = 0;
-            justify = LEFT;
-            pen = 0;
-            fontlinewidth = 1;
-        };
-
-        text 
-        {
             name = "text_5485";
             x1 = 2;
             y1 = 31;
@@ -359,20 +317,6 @@ template
 
         lineorarc 
         {
-            name = "lineorarc_5476";
-            x1 = 29;
-            y1 = 6;
-            x2 = 80.5;
-            y2 = 6;
-            pen = 0;
-            color = 153;
-            linetype = 1;
-            linewidth = 1;
-            bulge = 0;
-        };
-
-        lineorarc 
-        {
             name = "lineorarc_5482";
             x1 = 13.5;
             y1 = 18;
@@ -434,14 +378,28 @@ template
             fontlinewidth = 1;
         };
 
-        text _tmp_894
+        lineorarc _tmp_903
         {
-            name = "Text_1";
-            x1 = 31.5;
-            y1 = 6.5;
-            x2 = 31.5;
-            y2 = 6.5;
-            string = "1-CT SHOP PRIMER U/N";
+            name = "LineOrArc";
+            x1 = 80.5;
+            y1 = 43;
+            x2 = 80.5;
+            y2 = 0;
+            pen = -1;
+            color = 153;
+            linetype = 1;
+            linewidth = 1;
+            bulge = 0;
+        };
+
+        text _tmp_906
+        {
+            name = "Text_2";
+            x1 = 25;
+            y1 = 7;
+            x2 = 25;
+            y2 = 7;
+            string = "PER ANSI/AISC CSP SEC-3.1 & 6.4.1";
             fontname = "Arial Narrow";
             fontcolor = 153;
             fonttype = 2;
@@ -455,14 +413,35 @@ template
             fontlinewidth = 1;
         };
 
-        lineorarc _tmp_903
+        text _tmp_907
         {
-            name = "LineOrArc";
-            x1 = 80.5;
-            y1 = 43;
+            name = "Text_4";
+            x1 = 2;
+            y1 = 13;
+            x2 = 2;
+            y2 = 13;
+            string = "SURFACE PREP:";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = 0;
+            fontlinewidth = 1;
+        };
+
+        lineorarc _tmp_915
+        {
+            name = "LineOrArc_1";
+            x1 = 24.5;
+            y1 = 5.5;
             x2 = 80.5;
-            y2 = -0;
-            pen = -1;
+            y2 = 5.5;
+            pen = 0;
             color = 153;
             linetype = 1;
             linewidth = 1;

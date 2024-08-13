@@ -5,7 +5,7 @@ TITLE_OBJECT_GROUP
     SECTION_OBJECT_GROUP 
     {
         0 
-        0 
+        1 
         co_assembly 
         proASSEMBLY_POSITION 
         albl_Position_number 
@@ -18,7 +18,7 @@ TITLE_OBJECT_GROUP
     SECTION_OBJECT_GROUP 
     {
         0 
-        0 
+        1 
         co_part 
         proPROFILE 
         albl_Profile 
@@ -35,9 +35,9 @@ TITLE_OBJECT_GROUP
         co_assembly 
         proNAME 
         albl_Name 
-        == 
-        albl_Equals 
-        COLUMNPIER 
+        != 
+        albl_DoesNotEqual 
+        ANCHORROD 
         0 
         && 
         }

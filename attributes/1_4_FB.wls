@@ -1,9 +1,9 @@
-wld_dial.in_file "1_4_FB"
+wld_dial.in_file "1_4_B_S"
 wld_dial.out_file "1/4_FB"
 wld_dial.weld_colour_enable 1
 wld_dial.weld_colour 153
 wld_dial.wheight_enable 1
-wld_dial.wheight 2.381250
+wld_dial.wheight 3.175000
 wld_dial.line_colour_enable 1
 wld_dial.line_colour 153
 wld_dial.line_shape_enable 1

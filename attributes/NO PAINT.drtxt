@@ -1,15 +1,15 @@
-text_dial.in_file "FAB DATE"
+text_dial.in_file "NO PAINT"
 text_dial.out_file "NO PAINT"
-text_dial.text_io "NO PAINT"
+text_dial.text_io "NO PAINT ON BEAM TOP FLG"
 text_dial.font_name "Arial"
 text_dial.type 0
 text_dial.text_type 0
 text_dial.mark_type 0
 text_dial.text_colour 153
 text_dial.frame_type 0
-text_dial.line_colour 159
+text_dial.line_colour 153
 text_dial.angle 0.000000
-text_dial.height 2.381250
+text_dial.height 3.175000
 text_dial.arrow_type 17
 text_dial.arrow_height 1.587500
 text_dial.arrow_width 2.381250
@@ -21,7 +21,7 @@ text_dial.LevelMarkPrecision 2
 text_dial.LevelMarkFormat 0
 text_dial.LevelMarkUnits 0
 text_dial.UseDigitGrouping 0
-text_dial.Alignment 1
+text_dial.Alignment 0
 text_dial.text_enable 1
 text_dial.font_enable 1
 text_dial.text_type_enable 1

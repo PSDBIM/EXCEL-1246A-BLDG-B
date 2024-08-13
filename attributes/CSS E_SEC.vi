@@ -6,12 +6,12 @@ view_dial.cut_length 2.976563
 view_dial.cut_min_dist 400.050000
 view_dial.cut_skew_parts 0
 view_dial.size_mode 0
-view_dial.xmin -451.048437
-view_dial.xmax 860.425000
-view_dial.ymin 29618.582813
-view_dial.ymax 30784.800000
-view_dial.depth_neg 484.187500
-view_dial.depth_pos 193.079687
+view_dial.xmin -187.721875
+view_dial.xmax 222.845312
+view_dial.ymin 35780.662500
+view_dial.ymax 36986.765625
+view_dial.depth_neg 130.175000
+view_dial.depth_pos 84.137500
 view_dial.label_height 4.762500
 view_dial.label_position 1
 view_dial.label_colour 153
@@ -43,7 +43,7 @@ view_dial.ViewLabelLineLengthType 0
 view_dial.ViewLabelHorizontalPosition 0
 view_dial.scale_en 1
 view_dial.cut_param_en 1
-view_dial.size_mode_en 1
+view_dial.size_mode_en 0
 view_dial.extreme_en 1
 view_dial.part_en 1
 view_dial.npart_en 1
@@ -101,8 +101,8 @@ view_dial.vp.BoltDrawAs 0
 view_dial.vp.bolt_hole 0
 view_dial.vp.bolt_axis 0
 view_dial.vp.visible_colour 153
-view_dial.vp.hidden_colour 153
-view_dial.vp.reference_colour 153
+view_dial.vp.hidden_colour 159
+view_dial.vp.reference_colour 159
 view_dial.vp.bolt_colour 154
 view_dial.vp.visible_linetype 1
 view_dial.vp.hidden_linetype 3
@@ -320,7 +320,7 @@ view_dial.vpm.mark_nsfs 0
 view_dial.vpm.content_1 1
 view_dial.vpm.flags 0
 view_dial.vpm.mark_use_part_end 0
-view_dial.vpm.ContentString1 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="ASSEMBLY_POS" value="" subType="22"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><Element name="PROFILE" value="" subType="24"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart></Mark>"
+view_dial.vpm.ContentString1 ""
 view_dial.vpm.ContentString2 ""
 view_dial.vpm.ContentString3 ""
 view_dial.vpm.ContentString4 ""
@@ -330,7 +330,7 @@ view_dial.vpm.PourBreakContentString "<?xml version="1.0" encoding="UTF-8" stand
 view_dial.vpm.leader_line_type 0
 view_dial.vpm.merge_dir 1
 view_dial.vpm.MergeMarks 0
-view_dial.vpm.CurrentContentTableNumber 1
+view_dial.vpm.CurrentContentTableNumber 0
 view_dial.vpm.ForSubassMain 1
 view_dial.vpm.ForSubassSecondary 1
 view_dial.vpm.UseHiddenLines 1
@@ -368,7 +368,7 @@ view_dial.vpm.txpl.quarter_2 2
 view_dial.vpm.txpl.quarter_3 4
 view_dial.vpm.txpl.quarter_4 8
 view_dial.vpm.txpl.text_freepl_min 10.000000
-view_dial.vpm.txpl.text_freepl_margin 1.000000
+view_dial.vpm.txpl.text_freepl_margin 0.992188
 view_dial.vpm.txpl.text_place_en 1
 view_dial.vpm.txpl.text_quarter_en 1
 view_dial.vpm.txpl.text_freepl_min_en 1
@@ -749,7 +749,7 @@ view_dial.vg.drawing_grid_on 0
 view_dial.vg.GridObjectGridOn 1
 view_dial.vg.line_type 4
 view_dial.vg.line_colour 159
-view_dial.vg.text_frame 4
+view_dial.vg.text_frame 3
 view_dial.vg.text_colour 153
 view_dial.vg.text_height 4.762500
 view_dial.vg.offset 0.000000
@@ -1006,16 +1006,16 @@ view_dial.vnp_filter.weldnumber ""
 view_dial.vwel.in_file " "
 view_dial.vwel.out_file ""
 view_dial.vwel.create 0
-view_dial.vwel.text_colour 161
-view_dial.vwel.text_height 1.984375
-view_dial.vwel.line_colour 161
+view_dial.vwel.text_colour 153
+view_dial.vwel.text_height 2.381250
+view_dial.vwel.line_colour 153
 view_dial.vwel.line_shape 0
 view_dial.vwel.number 0
 view_dial.vwel.min_filter 3.968750
 view_dial.vwel.arrow_type 0
 view_dial.vwel.arrow_height 0.000000
 view_dial.vwel.arrow_width 0.000000
-view_dial.vwel.FontName ""
+view_dial.vwel.FontName "Arial"
 view_dial.vwel.Subassembly 0
 view_dial.vwel.AngleAbove 1
 view_dial.vwel.AngleBelow 1
@@ -1301,7 +1301,7 @@ view_dial.vsurfm.ArrowLength 2.500000
 view_dial.vsurfm.height 2.500000
 view_dial.vsurfm.default_size 0.000000
 view_dial.vsurfm.mark_nsfs 0
-view_dial.vsurfm.content_1 1026
+view_dial.vsurfm.content_1 1024
 view_dial.vsurfm.flags 0
 view_dial.vsurfm.mark_use_part_end 0
 view_dial.vsurfm.ContentString1 ""
@@ -1425,8 +1425,8 @@ view_dial.ViewLabelMarkA1.VerticalOffset_en 1
 view_dial.ViewLabelMarkA1.TextRotation_en 1
 view_dial.ViewLabelMarkA1.Alignment_en 1
 view_dial.ViewLabelMarkA1.FontAttr.font_name "Arial"
-view_dial.ViewLabelMarkA1.FontAttr.text_colour 153
-view_dial.ViewLabelMarkA1.FontAttr.height 4.762500
+view_dial.ViewLabelMarkA1.FontAttr.text_colour 165
+view_dial.ViewLabelMarkA1.FontAttr.height 3.175000
 view_dial.ViewLabelMarkA1.FontAttr.font_enable 1
 view_dial.ViewLabelMarkA1.FontAttr.text_colour_enable 1
 view_dial.ViewLabelMarkA1.FontAttr.height_enable 1
@@ -1436,7 +1436,7 @@ view_dial.ViewLabelMarkA1.FrameAttr.frame_enable 1
 view_dial.ViewLabelMarkA1.FrameAttr.line_colour_enable 1
 view_dial.ViewLabelMarkA2.aInFile ""
 view_dial.ViewLabelMarkA2.aOutFile ""
-view_dial.ViewLabelMarkA2.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>REF.:<Format font="Arial" color="153" height="3.175" hidden="0"/></UserText></MarkPart></Mark>"
+view_dial.ViewLabelMarkA2.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>REF:<Format font="Arial" color="153" height="3.175" hidden="0"/></UserText></MarkPart></Mark>"
 view_dial.ViewLabelMarkA2.ShowOn 0
 view_dial.ViewLabelMarkA2.TextPosition 1
 view_dial.ViewLabelMarkA2.TextRotation 0
@@ -1452,7 +1452,7 @@ view_dial.ViewLabelMarkA2.TextRotation_en 1
 view_dial.ViewLabelMarkA2.Alignment_en 1
 view_dial.ViewLabelMarkA2.FontAttr.font_name "Arial"
 view_dial.ViewLabelMarkA2.FontAttr.text_colour 153
-view_dial.ViewLabelMarkA2.FontAttr.height 2.381250
+view_dial.ViewLabelMarkA2.FontAttr.height 3.175000
 view_dial.ViewLabelMarkA2.FontAttr.font_enable 1
 view_dial.ViewLabelMarkA2.FontAttr.text_colour_enable 1
 view_dial.ViewLabelMarkA2.FontAttr.height_enable 1

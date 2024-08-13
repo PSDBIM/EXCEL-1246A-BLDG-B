@@ -1,4 +1,4 @@
-wld_dial.in_file "CJP field"
+wld_dial.in_file "CSS CJP"
 wld_dial.out_file "CSS CJP"
 wld_dial.weld_colour_enable 1
 wld_dial.weld_colour 153
@@ -26,7 +26,7 @@ wld_dial.w_finish 0
 wld_dial.w_finish2_enable 1
 wld_dial.w_finish2 0
 wld_dial.w_type_enable 1
-wld_dial.w_type 11
+wld_dial.w_type 0
 wld_dial.w_ftype_enable 1
 wld_dial.w_ftype 0
 wld_dial.w_length_enable 1
@@ -52,7 +52,7 @@ wld_dial.w_EffectiveThroatAbove 0.000000
 wld_dial.w_RootOpeningAbove_enable 1
 wld_dial.w_RootOpeningAbove 0.000000
 wld_dial.w_weld_enable 1
-wld_dial.w_weld "CJPTYP."
+wld_dial.w_weld "CJP, EA.FLG."
 wld_dial.edge_around_enable 1
 wld_dial.w_around 0
 wld_dial.workshop_site_enable 1

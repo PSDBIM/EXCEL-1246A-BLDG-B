@@ -1,4 +1,4 @@
-csym_dial.in_file "CSS EREC LEFT"
+csym_dial.in_file "CSS EREC"
 csym_dial.out_file "CSS EREC"
 csym_dial.label_text "F"
 csym_dial.WidthOffset1 2.976563
@@ -206,7 +206,7 @@ csym_dial.SectionMarkA5.FrameAttr.frame_enable 1
 csym_dial.SectionMarkA5.FrameAttr.line_colour_enable 1
 csym_dial.ViewLabelMarkA1.aInFile ""
 csym_dial.ViewLabelMarkA1.aOutFile ""
-csym_dial.ViewLabelMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>BEAM CONNECTION AT CANOPY/ STORE FRONT (TYP.)<Format font="Arial Bold" color="153" height="4.763" hidden="0"/></UserText></MarkPart></Mark>"
+csym_dial.ViewLabelMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>SECTION<Format font="Arial Bold" color="153" height="4.763" hidden="0"/></UserText></MarkPart></Mark>"
 csym_dial.ViewLabelMarkA1.ShowOn 0
 csym_dial.ViewLabelMarkA1.TextPosition 0
 csym_dial.ViewLabelMarkA1.TextRotation 0
@@ -220,9 +220,9 @@ csym_dial.ViewLabelMarkA1.HorizontalOffset_en 1
 csym_dial.ViewLabelMarkA1.VerticalOffset_en 1
 csym_dial.ViewLabelMarkA1.TextRotation_en 1
 csym_dial.ViewLabelMarkA1.Alignment_en 1
-csym_dial.ViewLabelMarkA1.FontAttr.font_name "romsim"
-csym_dial.ViewLabelMarkA1.FontAttr.text_colour 155
-csym_dial.ViewLabelMarkA1.FontAttr.height 2.500000
+csym_dial.ViewLabelMarkA1.FontAttr.font_name "Arial Bold"
+csym_dial.ViewLabelMarkA1.FontAttr.text_colour 153
+csym_dial.ViewLabelMarkA1.FontAttr.height 4.762500
 csym_dial.ViewLabelMarkA1.FontAttr.font_enable 1
 csym_dial.ViewLabelMarkA1.FontAttr.text_colour_enable 1
 csym_dial.ViewLabelMarkA1.FontAttr.height_enable 1

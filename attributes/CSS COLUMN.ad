@@ -42,13 +42,13 @@ adraw_dial.UseDetailedObjectLevelSettings 1
 adraw_dial.UseDetailedObjectLevelSettings_en 1
 adraw_dial.dl.in_file ""
 adraw_dial.dl.out_file ""
-adraw_dial.dl.layout "AssyCallOffV"
+adraw_dial.dl.layout "AssemblyDrgs"
 adraw_dial.dl.size_searching_mode 1
 adraw_dial.dl.take_fixed 1
 adraw_dial.dl.take_calc 0
-adraw_dial.dl.width 430.000000
-adraw_dial.dl.height 276.000000
-adraw_dial.dl.sheet 76672
+adraw_dial.dl.width 431.000000
+adraw_dial.dl.height 266.000000
+adraw_dial.dl.sheet 85098
 adraw_dial.dl.projection_type 1
 adraw_dial.dl.side_view_beside 1
 adraw_dial.dl.CutViewsInLineWithMain 0
@@ -333,7 +333,7 @@ adraw_dial.dcd.create_close_dim 2
 adraw_dial.dcd.close_dim 1
 adraw_dial.dcd.recogn_dist 9.525000
 adraw_dial.dcd.part_mark_dim_line 1
-adraw_dial.dcd.main_dimension_side 3
+adraw_dial.dcd.main_dimension_side 4
 adraw_dial.dcd.main_skew_position 0
 adraw_dial.dcd.skew_pos_type 1
 adraw_dial.dcd.RebarDimensioningOn 0
@@ -455,7 +455,7 @@ adraw_dial.dcd.PartPositionTo 0
 adraw_dial.dcd.main_part_bevel 2
 adraw_dial.dcd.main_part_bevel_angle 0
 adraw_dial.dcd.combine_bolt_dim 0
-adraw_dial.dcd.create_elevation_dims 1
+adraw_dial.dcd.create_elevation_dims 0
 adraw_dial.dcd.create_knock_off_dims 0
 adraw_dial.dcd.position_from 0
 adraw_dial.dcd.ReversedDirection 0
@@ -718,9 +718,9 @@ adraw_dial.dp.PartHatch.HatchBackgroundColor_enable 1
 adraw_dial.dp.PartHatch.HatchBackgroundColor 0
 adraw_dial.dp.SectionHatch.hatch_type 0
 adraw_dial.dp.SectionHatch.hatch_name_en 1
-adraw_dial.dp.SectionHatch.hatch_name "Automatic"
+adraw_dial.dp.SectionHatch.hatch_name "ANSI31"
 adraw_dial.dp.SectionHatch.hatch_color_en 1
-adraw_dial.dp.SectionHatch.hatch_color 155
+adraw_dial.dp.SectionHatch.hatch_color 159
 adraw_dial.dp.SectionHatch.hatch_angle_en 1
 adraw_dial.dp.SectionHatch.hatch_angle 0.000000
 adraw_dial.dp.SectionHatch.hatch_factor_type_en 1
@@ -962,7 +962,7 @@ adraw_dial.dpm.for_sec 1
 adraw_dial.dpm.for_which_parts 0
 adraw_dial.dpm.in_all_views 0
 adraw_dial.dpm.OutOfPlane 1
-adraw_dial.dpm.text_type 2
+adraw_dial.dpm.text_type 1
 adraw_dial.dpm.text_colour 153
 adraw_dial.dpm.frame_type 0
 adraw_dial.dpm.line_colour 153
@@ -1186,7 +1186,7 @@ adraw_dial.dsm.in_all_views 0
 adraw_dial.dsm.OutOfPlane 0
 adraw_dial.dsm.text_type 0
 adraw_dial.dsm.text_colour 153
-adraw_dial.dsm.frame_type 8
+adraw_dial.dsm.frame_type 0
 adraw_dial.dsm.line_colour 153
 adraw_dial.dsm.Angle 0.000000
 adraw_dial.dsm.ArrowType 16

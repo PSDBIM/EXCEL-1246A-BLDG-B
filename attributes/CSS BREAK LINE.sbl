@@ -1,11 +1,11 @@
-symbol_dial.in_file "COG"
+symbol_dial.in_file "CSS BREAK LINE"
 symbol_dial.out_file "CSS BREAK LINE"
 symbol_dial.text_io "sections@48"
 symbol_dial.font_name "romsim"
 symbol_dial.type 3
 symbol_dial.text_type 8192
 symbol_dial.mark_type 0
-symbol_dial.text_colour 153
+symbol_dial.text_colour 159
 symbol_dial.frame_type 0
 symbol_dial.line_colour 153
 symbol_dial.angle 90.000000

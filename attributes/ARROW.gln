@@ -1,10 +1,10 @@
 go_line_dial.in_file "ARROW"
-go_line_dial.out_file "standard"
+go_line_dial.out_file "BREAK LINE"
 go_line_dial.linetype 1
 go_line_dial.color 153
-go_line_dial.arrow 2
+go_line_dial.arrow 1
 go_line_dial.arrow_type 17
-go_line_dial.arrow_height 1.587500
+go_line_dial.arrow_height 0.992188
 go_line_dial.arrow_width 2.381250
 go_line_dial.bulge 0.000000
 go_line_dial.linetype_en 1

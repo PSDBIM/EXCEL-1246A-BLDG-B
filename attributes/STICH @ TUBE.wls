@@ -1,4 +1,4 @@
-wld_dial.in_file "standard"
+wld_dial.in_file "STICH @ TUBE"
 wld_dial.out_file "STICH @ TUBE"
 wld_dial.weld_colour_enable 1
 wld_dial.weld_colour 153
@@ -20,7 +20,7 @@ wld_dial.w_angle 0.000000
 wld_dial.w_angle2_enable 1
 wld_dial.w_angle2 0.000000
 wld_dial.w_size_enable 1
-wld_dial.w_size 6.350000
+wld_dial.w_size 4.762500
 wld_dial.w_finish_enable 1
 wld_dial.w_finish 0
 wld_dial.w_finish2_enable 1
@@ -34,7 +34,7 @@ wld_dial.w_length 50.800000
 wld_dial.w_cc_enable 1
 wld_dial.w_cc 304.800000
 wld_dial.w_size2_enable 1
-wld_dial.w_size2 6.350000
+wld_dial.w_size2 4.762500
 wld_dial.w_type2_enable 1
 wld_dial.w_type2 15
 wld_dial.w_ftype2_enable 1
@@ -57,10 +57,8 @@ wld_dial.edge_around_enable 1
 wld_dial.w_around 0
 wld_dial.workshop_site_enable 1
 wld_dial.w_workshop 0
-wld_dial.w_IntermittentAbove_enable 1
-wld_dial.w_IntermittentAbove 1
-wld_dial.w_IntermittentBelow_enable 1
-wld_dial.w_IntermittentBelow 1
+wld_dial.w_Stitch_enable 1
+wld_dial.w_Stitch 1
 wld_dial.FontName_en 1
 wld_dial.FontName "Arial"
 wld_dial.PrefixAboveLine_enable 1

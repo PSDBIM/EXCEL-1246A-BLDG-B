@@ -1,9 +1,9 @@
-wld_dial.in_file "STICH"
+wld_dial.in_file "3_16-STICH"
 wld_dial.out_file "3/16-STICH"
 wld_dial.weld_colour_enable 1
 wld_dial.weld_colour 153
 wld_dial.wheight_enable 1
-wld_dial.wheight 3.175000
+wld_dial.wheight 2.381250
 wld_dial.line_colour_enable 1
 wld_dial.line_colour 153
 wld_dial.line_shape_enable 1
@@ -32,7 +32,7 @@ wld_dial.w_ftype 0
 wld_dial.w_length_enable 1
 wld_dial.w_length 50.800000
 wld_dial.w_cc_enable 1
-wld_dial.w_cc 304.800000
+wld_dial.w_cc 152.400000
 wld_dial.w_size2_enable 1
 wld_dial.w_size2 4.762500
 wld_dial.w_type2_enable 1
@@ -42,7 +42,7 @@ wld_dial.w_ftype2 0
 wld_dial.w_length2_enable 1
 wld_dial.w_length2 50.800000
 wld_dial.w_cc2_enable 1
-wld_dial.w_cc2 304.800000
+wld_dial.w_cc2 152.400000
 wld_dial.w_EffectiveThroatBelow_enable 1
 wld_dial.w_EffectiveThroatBelow 0.000000
 wld_dial.w_RootOpeningBelow_enable 1
@@ -57,10 +57,8 @@ wld_dial.edge_around_enable 1
 wld_dial.w_around 0
 wld_dial.workshop_site_enable 1
 wld_dial.w_workshop 0
-wld_dial.w_IntermittentAbove_enable 1
-wld_dial.w_IntermittentAbove 1
-wld_dial.w_IntermittentBelow_enable 1
-wld_dial.w_IntermittentBelow 1
+wld_dial.w_Stitch_enable 1
+wld_dial.w_Stitch 1
 wld_dial.FontName_en 1
 wld_dial.FontName "Arial"
 wld_dial.PrefixAboveLine_enable 1

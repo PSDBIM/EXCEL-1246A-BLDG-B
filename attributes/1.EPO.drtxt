@@ -1,6 +1,6 @@
-text_dial.in_file "1.NORTH"
+text_dial.in_file "1.EPO"
 text_dial.out_file "1.EPO"
-text_dial.text_io "(FOR ERECTION PERPOSE ONLY)"
+text_dial.text_io "(FOR ERECTION PURPOSE ONLY)"
 text_dial.font_name "Arial "
 text_dial.type 0
 text_dial.text_type 0

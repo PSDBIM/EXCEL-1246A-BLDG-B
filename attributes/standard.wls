@@ -1,5 +1,5 @@
 wld_dial.in_file "standard"
-wld_dial.out_file "butt ALL AROUND"
+wld_dial.out_file "standard"
 wld_dial.weld_colour_enable 1
 wld_dial.weld_colour 153
 wld_dial.wheight_enable 1
@@ -26,7 +26,7 @@ wld_dial.w_finish 0
 wld_dial.w_finish2_enable 1
 wld_dial.w_finish2 0
 wld_dial.w_type_enable 1
-wld_dial.w_type 0
+wld_dial.w_type 10
 wld_dial.w_ftype_enable 1
 wld_dial.w_ftype 0
 wld_dial.w_length_enable 1
@@ -34,15 +34,15 @@ wld_dial.w_length 0.000000
 wld_dial.w_cc_enable 1
 wld_dial.w_cc 0.000000
 wld_dial.w_size2_enable 1
-wld_dial.w_size2 3.175000
+wld_dial.w_size2 4.762500
 wld_dial.w_type2_enable 1
 wld_dial.w_type2 10
 wld_dial.w_ftype2_enable 1
 wld_dial.w_ftype2 0
 wld_dial.w_length2_enable 1
-wld_dial.w_length2 25.400000
+wld_dial.w_length2 50.800000
 wld_dial.w_cc2_enable 1
-wld_dial.w_cc2 381.000000
+wld_dial.w_cc2 0.000000
 wld_dial.w_EffectiveThroatBelow_enable 1
 wld_dial.w_EffectiveThroatBelow 0.000000
 wld_dial.w_RootOpeningBelow_enable 1
@@ -52,11 +52,11 @@ wld_dial.w_EffectiveThroatAbove 0.000000
 wld_dial.w_RootOpeningAbove_enable 1
 wld_dial.w_RootOpeningAbove 0.000000
 wld_dial.w_weld_enable 1
-wld_dial.w_weld "TREAD YO RISERTYP"
+wld_dial.w_weld "TYP"
 wld_dial.edge_around_enable 1
 wld_dial.w_around 0
 wld_dial.workshop_site_enable 1
-wld_dial.w_workshop 0
+wld_dial.w_workshop 1
 wld_dial.w_Stitch_enable 1
 wld_dial.w_Stitch 0
 wld_dial.FontName_en 1

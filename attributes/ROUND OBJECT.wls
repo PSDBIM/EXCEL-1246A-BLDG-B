@@ -1,4 +1,4 @@
-wld_dial.in_file "ROUND OBJECT"
+wld_dial.in_file "standard"
 wld_dial.out_file "ROUND OBJECT"
 wld_dial.weld_colour_enable 1
 wld_dial.weld_colour 153
@@ -34,9 +34,9 @@ wld_dial.w_length 0.000000
 wld_dial.w_cc_enable 1
 wld_dial.w_cc 0.000000
 wld_dial.w_size2_enable 1
-wld_dial.w_size2 6.350000
+wld_dial.w_size2 0.000000
 wld_dial.w_type2_enable 1
-wld_dial.w_type2 15
+wld_dial.w_type2 0
 wld_dial.w_ftype2_enable 1
 wld_dial.w_ftype2 0
 wld_dial.w_length2_enable 1
@@ -52,13 +52,15 @@ wld_dial.w_EffectiveThroatAbove 0.000000
 wld_dial.w_RootOpeningAbove_enable 1
 wld_dial.w_RootOpeningAbove 0.000000
 wld_dial.w_weld_enable 1
-wld_dial.w_weld "TYP."
+wld_dial.w_weld ""
 wld_dial.edge_around_enable 1
 wld_dial.w_around 0
 wld_dial.workshop_site_enable 1
 wld_dial.w_workshop 0
-wld_dial.w_Stitch_enable 1
-wld_dial.w_Stitch 0
+wld_dial.w_IntermittentAbove_enable 1
+wld_dial.w_IntermittentAbove 0
+wld_dial.w_IntermittentBelow_enable 1
+wld_dial.w_IntermittentBelow 0
 wld_dial.FontName_en 1
 wld_dial.FontName "Arial"
 wld_dial.PrefixAboveLine_enable 1

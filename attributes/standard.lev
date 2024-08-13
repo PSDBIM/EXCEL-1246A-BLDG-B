@@ -1,13 +1,13 @@
 level_dial.in_file "standard"
 level_dial.out_file "standard"
-level_dial.text_io " EL."
+level_dial.text_io " "
 level_dial.font_name "Arial"
 level_dial.type 1
 level_dial.text_type 32
 level_dial.mark_type 1
 level_dial.text_colour 153
 level_dial.frame_type 0
-level_dial.line_colour 159
+level_dial.line_colour 153
 level_dial.angle 0.000000
 level_dial.height 3.175000
 level_dial.arrow_type 17

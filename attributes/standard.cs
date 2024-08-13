@@ -1,42 +1,42 @@
 csym_dial.in_file "standard"
 csym_dial.out_file ""
-csym_dial.label_text "A"
-csym_dial.WidthOffset1 3.175000
-csym_dial.WidthOffset2 -1.984375
-csym_dial.LengthOffset 12.700000
-csym_dial.ArrowLength 9.525000
-csym_dial.ArrowWidth 9.525000
-csym_dial.CutLineSide 0
+csym_dial.label_text "6"
+csym_dial.WidthOffset1 28.773438
+csym_dial.WidthOffset2 -22.820313
+csym_dial.LengthOffset 2.579687
+csym_dial.ArrowLength 25.400000
+csym_dial.ArrowWidth 38.100000
+csym_dial.CutLineSide 3
 csym_dial.line_colour 153
 csym_dial.text_colour 158
 csym_dial.fit_symbol 0
-csym_dial.aSectionMarkA1 "<< Mark >>"
+csym_dial.aSectionMarkA1 ""
 csym_dial.aSectionMarkA2 ""
-csym_dial.aSectionMarkA3 ""
-csym_dial.aSectionMarkA4 ""
+csym_dial.aSectionMarkA3 "<< Mark >>"
+csym_dial.aSectionMarkA4 "<< Mark >>"
 csym_dial.aSectionMarkA5 ""
-csym_dial.SectionMarkLeftSymbolIndex 1000
-csym_dial.SectionMarkLeftSymbolSize 6.350000
-csym_dial.SectionMarkRightSymbolIndex 1000
-csym_dial.SectionMarkRightSymbolSize 6.350000
+csym_dial.SectionMarkLeftSymbolIndex 177
+csym_dial.SectionMarkLeftSymbolSize 19.050000
+csym_dial.SectionMarkRightSymbolIndex 0
+csym_dial.SectionMarkRightSymbolSize 19.050000
 csym_dial.SectionMarkSymbolColor 153
 csym_dial.SectionMarkLeftSymbolPositionX 0.000000
 csym_dial.SectionMarkLeftSymbolPositionY 0.000000
 csym_dial.SectionMarkRightSymbolPositionX 0.000000
 csym_dial.SectionMarkRightSymbolPositionY 0.000000
 csym_dial.aViewLabelMarkA1 "<< Mark >>"
-csym_dial.aViewLabelMarkA2 ""
-csym_dial.aViewLabelMarkA3 ""
+csym_dial.aViewLabelMarkA2 "<< Mark >>"
+csym_dial.aViewLabelMarkA3 "<< Mark >>"
 csym_dial.aViewLabelMarkA4 ""
 csym_dial.aViewLabelMarkA5 ""
-csym_dial.ViewLabelMarkSymbolIndex 0
+csym_dial.ViewLabelMarkSymbolIndex 146
 csym_dial.ViewLabelMarkSymbolColor 153
-csym_dial.ViewLabelMarkSymbolSize 4.960938
+csym_dial.ViewLabelMarkSymbolSize 19.050000
 csym_dial.ViewLabelMarkSymbolPositionX 0.000000
 csym_dial.ViewLabelMarkSymbolPositionY 0.000000
 csym_dial.ViewLabelPosition 1
 csym_dial.ViewLabelCustomLength 0.000000
-csym_dial.ViewLabelLineLengthType 0
+csym_dial.ViewLabelLineLengthType 1
 csym_dial.ViewLabelHorizontalPosition 0
 csym_dial.SectionMarkA1_en 1
 csym_dial.SectionMarkA2_en 1
@@ -76,7 +76,7 @@ csym_dial.ViewLabelLineLength_en 1
 csym_dial.ViewLabelHorizontalPosition_en 1
 csym_dial.SectionMarkA1.aInFile ""
 csym_dial.SectionMarkA1.aOutFile ""
-csym_dial.SectionMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="81"><Format font="Arial" color="153" height="3.969" hidden="0" override="1"/></Element></MarkPart></Mark>"
+csym_dial.SectionMarkA1.ContentString ""
 csym_dial.SectionMarkA1.ShowOn 0
 csym_dial.SectionMarkA1.TextPosition 0
 csym_dial.SectionMarkA1.TextRotation 0
@@ -103,11 +103,11 @@ csym_dial.SectionMarkA1.FrameAttr.line_colour_enable 1
 csym_dial.SectionMarkA2.aInFile ""
 csym_dial.SectionMarkA2.aOutFile ""
 csym_dial.SectionMarkA2.ContentString ""
-csym_dial.SectionMarkA2.ShowOn 1
+csym_dial.SectionMarkA2.ShowOn 0
 csym_dial.SectionMarkA2.TextPosition 1
 csym_dial.SectionMarkA2.TextRotation 0
 csym_dial.SectionMarkA2.HorizontalOffset 0.000000
-csym_dial.SectionMarkA2.VerticalOffset 0.000000
+csym_dial.SectionMarkA2.VerticalOffset -1.587500
 csym_dial.SectionMarkA2.Alignment 1
 csym_dial.SectionMarkA2.Content_en 1
 csym_dial.SectionMarkA2.ShowOn_en 1
@@ -128,7 +128,7 @@ csym_dial.SectionMarkA2.FrameAttr.frame_enable 1
 csym_dial.SectionMarkA2.FrameAttr.line_colour_enable 1
 csym_dial.SectionMarkA3.aInFile ""
 csym_dial.SectionMarkA3.aOutFile ""
-csym_dial.SectionMarkA3.ContentString ""
+csym_dial.SectionMarkA3.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="81"><Format font="Arial" color="153" height="2.580" hidden="0" override="1"/></Element></MarkPart></Mark>"
 csym_dial.SectionMarkA3.ShowOn 0
 csym_dial.SectionMarkA3.TextPosition 3
 csym_dial.SectionMarkA3.TextRotation 0
@@ -154,7 +154,7 @@ csym_dial.SectionMarkA3.FrameAttr.frame_enable 1
 csym_dial.SectionMarkA3.FrameAttr.line_colour_enable 1
 csym_dial.SectionMarkA4.aInFile ""
 csym_dial.SectionMarkA4.aOutFile ""
-csym_dial.SectionMarkA4.ContentString ""
+csym_dial.SectionMarkA4.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="SOURCE_DRAWING_NAME_WHEN_MOVED" value="" subType="85"><Format font="Arial " color="153" height="2.500" hidden="0" override="1"/></Element></MarkPart></Mark>"
 csym_dial.SectionMarkA4.ShowOn 0
 csym_dial.SectionMarkA4.TextPosition 4
 csym_dial.SectionMarkA4.TextRotation 0
@@ -206,7 +206,7 @@ csym_dial.SectionMarkA5.FrameAttr.frame_enable 1
 csym_dial.SectionMarkA5.FrameAttr.line_colour_enable 1
 csym_dial.ViewLabelMarkA1.aInFile ""
 csym_dial.ViewLabelMarkA1.aOutFile ""
-csym_dial.ViewLabelMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="81"><Format font="Arial" color="153" height="2.977" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><UserText>-<Format font="Arial" color="153" height="2.977" hidden="0" override="1"/></UserText></MarkPart><MarkPart groupid="0"><Element name="NAME" value="" subType="82"><Format font="Arial" color="153" height="2.977" hidden="0" override="1"/></Element></MarkPart></Mark>"
+csym_dial.ViewLabelMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>  SECTION  <Format font="Arial" color="153" height="3.969" hidden="0" override="1"/></UserText></MarkPart></Mark>"
 csym_dial.ViewLabelMarkA1.ShowOn 0
 csym_dial.ViewLabelMarkA1.TextPosition 0
 csym_dial.ViewLabelMarkA1.TextRotation 0
@@ -232,7 +232,7 @@ csym_dial.ViewLabelMarkA1.FrameAttr.frame_enable 1
 csym_dial.ViewLabelMarkA1.FrameAttr.line_colour_enable 1
 csym_dial.ViewLabelMarkA2.aInFile ""
 csym_dial.ViewLabelMarkA2.aOutFile ""
-csym_dial.ViewLabelMarkA2.ContentString ""
+csym_dial.ViewLabelMarkA2.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>S-303<Format font="ARIAL" color="153" height="3.969" hidden="0"/></UserText></MarkPart></Mark>"
 csym_dial.ViewLabelMarkA2.ShowOn 0
 csym_dial.ViewLabelMarkA2.TextPosition 1
 csym_dial.ViewLabelMarkA2.TextRotation 0
@@ -246,9 +246,9 @@ csym_dial.ViewLabelMarkA2.HorizontalOffset_en 1
 csym_dial.ViewLabelMarkA2.VerticalOffset_en 1
 csym_dial.ViewLabelMarkA2.TextRotation_en 1
 csym_dial.ViewLabelMarkA2.Alignment_en 1
-csym_dial.ViewLabelMarkA2.FontAttr.font_name "romsim"
-csym_dial.ViewLabelMarkA2.FontAttr.text_colour 155
-csym_dial.ViewLabelMarkA2.FontAttr.height 2.500000
+csym_dial.ViewLabelMarkA2.FontAttr.font_name "ARIAL"
+csym_dial.ViewLabelMarkA2.FontAttr.text_colour 153
+csym_dial.ViewLabelMarkA2.FontAttr.height 3.968750
 csym_dial.ViewLabelMarkA2.FontAttr.font_enable 1
 csym_dial.ViewLabelMarkA2.FontAttr.text_colour_enable 1
 csym_dial.ViewLabelMarkA2.FontAttr.height_enable 1
@@ -258,7 +258,7 @@ csym_dial.ViewLabelMarkA2.FrameAttr.frame_enable 1
 csym_dial.ViewLabelMarkA2.FrameAttr.line_colour_enable 1
 csym_dial.ViewLabelMarkA3.aInFile ""
 csym_dial.ViewLabelMarkA3.aOutFile ""
-csym_dial.ViewLabelMarkA3.ContentString ""
+csym_dial.ViewLabelMarkA3.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="82"><Format font="ARIAL" color="153" height="3.969" hidden="0" override="1"/></Element></MarkPart></Mark>"
 csym_dial.ViewLabelMarkA3.ShowOn 0
 csym_dial.ViewLabelMarkA3.TextPosition 3
 csym_dial.ViewLabelMarkA3.TextRotation 0
@@ -314,7 +314,7 @@ csym_dial.ViewLabelMarkA5.ContentString ""
 csym_dial.ViewLabelMarkA5.ShowOn 0
 csym_dial.ViewLabelMarkA5.TextPosition 5
 csym_dial.ViewLabelMarkA5.TextRotation 0
-csym_dial.ViewLabelMarkA5.HorizontalOffset -10.000000
+csym_dial.ViewLabelMarkA5.HorizontalOffset 0.000000
 csym_dial.ViewLabelMarkA5.VerticalOffset 0.000000
 csym_dial.ViewLabelMarkA5.Alignment 1
 csym_dial.ViewLabelMarkA5.Content_en 1

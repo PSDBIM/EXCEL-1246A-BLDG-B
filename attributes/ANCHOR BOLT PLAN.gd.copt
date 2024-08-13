@@ -1,11 +1,23 @@
 TITLE_CLASSIFIER 
 {
     Version= 1.00 
-    Count= 1 
+    Count= 3 
     SECTION_CLASSIFIER_GROUP 
     {
-        albl_Part 
-        Secondary_Parts 
-        Hidden 
+        albl_Part_mark 
+        Anchor_Bolts 
+        No_Part_Mark 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        Leveling_Plate 
+        Leveling_Plate 
+        }
+    SECTION_CLASSIFIER_GROUP 
+    {
+        albl_Part_mark 
+        columns 
+        Column-mark-ABplan 
         }
     }

@@ -1,4 +1,4 @@
-grid_dial.in_file "EXCEL_GRID"
+grid_dial.in_file "standard"
 grid_dial.out_file "EXCEL_GRID"
 grid_dial.grid_on 0
 grid_dial.drawing_grid_on 0
@@ -7,14 +7,14 @@ grid_dial.line_type 4
 grid_dial.line_colour 159
 grid_dial.text_frame 3
 grid_dial.text_colour 153
-grid_dial.text_height 3.968750
-grid_dial.offset 0.000000
+grid_dial.text_height 4.762500
+grid_dial.offset 19.050000
 grid_dial.offset2 9.921875
 grid_dial.text_place_top 1
-grid_dial.text_place_bottom 1
+grid_dial.text_place_bottom 0
 grid_dial.text_place_left 1
-grid_dial.text_place_right 1
-grid_dial.FontName "Arial Bold"
+grid_dial.text_place_right 0
+grid_dial.FontName "Arial"
 grid_dial.grid_on_en 1
 grid_dial.drawing_grid_on_en 1
 grid_dial.GridObjectGridOnEn 1

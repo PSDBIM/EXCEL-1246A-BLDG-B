@@ -1,5 +1,5 @@
 joint_attributes.saveas_file "2 SIDED TO COL"
-joint_attributes.get_menu "standard"
+joint_attributes.get_menu "2 SIDED TO COL"
 joint_attributes.name_enable 0
 joint_attributes.AD_profile_len "0;0.0;0.0"
 joint_attributes.AD_profile ";;;;;;;"
@@ -82,15 +82,15 @@ joint_attributes.prefix_pos15 "a"
 joint_attributes.cprof ""
 joint_attributes.partname4 ""
 joint_attributes.mat4 ""
-joint_attributes.startno_pos4 -2147483648
-joint_attributes.prefix_pos4 ""
-joint_attributes.hj4 -2147483648.000000
-joint_attributes.bj4 -2147483648.000000
+joint_attributes.startno_pos4 1
+joint_attributes.prefix_pos4 "ps"
+joint_attributes.hj4 152.400000
+joint_attributes.bj4 152.400000
 joint_attributes.tj4 12.700000
 joint_attributes.partname3 ""
 joint_attributes.mat3 ""
-joint_attributes.startno_pos13 -2147483648
-joint_attributes.prefix_pos13 ""
+joint_attributes.startno_pos13 1
+joint_attributes.prefix_pos13 "ps"
 joint_attributes.hj3 152.400000
 joint_attributes.bj3 152.400000
 joint_attributes.tj3 12.700000
@@ -109,14 +109,14 @@ joint_attributes.adist3 -2147483648.000000
 joint_attributes.bdist3 -2147483648.000000
 joint_attributes.partname2 ""
 joint_attributes.mat2 ""
-joint_attributes.startno_pos2 -2147483648
-joint_attributes.prefix_pos2 ""
+joint_attributes.startno_pos2 1
+joint_attributes.prefix_pos2 "ps"
 joint_attributes.hj2 152.400000
 joint_attributes.bj2 279.400000
 joint_attributes.tj2 12.700000
 joint_attributes.ctab4 1
 joint_attributes.bdist4 -2147483648.000000
-joint_attributes.adist4 82.550000
+joint_attributes.adist4 88.900000
 joint_attributes.movedia 0
 joint_attributes.extralen 0.000000
 joint_attributes.nut2 0

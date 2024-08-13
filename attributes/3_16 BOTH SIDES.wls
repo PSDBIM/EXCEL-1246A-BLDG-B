@@ -3,7 +3,7 @@ wld_dial.out_file "3_16 BOTH SIDES"
 wld_dial.weld_colour_enable 1
 wld_dial.weld_colour 153
 wld_dial.wheight_enable 1
-wld_dial.wheight 3.175000
+wld_dial.wheight 2.381250
 wld_dial.line_colour_enable 1
 wld_dial.line_colour 153
 wld_dial.line_shape_enable 1
@@ -20,7 +20,7 @@ wld_dial.w_angle 0.000000
 wld_dial.w_angle2_enable 1
 wld_dial.w_angle2 0.000000
 wld_dial.w_size_enable 1
-wld_dial.w_size 4.762500
+wld_dial.w_size 0.000000
 wld_dial.w_finish_enable 1
 wld_dial.w_finish 0
 wld_dial.w_finish2_enable 1

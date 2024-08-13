@@ -3,7 +3,7 @@ wld_dial.out_file "ALL AROUND3/16"
 wld_dial.weld_colour_enable 1
 wld_dial.weld_colour 153
 wld_dial.wheight_enable 1
-wld_dial.wheight 2.381250
+wld_dial.wheight 3.175000
 wld_dial.line_colour_enable 1
 wld_dial.line_colour 153
 wld_dial.line_shape_enable 1
@@ -57,10 +57,8 @@ wld_dial.edge_around_enable 1
 wld_dial.w_around 1
 wld_dial.workshop_site_enable 1
 wld_dial.w_workshop 0
-wld_dial.w_IntermittentAbove_enable 1
-wld_dial.w_IntermittentAbove 1
-wld_dial.w_IntermittentBelow_enable 1
-wld_dial.w_IntermittentBelow 1
+wld_dial.w_Stitch_enable 1
+wld_dial.w_Stitch 0
 wld_dial.FontName_en 1
 wld_dial.FontName "Arial"
 wld_dial.PrefixAboveLine_enable 1

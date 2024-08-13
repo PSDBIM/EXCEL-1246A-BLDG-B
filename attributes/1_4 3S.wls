@@ -52,7 +52,7 @@ wld_dial.w_EffectiveThroatAbove 0.000000
 wld_dial.w_RootOpeningAbove_enable 1
 wld_dial.w_RootOpeningAbove 0.000000
 wld_dial.w_weld_enable 1
-wld_dial.w_weld "3 SIDESTYP"
+wld_dial.w_weld "3-SIDESTYP."
 wld_dial.edge_around_enable 1
 wld_dial.w_around 0
 wld_dial.workshop_site_enable 1

@@ -21,13 +21,13 @@ H 2
 2006.600000 30.162500
 60.325000 44.450000
 L 
-I 254.000000
+I 60.325000
 
 XML <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 XML <!DOCTYPE HardStamp><HardStamp>
 XML <HardStampPart>
 XML <UserText>
-XML 23071  
+XML 23051  
 XML </UserText>
 XML </HardStampPart>
 XML <HardStampPart>

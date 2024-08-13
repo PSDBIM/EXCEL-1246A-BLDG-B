@@ -1,8 +1,8 @@
-go_rectangle_dial.in_file "standard"
+go_rectangle_dial.in_file "CSS CONC"
 go_rectangle_dial.out_file "CSS CONC"
 go_rectangle_dial.linetype 1
 go_rectangle_dial.color 159
-go_rectangle_dial.hatch_type 7728
+go_rectangle_dial.hatch_type 2060
 go_rectangle_dial.hatch_name "AR-CONC"
 go_rectangle_dial.hatch_color 159
 go_rectangle_dial.bulge 0.000000
@@ -31,7 +31,7 @@ go_rectangle_dial.fo_attr.extra_info ""
 go_rectangle_dial.fo_attr.scale_x 0.000000
 go_rectangle_dial.fo_attr.scale_y 0.000000
 go_rectangle_dial.fo_attr.scaling_type 0
-go_rectangle_dial.fo_attr.text_color 0
+go_rectangle_dial.fo_attr.text_color 152
 go_rectangle_dial.fo_attr.text_height 0.000000
 go_rectangle_dial.fo_attr.text_proportion 0.000000
 go_rectangle_dial.fo_attr.text_slant 0.000000

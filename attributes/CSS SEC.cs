@@ -1,9 +1,9 @@
 csym_dial.in_file "CSS SEC"
 csym_dial.out_file "CSS SEC"
-csym_dial.label_text "F"
+csym_dial.label_text "A"
 csym_dial.WidthOffset1 2.976563
 csym_dial.WidthOffset2 -6.548437
-csym_dial.LengthOffset 12.700000
+csym_dial.LengthOffset 6.350000
 csym_dial.ArrowLength 0.000000
 csym_dial.ArrowWidth 25.400000
 csym_dial.CutLineSide 3
@@ -18,7 +18,7 @@ csym_dial.aSectionMarkA5 ""
 csym_dial.SectionMarkLeftSymbolIndex 177
 csym_dial.SectionMarkLeftSymbolSize 15.875000
 csym_dial.SectionMarkRightSymbolIndex 0
-csym_dial.SectionMarkRightSymbolSize 6.350000
+csym_dial.SectionMarkRightSymbolSize 15.875000
 csym_dial.SectionMarkSymbolColor 153
 csym_dial.SectionMarkLeftSymbolPositionX 0.000000
 csym_dial.SectionMarkLeftSymbolPositionY 0.000000
@@ -129,7 +129,7 @@ csym_dial.SectionMarkA2.FrameAttr.line_colour_enable 1
 csym_dial.SectionMarkA3.aInFile ""
 csym_dial.SectionMarkA3.aOutFile ""
 csym_dial.SectionMarkA3.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="81"><Format font="Arial Bold" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart></Mark>"
-csym_dial.SectionMarkA3.ShowOn 1
+csym_dial.SectionMarkA3.ShowOn 0
 csym_dial.SectionMarkA3.TextPosition 3
 csym_dial.SectionMarkA3.TextRotation 0
 csym_dial.SectionMarkA3.HorizontalOffset 0.000000
@@ -155,7 +155,7 @@ csym_dial.SectionMarkA3.FrameAttr.line_colour_enable 1
 csym_dial.SectionMarkA4.aInFile ""
 csym_dial.SectionMarkA4.aOutFile ""
 csym_dial.SectionMarkA4.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="SOURCE_DRAWING_NAME" value="" subType="84"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart></Mark>"
-csym_dial.SectionMarkA4.ShowOn 1
+csym_dial.SectionMarkA4.ShowOn 0
 csym_dial.SectionMarkA4.TextPosition 4
 csym_dial.SectionMarkA4.TextRotation 0
 csym_dial.SectionMarkA4.HorizontalOffset 0.000000

@@ -7,23 +7,23 @@ pmark_dial.for_which_parts 1
 pmark_dial.in_all_views 0
 pmark_dial.OutOfPlane 1
 pmark_dial.text_type 1
-pmark_dial.text_colour 153
+pmark_dial.text_colour 161
 pmark_dial.frame_type 0
 pmark_dial.line_colour 153
 pmark_dial.Angle 0.000000
 pmark_dial.ArrowType 17
 pmark_dial.ArrowHeight 2.000000
 pmark_dial.ArrowLength 2.500000
-pmark_dial.height 3.175000
+pmark_dial.height 2.381250
 pmark_dial.default_size 0.000000
 pmark_dial.mark_nsfs 0
 pmark_dial.content_1 1
 pmark_dial.flags 0
 pmark_dial.mark_use_part_end 0
-pmark_dial.ContentString1 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="PART_POS" value="" subType="23"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><UserText>CTR'D<Format font="Arial" color="153" height="3.175" hidden="0"/></UserText></MarkPart><MarkPart groupid="0"><UserText><Format font="Arial" color="153" height="3.175" hidden="0"/></UserText></MarkPart></Mark>"
-pmark_dial.ContentString2 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="PART_POS" value="" subType="23"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><UserText>CTR'D<Format font="Arial" color="153" height="3.175" hidden="0"/></UserText></MarkPart><MarkPart groupid="0"><UserText><Format font="Arial" color="153" height="3.175" hidden="0"/></UserText></MarkPart></Mark>"
-pmark_dial.ContentString3 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="PART_POS" value="" subType="23"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><UserText>CTR'D<Format font="Arial" color="153" height="3.175" hidden="0"/></UserText></MarkPart><MarkPart groupid="0"><UserText><Format font="Arial" color="153" height="3.175" hidden="0"/></UserText></MarkPart></Mark>"
-pmark_dial.ContentString4 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="PART_POS" value="" subType="23"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><UserText>CTR'D<Format font="Arial" color="153" height="3.175" hidden="0"/></UserText></MarkPart><MarkPart groupid="0"><UserText><Format font="Arial" color="153" height="3.175" hidden="0"/></UserText></MarkPart></Mark>"
+pmark_dial.ContentString1 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="2.381" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><Element name="PROFILE" value="" subType="24"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><UserText>XCONT.<Format font="Arial" color="153" height="2.381" hidden="0"/></UserText></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><UserText>REF E18~ E20<Format font="Arial" color="153" height="2.381" hidden="0"/></UserText></MarkPart></Mark>"
+pmark_dial.ContentString2 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="2.381" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><Element name="PROFILE" value="" subType="24"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><UserText>XCONT.<Format font="Arial" color="153" height="2.381" hidden="0"/></UserText></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><UserText>REF E18~ E20<Format font="Arial" color="153" height="2.381" hidden="0"/></UserText></MarkPart></Mark>"
+pmark_dial.ContentString3 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="2.381" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><Element name="PROFILE" value="" subType="24"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><UserText>XCONT.<Format font="Arial" color="153" height="2.381" hidden="0"/></UserText></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><UserText>REF E18~ E20<Format font="Arial" color="153" height="2.381" hidden="0"/></UserText></MarkPart></Mark>"
+pmark_dial.ContentString4 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="2.381" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><Element name="PROFILE" value="" subType="24"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><UserText>XCONT.<Format font="Arial" color="153" height="2.381" hidden="0"/></UserText></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><UserText>REF E18~ E20<Format font="Arial" color="153" height="2.381" hidden="0"/></UserText></MarkPart></Mark>"
 pmark_dial.ChamferContentString ""
 pmark_dial.PourContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="MATERIAL" value="" subType="10"><Format font="Arial" color="155" height="2.500" hidden="0"/></Element></MarkPart></Mark>"
 pmark_dial.PourBreakContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>POUR BREAK<Format font="Arial" color="155" height="2.500" hidden="0"/></UserText></MarkPart></Mark>"
@@ -67,8 +67,8 @@ pmark_dial.txpl.quarter_1 1
 pmark_dial.txpl.quarter_2 2
 pmark_dial.txpl.quarter_3 4
 pmark_dial.txpl.quarter_4 8
-pmark_dial.txpl.text_freepl_min 12.700000
-pmark_dial.txpl.text_freepl_margin 6.350000
+pmark_dial.txpl.text_freepl_min 25.400000
+pmark_dial.txpl.text_freepl_margin 9.525000
 pmark_dial.txpl.text_place_en 1
 pmark_dial.txpl.text_quarter_en 1
 pmark_dial.txpl.text_freepl_min_en 1

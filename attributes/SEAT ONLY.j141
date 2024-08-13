@@ -1,5 +1,5 @@
 joint_attributes.saveas_file "SEAT ONLY"
-joint_attributes.get_menu "standard"
+joint_attributes.get_menu "SEAT ONLY"
 joint_attributes.name_enable 0
 joint_attributes.AD_profile_len "0"
 joint_attributes.AD_profile ";;;;;;;"
@@ -32,7 +32,6 @@ joint_attributes.gdist4 -2147483648.000000
 joint_attributes.gdist5 -2147483648.000000
 joint_attributes.prefix_pos19 ""
 joint_attributes.startno_pos19 -2147483648
-joint_attributes.bstring ""
 joint_attributes.prefix_pos20 ""
 joint_attributes.startno_pos20 -2147483648
 joint_attributes.dstring ""
@@ -60,6 +59,8 @@ joint_attributes.b_rath_height2 -2147483648.000000
 joint_attributes.b_rath_length -2147483648.000000
 joint_attributes.b_rath_length2 -2147483648.000000
 joint_attributes.assembly_type10 -2147483648
+joint_attributes.h -2147483648.000000
+joint_attributes.dist -2147483648.000000
 joint_attributes.lwd4 ""
 joint_attributes.nw4 -2147483648
 joint_attributes.rw41 -2147483648.000000
@@ -70,6 +71,8 @@ joint_attributes.rb41 -2147483648.000000
 joint_attributes.lba4 -2147483648.000000
 joint_attributes.lwa4 -2147483648.000000
 joint_attributes.atab6 -2147483648
+joint_attributes.bdist2 -2147483648
+joint_attributes.bdist3 -2147483648
 joint_attributes.tol4 -2147483648.000000
 joint_attributes.gdist3 -2147483648.000000
 joint_attributes.etab5 0
@@ -83,7 +86,9 @@ joint_attributes.thread_in4 1
 joint_attributes.tolerance4 -2147483648.000000
 joint_attributes.screwdin4 ""
 joint_attributes.diameter4 -2147483648.000000
-joint_attributes.lwd3 "50.8"
+joint_attributes.epr2 -2147483648.000000
+joint_attributes.col -2147483648.000000
+joint_attributes.lwd3 "76.2"
 joint_attributes.nw3 -2147483648
 joint_attributes.rw31 38.100000
 joint_attributes.rw32 38.100000
@@ -124,11 +129,13 @@ joint_attributes.edist3 1
 joint_attributes.r2 -2147483648.000000
 joint_attributes.r1 -2147483648.000000
 joint_attributes.ctab1 0
+joint_attributes.astring ""
+joint_attributes.bstring ""
 joint_attributes.partname9 "ANGLE"
-joint_attributes.mat9 ""
+joint_attributes.mat9 "A36"
 joint_attributes.startno_pos1 1
-joint_attributes.prefix_pos1 "a"
-joint_attributes.cprof "L3X3X1/4"
+joint_attributes.prefix_pos1 "aS"
+joint_attributes.cprof "L4X4X3/8"
 joint_attributes.partname10 ""
 joint_attributes.mat10 ""
 joint_attributes.startno_pos2 -2147483648
@@ -224,6 +231,8 @@ joint_attributes.ddist1 101.600000
 joint_attributes.atab4 1
 joint_attributes.atab3 1
 joint_attributes.btab5 2
+joint_attributes.partname11 ""
+joint_attributes.partname12 ""
 joint_attributes.partname2 "ANGLE"
 joint_attributes.startno_pos14 1
 joint_attributes.prefix_pos14 "A"
@@ -249,7 +258,7 @@ joint_attributes.e2 -2147483648.000000
 joint_attributes.e1 -2147483648.000000
 joint_attributes.use_externaldesign -2147483648
 joint_attributes.use_check -2147483648
-joint_attributes.designcode -2147483648
+joint_attributes.designcode 0
 joint_attributes.use_udl -2147483648
 joint_attributes.udl_percent -2147483648.000000
 joint_attributes.shear_force1 -2147483648.000000
@@ -258,6 +267,7 @@ joint_attributes.bending_moment1 -2147483648.000000
 joint_attributes.bdist5 0
 joint_attributes.tpl8 -2147483648
 joint_attributes.atab1 2
+joint_attributes.a -2147483648.000000
 joint_attributes.extralen 0.000000
 joint_attributes.nut2 0
 joint_attributes.nut1 1
@@ -281,8 +291,8 @@ joint_attributes.assembly_type 0
 joint_attributes.long_holes 0
 joint_attributes.holedirection 0
 joint_attributes.holetype 0
-joint_attributes.longholex 0.000000
 joint_attributes.longholey 0.000000
+joint_attributes.longholex 0.000000
 joint_attributes.thread_in 1
 joint_attributes.tolerance -2147483648.000000
 joint_attributes.screwdin ""

@@ -1148,3 +1148,7 @@ ASSERT: 22.07.2024 10:46:22 REASON: (!"chk_check_object(object)"), File: fun_obj
 ASSERT: 22.07.2024 10:46:22 REASON: (!"chk_check_object(object)"), File: fun_objects.cpp, Line: 109
 ASSERT: 22.07.2024 10:46:22 REASON: (!"chk_check_object(object)"), File: fun_objects.cpp, Line: 109
 ASSERT: 22.07.2024 10:46:22 REASON: (!"chk_check_object(object)"), File: fun_objects.cpp, Line: 109
+ASSERT: 10.08.2024 21:49:14 REASON: ("Incorrect world" && 0), File: gr_dotnet.cpp, Line: 215
+ASSERT: 11.08.2024 10:11:02 REASON: (!"chk_check_object(object)"), File: fun_objects.cpp, Line: 109
+ASSERT: 11.08.2024 10:11:02 REASON: (!"chk_check_object(object)"), File: fun_objects.cpp, Line: 109
+ASSERT: 11.08.2024 15:07:00 REASON: ("Incorrect world" && 0), File: gr_dotnet.cpp, Line: 215

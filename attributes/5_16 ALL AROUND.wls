@@ -1,4 +1,4 @@
-wld_dial.in_file "5_16 ALL AROUND"
+wld_dial.in_file "1_4 3S"
 wld_dial.out_file "5/16 ALL AROUND"
 wld_dial.weld_colour_enable 1
 wld_dial.weld_colour 153
@@ -52,7 +52,7 @@ wld_dial.w_EffectiveThroatAbove 0.000000
 wld_dial.w_RootOpeningAbove_enable 1
 wld_dial.w_RootOpeningAbove 0.000000
 wld_dial.w_weld_enable 1
-wld_dial.w_weld ""
+wld_dial.w_weld "TYP."
 wld_dial.edge_around_enable 1
 wld_dial.w_around 1
 wld_dial.workshop_site_enable 1

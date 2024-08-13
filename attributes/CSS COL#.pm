@@ -11,7 +11,7 @@ pmark_dial.text_colour 161
 pmark_dial.frame_type 2
 pmark_dial.line_colour 153
 pmark_dial.Angle 0.000000
-pmark_dial.ArrowType 16
+pmark_dial.ArrowType 17
 pmark_dial.ArrowHeight 2.000000
 pmark_dial.ArrowLength 2.500000
 pmark_dial.height 2.381250

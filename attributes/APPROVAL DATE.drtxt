@@ -1,6 +1,6 @@
 text_dial.in_file "APPROVAL DATE"
 text_dial.out_file "APPROVAL DATE"
-text_dial.text_io "FOR APPROVAL ONLYMAR-02-2022"
+text_dial.text_io "FOR APPROVAL ONLYJAN-12-2021"
 text_dial.font_name "Arial"
 text_dial.type 0
 text_dial.text_type 0

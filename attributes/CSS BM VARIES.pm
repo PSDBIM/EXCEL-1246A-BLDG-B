@@ -1,4 +1,4 @@
-pmark_dial.in_file "standard"
+pmark_dial.in_file "CSS BM VARIES"
 pmark_dial.out_file "CSS BM VARIES"
 pmark_dial.create 0
 pmark_dial.for_main 1
@@ -6,7 +6,7 @@ pmark_dial.for_sec 1
 pmark_dial.for_which_parts 1
 pmark_dial.in_all_views 0
 pmark_dial.OutOfPlane 1
-pmark_dial.text_type 2
+pmark_dial.text_type 11
 pmark_dial.text_colour 161
 pmark_dial.frame_type 0
 pmark_dial.line_colour 153

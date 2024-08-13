@@ -20,7 +20,7 @@ wld_dial.w_angle 0.000000
 wld_dial.w_angle2_enable 1
 wld_dial.w_angle2 0.000000
 wld_dial.w_size_enable 1
-wld_dial.w_size 7.937500
+wld_dial.w_size 0.000000
 wld_dial.w_finish_enable 1
 wld_dial.w_finish 0
 wld_dial.w_finish2_enable 1
@@ -52,13 +52,15 @@ wld_dial.w_EffectiveThroatAbove 0.000000
 wld_dial.w_RootOpeningAbove_enable 1
 wld_dial.w_RootOpeningAbove 0.000000
 wld_dial.w_weld_enable 1
-wld_dial.w_weld "TYP"
+wld_dial.w_weld "TYP."
 wld_dial.edge_around_enable 1
 wld_dial.w_around 0
 wld_dial.workshop_site_enable 1
 wld_dial.w_workshop 0
-wld_dial.w_Stitch_enable 0
-wld_dial.w_Stitch 0
+wld_dial.w_IntermittentAbove_enable 1
+wld_dial.w_IntermittentAbove 0
+wld_dial.w_IntermittentBelow_enable 1
+wld_dial.w_IntermittentBelow 0
 wld_dial.FontName_en 1
 wld_dial.FontName "Arial"
 wld_dial.PrefixAboveLine_enable 1

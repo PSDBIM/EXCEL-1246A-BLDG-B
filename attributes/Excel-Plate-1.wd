@@ -31,8 +31,8 @@ wdraw_dial.DetailLabel_en 1
 wdraw_dial.DrawingFilter_en 1
 wdraw_dial.DrawingNeighborPartFilter_en 1
 wdraw_dial.PourBreaks_en 1
-wdraw_dial.description "PLATE"
-wdraw_dial.title_1 " "
+wdraw_dial.description "ANGLE"
+wdraw_dial.title_1 ""
 wdraw_dial.title_2 " "
 wdraw_dial.title_3 " "
 wdraw_dial.bound_type 0
@@ -43,7 +43,7 @@ wdraw_dial.UseDetailedObjectLevelSettings_en 1
 wdraw_dial.dl.in_file ""
 wdraw_dial.dl.out_file ""
 wdraw_dial.dl.layout "SinglePrtDrg"
-wdraw_dial.dl.size_searching_mode 0
+wdraw_dial.dl.size_searching_mode 1
 wdraw_dial.dl.take_fixed 1
 wdraw_dial.dl.take_calc 0
 wdraw_dial.dl.width 190.000000
@@ -82,7 +82,7 @@ wdraw_dial.dl.ListHiddenObjectsInReports_en 1
 wdraw_dial.dl.CutViewsInLineWithMain_en 1
 wdraw_dial.dv.in_file " "
 wdraw_dial.dv.out_file ""
-wdraw_dial.dv.main_scale 12.000000
+wdraw_dial.dv.main_scale 6.000000
 wdraw_dial.dv.coord_sys 1
 wdraw_dial.dv.coord_sys_x_rotate 0
 wdraw_dial.dv.coord_sys_y_rotate 0
@@ -91,7 +91,7 @@ wdraw_dial.dv.cre_front_view 1
 wdraw_dial.dv.cre_top_view 0
 wdraw_dial.dv.cre_back_view 0
 wdraw_dial.dv.cre_bottom_view 0
-wdraw_dial.dv.cre_cuts 0
+wdraw_dial.dv.cre_cuts 2
 wdraw_dial.dv.cre_end_views 0
 wdraw_dial.dv.Create3dView 0
 wdraw_dial.dv.aCreate3dViewAttrib "Current attributes"
@@ -452,7 +452,7 @@ wdraw_dial.dcd.RebarDimensionMark.RebarGroupMarkAttributes.CloseRebarDimMarkToFa
 wdraw_dial.dcd.CloseRebarDimMarkToFather 0
 wdraw_dial.dcd.position_to 0
 wdraw_dial.dcd.PartPositionTo 0
-wdraw_dial.dcd.main_part_bevel 0
+wdraw_dial.dcd.main_part_bevel 2
 wdraw_dial.dcd.main_part_bevel_angle 2
 wdraw_dial.dcd.combine_bolt_dim 0
 wdraw_dial.dcd.create_elevation_dims 0
@@ -552,7 +552,7 @@ wdraw_dial.dcd.UpdateGrouping_en 1
 wdraw_dial.dd.in_file " "
 wdraw_dial.dd.out_file ""
 wdraw_dial.dd.dim_type 1
-wdraw_dial.dd.angle_dim_type 2
+wdraw_dial.dd.angle_dim_type 4
 wdraw_dial.dd.radius_dim_type 0
 wdraw_dial.dd.curved_radial_dim_type 0
 wdraw_dial.dd.MainType 1
@@ -720,7 +720,7 @@ wdraw_dial.dp.SectionHatch.hatch_type 0
 wdraw_dial.dp.SectionHatch.hatch_name_en 1
 wdraw_dial.dp.SectionHatch.hatch_name "Automatic"
 wdraw_dial.dp.SectionHatch.hatch_color_en 1
-wdraw_dial.dp.SectionHatch.hatch_color 155
+wdraw_dial.dp.SectionHatch.hatch_color 159
 wdraw_dial.dp.SectionHatch.hatch_angle_en 1
 wdraw_dial.dp.SectionHatch.hatch_angle 0.000000
 wdraw_dial.dp.SectionHatch.hatch_factor_type_en 1
@@ -797,36 +797,36 @@ wdraw_dial.dnp.AddChamfers_en 1
 wdraw_dial.dnp.inner_contours_en 1
 wdraw_dial.dnp.PartHatch.hatch_type 0
 wdraw_dial.dnp.PartHatch.hatch_name_en 1
-wdraw_dial.dnp.PartHatch.hatch_name "None"
+wdraw_dial.dnp.PartHatch.hatch_name ""
 wdraw_dial.dnp.PartHatch.hatch_color_en 1
-wdraw_dial.dnp.PartHatch.hatch_color 155
+wdraw_dial.dnp.PartHatch.hatch_color 0
 wdraw_dial.dnp.PartHatch.hatch_angle_en 1
 wdraw_dial.dnp.PartHatch.hatch_angle 0.000000
 wdraw_dial.dnp.PartHatch.hatch_factor_type_en 1
-wdraw_dial.dnp.PartHatch.hatch_factor_type 1
+wdraw_dial.dnp.PartHatch.hatch_factor_type 0
 wdraw_dial.dnp.PartHatch.hatch_scale_x_en 1
-wdraw_dial.dnp.PartHatch.hatch_scale_x 2.000000
+wdraw_dial.dnp.PartHatch.hatch_scale_x 0.000000
 wdraw_dial.dnp.PartHatch.hatch_scale_y_en 1
-wdraw_dial.dnp.PartHatch.hatch_scale_y 1.000000
+wdraw_dial.dnp.PartHatch.hatch_scale_y 0.000000
 wdraw_dial.dnp.PartHatch.HatchAutomaticOrCustom_enable 1
-wdraw_dial.dnp.PartHatch.HatchAutomaticOrCustom 1
+wdraw_dial.dnp.PartHatch.HatchAutomaticOrCustom 0
 wdraw_dial.dnp.PartHatch.HatchBackgroundColor_enable 1
 wdraw_dial.dnp.PartHatch.HatchBackgroundColor 0
 wdraw_dial.dnp.SectionHatch.hatch_type 0
 wdraw_dial.dnp.SectionHatch.hatch_name_en 1
-wdraw_dial.dnp.SectionHatch.hatch_name "None"
+wdraw_dial.dnp.SectionHatch.hatch_name ""
 wdraw_dial.dnp.SectionHatch.hatch_color_en 1
-wdraw_dial.dnp.SectionHatch.hatch_color 155
+wdraw_dial.dnp.SectionHatch.hatch_color 0
 wdraw_dial.dnp.SectionHatch.hatch_angle_en 1
 wdraw_dial.dnp.SectionHatch.hatch_angle 0.000000
 wdraw_dial.dnp.SectionHatch.hatch_factor_type_en 1
-wdraw_dial.dnp.SectionHatch.hatch_factor_type 1
+wdraw_dial.dnp.SectionHatch.hatch_factor_type 0
 wdraw_dial.dnp.SectionHatch.hatch_scale_x_en 1
-wdraw_dial.dnp.SectionHatch.hatch_scale_x 2.000000
+wdraw_dial.dnp.SectionHatch.hatch_scale_x 0.000000
 wdraw_dial.dnp.SectionHatch.hatch_scale_y_en 1
-wdraw_dial.dnp.SectionHatch.hatch_scale_y 1.000000
+wdraw_dial.dnp.SectionHatch.hatch_scale_y 0.000000
 wdraw_dial.dnp.SectionHatch.HatchAutomaticOrCustom_enable 1
-wdraw_dial.dnp.SectionHatch.HatchAutomaticOrCustom 1
+wdraw_dial.dnp.SectionHatch.HatchAutomaticOrCustom 0
 wdraw_dial.dnp.SectionHatch.HatchBackgroundColor_enable 1
 wdraw_dial.dnp.SectionHatch.HatchBackgroundColor 0
 wdraw_dial.ds.in_file ""
@@ -1036,7 +1036,7 @@ wdraw_dial.dpm.FontAttr.font_enable 1
 wdraw_dial.dpm.FontAttr.text_colour_enable 1
 wdraw_dial.dpm.FontAttr.height_enable 1
 wdraw_dial.dpm.FrameAttr.frame_type 1
-wdraw_dial.dpm.FrameAttr.line_colour 153
+wdraw_dial.dpm.FrameAttr.line_colour 161
 wdraw_dial.dpm.FrameAttr.frame_enable 1
 wdraw_dial.dpm.FrameAttr.line_colour_enable 1
 wdraw_dial.dpm.UnitAttr.Unit 0
@@ -1253,12 +1253,12 @@ wdraw_dial.dsm.txpl.text_freepl_min_en 1
 wdraw_dial.dsm.txpl.text_freepl_margin_en 1
 wdraw_dial.dsm.FontAttr.font_name "Arial"
 wdraw_dial.dsm.FontAttr.text_colour 153
-wdraw_dial.dsm.FontAttr.height 3.175000
+wdraw_dial.dsm.FontAttr.height 2.381250
 wdraw_dial.dsm.FontAttr.font_enable 1
 wdraw_dial.dsm.FontAttr.text_colour_enable 1
 wdraw_dial.dsm.FontAttr.height_enable 1
 wdraw_dial.dsm.FrameAttr.frame_type 1
-wdraw_dial.dsm.FrameAttr.line_colour 153
+wdraw_dial.dsm.FrameAttr.line_colour 161
 wdraw_dial.dsm.FrameAttr.frame_enable 1
 wdraw_dial.dsm.FrameAttr.line_colour_enable 1
 wdraw_dial.dsm.UnitAttr.Unit 0
@@ -1544,7 +1544,7 @@ wdraw_dial.dc.SectionMark.LengthOffset 12.700000
 wdraw_dial.dc.SectionMark.ArrowLength 9.525000
 wdraw_dial.dc.SectionMark.ArrowWidth 9.525000
 wdraw_dial.dc.SectionMark.CutLineSide 0
-wdraw_dial.dc.SectionMark.line_colour 165
+wdraw_dial.dc.SectionMark.line_colour 153
 wdraw_dial.dc.SectionMark.text_colour 158
 wdraw_dial.dc.SectionMark.fit_symbol 0
 wdraw_dial.dc.SectionMark.aSectionMarkA1 "<< Mark >>"
@@ -1556,7 +1556,7 @@ wdraw_dial.dc.SectionMark.SectionMarkLeftSymbolIndex 1000
 wdraw_dial.dc.SectionMark.SectionMarkLeftSymbolSize 6.350000
 wdraw_dial.dc.SectionMark.SectionMarkRightSymbolIndex 1000
 wdraw_dial.dc.SectionMark.SectionMarkRightSymbolSize 6.350000
-wdraw_dial.dc.SectionMark.SectionMarkSymbolColor 165
+wdraw_dial.dc.SectionMark.SectionMarkSymbolColor 153
 wdraw_dial.dc.SectionMark.SectionMarkLeftSymbolPositionX 0.000000
 wdraw_dial.dc.SectionMark.SectionMarkLeftSymbolPositionY 0.000000
 wdraw_dial.dc.SectionMark.SectionMarkRightSymbolPositionX 0.000000
@@ -1567,7 +1567,7 @@ wdraw_dial.dc.SectionMark.aViewLabelMarkA3 ""
 wdraw_dial.dc.SectionMark.aViewLabelMarkA4 ""
 wdraw_dial.dc.SectionMark.aViewLabelMarkA5 ""
 wdraw_dial.dc.SectionMark.ViewLabelMarkSymbolIndex 0
-wdraw_dial.dc.SectionMark.ViewLabelMarkSymbolColor 165
+wdraw_dial.dc.SectionMark.ViewLabelMarkSymbolColor 153
 wdraw_dial.dc.SectionMark.ViewLabelMarkSymbolSize 4.960938
 wdraw_dial.dc.SectionMark.ViewLabelMarkSymbolPositionX 0.000000
 wdraw_dial.dc.SectionMark.ViewLabelMarkSymbolPositionY 0.000000
@@ -1613,7 +1613,7 @@ wdraw_dial.dc.SectionMark.ViewLabelLineLength_en 1
 wdraw_dial.dc.SectionMark.ViewLabelHorizontalPosition_en 1
 wdraw_dial.dc.SectionMark.SectionMarkA1.aInFile ""
 wdraw_dial.dc.SectionMark.SectionMarkA1.aOutFile ""
-wdraw_dial.dc.SectionMark.SectionMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="165" height="3.969" hidden="0"/></Element></MarkPart></Mark>"
+wdraw_dial.dc.SectionMark.SectionMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="3.969" hidden="0" override="1"/></Element></MarkPart></Mark>"
 wdraw_dial.dc.SectionMark.SectionMarkA1.ShowOn 0
 wdraw_dial.dc.SectionMark.SectionMarkA1.TextPosition 0
 wdraw_dial.dc.SectionMark.SectionMarkA1.TextRotation 0
@@ -1628,7 +1628,7 @@ wdraw_dial.dc.SectionMark.SectionMarkA1.VerticalOffset_en 1
 wdraw_dial.dc.SectionMark.SectionMarkA1.TextRotation_en 1
 wdraw_dial.dc.SectionMark.SectionMarkA1.Alignment_en 1
 wdraw_dial.dc.SectionMark.SectionMarkA1.FontAttr.font_name "Arial"
-wdraw_dial.dc.SectionMark.SectionMarkA1.FontAttr.text_colour 165
+wdraw_dial.dc.SectionMark.SectionMarkA1.FontAttr.text_colour 153
 wdraw_dial.dc.SectionMark.SectionMarkA1.FontAttr.height 3.968750
 wdraw_dial.dc.SectionMark.SectionMarkA1.FontAttr.font_enable 1
 wdraw_dial.dc.SectionMark.SectionMarkA1.FontAttr.text_colour_enable 1
@@ -1743,7 +1743,7 @@ wdraw_dial.dc.SectionMark.SectionMarkA5.FrameAttr.frame_enable 1
 wdraw_dial.dc.SectionMark.SectionMarkA5.FrameAttr.line_colour_enable 1
 wdraw_dial.dc.SectionMark.ViewLabelMarkA1.aInFile ""
 wdraw_dial.dc.SectionMark.ViewLabelMarkA1.aOutFile ""
-wdraw_dial.dc.SectionMark.ViewLabelMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="165" height="2.977" hidden="0"/></Element></MarkPart><MarkPart groupid="0"><UserText>-<Format font="Arial" color="165" height="2.977" hidden="0"/></UserText></MarkPart><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="165" height="2.977" hidden="0"/></Element></MarkPart></Mark>"
+wdraw_dial.dc.SectionMark.ViewLabelMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><UserText>-<Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></UserText></MarkPart><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart></Mark>"
 wdraw_dial.dc.SectionMark.ViewLabelMarkA1.ShowOn 0
 wdraw_dial.dc.SectionMark.ViewLabelMarkA1.TextPosition 0
 wdraw_dial.dc.SectionMark.ViewLabelMarkA1.TextRotation 0
@@ -1758,8 +1758,8 @@ wdraw_dial.dc.SectionMark.ViewLabelMarkA1.VerticalOffset_en 1
 wdraw_dial.dc.SectionMark.ViewLabelMarkA1.TextRotation_en 1
 wdraw_dial.dc.SectionMark.ViewLabelMarkA1.Alignment_en 1
 wdraw_dial.dc.SectionMark.ViewLabelMarkA1.FontAttr.font_name "Arial"
-wdraw_dial.dc.SectionMark.ViewLabelMarkA1.FontAttr.text_colour 165
-wdraw_dial.dc.SectionMark.ViewLabelMarkA1.FontAttr.height 2.976563
+wdraw_dial.dc.SectionMark.ViewLabelMarkA1.FontAttr.text_colour 153
+wdraw_dial.dc.SectionMark.ViewLabelMarkA1.FontAttr.height 3.175000
 wdraw_dial.dc.SectionMark.ViewLabelMarkA1.FontAttr.font_enable 1
 wdraw_dial.dc.SectionMark.ViewLabelMarkA1.FontAttr.text_colour_enable 1
 wdraw_dial.dc.SectionMark.ViewLabelMarkA1.FontAttr.height_enable 1

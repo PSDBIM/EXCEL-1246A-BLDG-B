@@ -31,10 +31,10 @@ adraw_dial.DetailLabel_en 1
 adraw_dial.DrawingFilter_en 1
 adraw_dial.DrawingNeighborPartFilter_en 1
 adraw_dial.PourBreaks_en 1
-adraw_dial.description "BENT PLATE"
-adraw_dial.title_1 " "
+adraw_dial.description "END CLOSER BENT PLATE"
+adraw_dial.title_1 "NEW IFC-NOV-14-2018"
 adraw_dial.title_2 " "
-adraw_dial.title_3 " "
+adraw_dial.title_3 ""
 adraw_dial.bound_type 0
 adraw_dial.sheet_number 0
 adraw_dial.StyleName "EXCEL_BENT PLATE-1"
@@ -59,7 +59,7 @@ adraw_dial.dl.cut_scales "12 8"
 adraw_dial.dl.als_width 406.400000
 adraw_dial.dl.als_height 254.000000
 adraw_dial.dl.adjust_min_dist 1
-adraw_dial.dl.include_single_parts 1
+adraw_dial.dl.include_single_parts 0
 adraw_dial.dl.single_attrib_file "Current attributes"
 adraw_dial.dl.placing_direction 0
 adraw_dial.dl.ListHiddenObjectsInReports 1
@@ -88,7 +88,7 @@ adraw_dial.dv.coord_sys_x_rotate 0
 adraw_dial.dv.coord_sys_y_rotate 0
 adraw_dial.dv.coord_sys_z_rotate 90.000000
 adraw_dial.dv.cre_front_view 2
-adraw_dial.dv.cre_top_view 0
+adraw_dial.dv.cre_top_view 2
 adraw_dial.dv.cre_back_view 0
 adraw_dial.dv.cre_bottom_view 0
 adraw_dial.dv.cre_cuts 0
@@ -718,7 +718,7 @@ adraw_dial.dp.PartHatch.HatchBackgroundColor_enable 1
 adraw_dial.dp.PartHatch.HatchBackgroundColor 0
 adraw_dial.dp.SectionHatch.hatch_type 0
 adraw_dial.dp.SectionHatch.hatch_name_en 1
-adraw_dial.dp.SectionHatch.hatch_name "Automatic"
+adraw_dial.dp.SectionHatch.hatch_name "None"
 adraw_dial.dp.SectionHatch.hatch_color_en 1
 adraw_dial.dp.SectionHatch.hatch_color 155
 adraw_dial.dp.SectionHatch.hatch_angle_en 1
@@ -797,36 +797,36 @@ adraw_dial.dnp.AddChamfers_en 1
 adraw_dial.dnp.inner_contours_en 1
 adraw_dial.dnp.PartHatch.hatch_type 0
 adraw_dial.dnp.PartHatch.hatch_name_en 1
-adraw_dial.dnp.PartHatch.hatch_name "None"
+adraw_dial.dnp.PartHatch.hatch_name ""
 adraw_dial.dnp.PartHatch.hatch_color_en 1
-adraw_dial.dnp.PartHatch.hatch_color 155
+adraw_dial.dnp.PartHatch.hatch_color 0
 adraw_dial.dnp.PartHatch.hatch_angle_en 1
 adraw_dial.dnp.PartHatch.hatch_angle 0.000000
 adraw_dial.dnp.PartHatch.hatch_factor_type_en 1
-adraw_dial.dnp.PartHatch.hatch_factor_type 1
+adraw_dial.dnp.PartHatch.hatch_factor_type 0
 adraw_dial.dnp.PartHatch.hatch_scale_x_en 1
-adraw_dial.dnp.PartHatch.hatch_scale_x 2.000000
+adraw_dial.dnp.PartHatch.hatch_scale_x 0.000000
 adraw_dial.dnp.PartHatch.hatch_scale_y_en 1
-adraw_dial.dnp.PartHatch.hatch_scale_y 1.000000
+adraw_dial.dnp.PartHatch.hatch_scale_y 0.000000
 adraw_dial.dnp.PartHatch.HatchAutomaticOrCustom_enable 1
-adraw_dial.dnp.PartHatch.HatchAutomaticOrCustom 1
+adraw_dial.dnp.PartHatch.HatchAutomaticOrCustom 0
 adraw_dial.dnp.PartHatch.HatchBackgroundColor_enable 1
 adraw_dial.dnp.PartHatch.HatchBackgroundColor 0
 adraw_dial.dnp.SectionHatch.hatch_type 0
 adraw_dial.dnp.SectionHatch.hatch_name_en 1
-adraw_dial.dnp.SectionHatch.hatch_name "None"
+adraw_dial.dnp.SectionHatch.hatch_name ""
 adraw_dial.dnp.SectionHatch.hatch_color_en 1
-adraw_dial.dnp.SectionHatch.hatch_color 155
+adraw_dial.dnp.SectionHatch.hatch_color 0
 adraw_dial.dnp.SectionHatch.hatch_angle_en 1
 adraw_dial.dnp.SectionHatch.hatch_angle 0.000000
 adraw_dial.dnp.SectionHatch.hatch_factor_type_en 1
-adraw_dial.dnp.SectionHatch.hatch_factor_type 1
+adraw_dial.dnp.SectionHatch.hatch_factor_type 0
 adraw_dial.dnp.SectionHatch.hatch_scale_x_en 1
-adraw_dial.dnp.SectionHatch.hatch_scale_x 2.000000
+adraw_dial.dnp.SectionHatch.hatch_scale_x 0.000000
 adraw_dial.dnp.SectionHatch.hatch_scale_y_en 1
-adraw_dial.dnp.SectionHatch.hatch_scale_y 1.000000
+adraw_dial.dnp.SectionHatch.hatch_scale_y 0.000000
 adraw_dial.dnp.SectionHatch.HatchAutomaticOrCustom_enable 1
-adraw_dial.dnp.SectionHatch.HatchAutomaticOrCustom 1
+adraw_dial.dnp.SectionHatch.HatchAutomaticOrCustom 0
 adraw_dial.dnp.SectionHatch.HatchBackgroundColor_enable 1
 adraw_dial.dnp.SectionHatch.HatchBackgroundColor 0
 adraw_dial.ds.in_file ""
@@ -970,7 +970,7 @@ adraw_dial.dpm.Angle 0.000000
 adraw_dial.dpm.ArrowType 17
 adraw_dial.dpm.ArrowHeight 0.000000
 adraw_dial.dpm.ArrowLength 0.000000
-adraw_dial.dpm.height 3.175000
+adraw_dial.dpm.height 4.762500
 adraw_dial.dpm.default_size 0.000000
 adraw_dial.dpm.mark_nsfs 0
 adraw_dial.dpm.content_1 0
@@ -986,7 +986,7 @@ adraw_dial.dpm.PourBreakContentString ""
 adraw_dial.dpm.leader_line_type 0
 adraw_dial.dpm.merge_dir 0
 adraw_dial.dpm.MergeMarks 1
-adraw_dial.dpm.CurrentContentTableNumber 1
+adraw_dial.dpm.CurrentContentTableNumber 0
 adraw_dial.dpm.ForSubassMain 1
 adraw_dial.dpm.ForSubassSecondary 1
 adraw_dial.dpm.UseHiddenLines 1

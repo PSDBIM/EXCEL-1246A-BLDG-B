@@ -1,6 +1,6 @@
 go_line_dial.in_file "standard"
 go_line_dial.out_file "standard"
-go_line_dial.linetype 1
+go_line_dial.linetype 3
 go_line_dial.color 153
 go_line_dial.arrow 0
 go_line_dial.arrow_type 16

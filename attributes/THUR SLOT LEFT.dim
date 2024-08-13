@@ -28,13 +28,13 @@ dim_dial.FontName "Arial"
 dim_dial.ShortExtensionLine 0
 dim_dial.CombineDims 0
 dim_dial.MinNumToCombine 3
-dim_dial.aLeftUpperTag ""
+dim_dial.aLeftUpperTag "THRU SLOT 5/8X"
 dim_dial.aLeftMiddleTag ""
-dim_dial.aLeftLowerTag ""
+dim_dial.aLeftLowerTag "ON CL"
 dim_dial.aMiddleLowerTag ""
-dim_dial.aRightLowerTag "ON CL"
+dim_dial.aRightLowerTag ""
 dim_dial.aRightMiddleTag ""
-dim_dial.aRightUpperTag "X1/2 THRU SLOT"
+dim_dial.aRightUpperTag ""
 dim_dial.aPrefix ""
 dim_dial.DimensionTextHidden 0
 dim_dial.aPostfix ""

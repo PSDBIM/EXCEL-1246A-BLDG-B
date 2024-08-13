@@ -1,4 +1,26 @@
-/Favorites
+/Favorites/COMPONENT/146/Shear plate simple (146)
+/Favorites/COMPONENT/1002/End plate detail (1002)
+/Favorites/COMPONENT/160/Joist to Beam, type 1 (160)
+/Favorites/COMPONENT/141/Clip angle (141)
+/Favorites/COMPONENT/161/Joist to Column, type 1 (161)
+/Favorites/COMPONENT/163/Joist to Column, type 2 (163)
+/Favorites/COMPONENT/143/Two sided clip angle (143)
+/Favorites/COMPONENT/41/Cranked beam (41)
+/Favorites/COMPONENT/1048/U.S. Seat detail (1048)
+/Favorites/COMPONENT/1064/Multiple Stiffeners (1064)
+/Favorites/COMPONENT/39/Seating (39)
+/Favorites/COMPONENT/11/Bolted gusset (11)
+/Favorites/COMPONENT/-1/Rat Hole
+/Favorites/COMPONENT/186/Column with stiffeners (186)
+/Favorites/COMPONENT/162/2-Sided Joist to Col. (162)
+/Favorites/COMPONENT/85/Stanchion weld (85)
+/Favorites/COMPONENT/189/Shear plate tube column (189)
+/Favorites/COMPONENT/1052/Circular base plates
+/Favorites/COMPONENT/-200000/Tube-MitreSaddle+Hole
+/Favorites/COMPONENT/182/Column with stiffeners W (182)
+/Favorites/COMPONENT/71/U.S. Base plate connection (71)
+/Favorites/COMPONENT/60/Wraparound gusset cross (60)
+/Favorites/COMPONENT/110/Windbrace connection (110)
 /Improved in 19.0
 /Improved in 19.0/Steel/COMPONENT/106/Apex haunch (106)
 /Improved in 19.0/Steel/COMPONENT/11/Bolted gusset (11)

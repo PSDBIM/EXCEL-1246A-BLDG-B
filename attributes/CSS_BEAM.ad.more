@@ -34,7 +34,7 @@ assemblydrawing_attributes.DR_NOTES11 ""
 assemblydrawing_attributes.DR_NOTES12 ""
 assemblydrawing_attributes.DR_SHOW_HOLD_INFO 0
 assemblydrawing_attributes.DR_SHOW_STACKEDREV 0
-assemblydrawing_attributes.DR_SHOW_GRID 0
+assemblydrawing_attributes.DR_SHOW_GRID 1
 assemblydrawing_attributes.DR_SHOW_PHASE 0
 assemblydrawing_attributes.DR_SHOW_FBOLTS 0
 assemblydrawing_attributes.REVISION_SELECTION -2147483648

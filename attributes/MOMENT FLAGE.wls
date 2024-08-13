@@ -1,4 +1,4 @@
-wld_dial.in_file "1_4 3 SIDES"
+wld_dial.in_file "MOMENT FLAGE"
 wld_dial.out_file "MOMENT FLAGE"
 wld_dial.weld_colour_enable 1
 wld_dial.weld_colour 153
@@ -26,7 +26,7 @@ wld_dial.w_finish 0
 wld_dial.w_finish2_enable 1
 wld_dial.w_finish2 0
 wld_dial.w_type_enable 1
-wld_dial.w_type 0
+wld_dial.w_type 4
 wld_dial.w_ftype_enable 1
 wld_dial.w_ftype 0
 wld_dial.w_length_enable 1
@@ -57,10 +57,8 @@ wld_dial.edge_around_enable 1
 wld_dial.w_around 0
 wld_dial.workshop_site_enable 1
 wld_dial.w_workshop 0
-wld_dial.w_IntermittentAbove_enable 1
-wld_dial.w_IntermittentAbove 0
-wld_dial.w_IntermittentBelow_enable 1
-wld_dial.w_IntermittentBelow 0
+wld_dial.w_Stitch_enable 1
+wld_dial.w_Stitch 0
 wld_dial.FontName_en 1
 wld_dial.FontName "Arial"
 wld_dial.PrefixAboveLine_enable 1

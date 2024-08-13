@@ -9,15 +9,15 @@ dia_model_view_attr.v1_depth_down 889.000000
 dia_model_view_attr.v1_xyz_enable 1
 dia_model_view_attr.v1_x1 0.000000
 dia_model_view_attr.v1_y1 0.000000
-dia_model_view_attr.v1_z1 0.000000
+dia_model_view_attr.v1_z1 24079.200000
 dia_model_view_attr.v1_x2 1000.000000
 dia_model_view_attr.v1_y2 0.000000
-dia_model_view_attr.v1_z2 0.000000
+dia_model_view_attr.v1_z2 24079.200000
 dia_model_view_attr.v1_x3 0.000000
 dia_model_view_attr.v1_y3 1000.000000
-dia_model_view_attr.v1_z3 0.000000
+dia_model_view_attr.v1_z3 24079.200000
 dia_model_view_attr.v1_name_enable 1
-dia_model_view_attr.v1_name "PLAN AT EL. "
+dia_model_view_attr.v1_name "(PLAN AT EL. )"
 dia_model_view_attr.v1_named_view ""
 dia_model_view_attr.v1_invoke_enable 1
 dia_model_view_attr.v1_invoke 0
@@ -32,8 +32,8 @@ dia_model_view_attr.v1_view_type 1
 dia_model_view_attr.v1_projection_enable 1
 dia_model_view_attr.v1_projection 0
 dia_model_view_attr.ViewUpdateRepresentationEnable 1
-dia_model_view_attr.Representation "standard"
-dia_model_view_attr.sd_model_objects_1 0
+dia_model_view_attr.Representation ""
+dia_model_view_attr.sd_model_objects_1 1
 dia_model_view_attr.sd_model_objects_2 1
 dia_model_view_attr.sd_model_objects_3 1
 dia_model_view_attr.sd_model_objects_4 0
@@ -41,7 +41,7 @@ dia_model_view_attr.sd_model_objects_5 0
 dia_model_view_attr.sd_model_objects_6 0
 dia_model_view_attr.sd_model_objects_8 0
 dia_model_view_attr.sd_model_objects_9 1
-dia_model_view_attr.sd_model_objects_10 0
+dia_model_view_attr.sd_model_objects_10 1
 dia_model_view_attr.sd_model_objects_11 1
 dia_model_view_attr.SdModelEnableAll 0
 dia_model_view_attr.UserPlaneVisibility 0
@@ -62,12 +62,12 @@ dia_model_view_attr.sd_joint_objects_8 0
 dia_model_view_attr.SdJointEnableAll 0
 dia_model_view_attr.UserPlaneInJointVisibility 0
 dia_model_view_attr.RebarInJointVisibility 0
-dia_model_view_attr.SurfacingInJointVisibility 0
+dia_model_view_attr.SurfacingInJointVisibility 1
 dia_model_view_attr.sd_display_type 2
 dia_model_view_attr.sd_object_display_type 1
 dia_model_view_attr.sd_joint_object_display_type 1
 dia_model_view_attr.sd_bolt_display_type 2
-dia_model_view_attr.sd_hole_display_type 2
+dia_model_view_attr.sd_hole_display_type 3
 dia_model_view_attr.sd_weld_display_type 1
 dia_model_view_attr.UserPlaneDisplayType 2
 dia_model_view_attr.RebarDisplayType 2
@@ -76,7 +76,7 @@ dia_model_view_attr.sd_part_attribute_2 0
 dia_model_view_attr.sd_joint_attribute 0
 dia_model_view_attr.sd_point_type 0
 dia_model_view_attr.sd_point_size 101.600000
-dia_model_view_attr.sd_autostick 0
+dia_model_view_attr.sd_autostick 1
 dia_model_view_attr.sd_autostick_point 8
 dia_model_view_attr.sd_autostick_part 8
 dia_model_view_attr.sd_autostick_short_part 8

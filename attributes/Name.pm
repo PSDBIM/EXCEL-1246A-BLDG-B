@@ -7,23 +7,23 @@ pmark_dial.for_which_parts 1
 pmark_dial.in_all_views 0
 pmark_dial.OutOfPlane 1
 pmark_dial.text_type 1
-pmark_dial.text_colour 161
+pmark_dial.text_colour 152
 pmark_dial.frame_type 0
 pmark_dial.line_colour 153
 pmark_dial.Angle 0.000000
-pmark_dial.ArrowType 0
+pmark_dial.ArrowType 17
 pmark_dial.ArrowHeight 2.000000
 pmark_dial.ArrowLength 2.500000
-pmark_dial.height 2.579687
+pmark_dial.height 0.000000
 pmark_dial.default_size 0.000000
 pmark_dial.mark_nsfs 0
 pmark_dial.content_1 1
 pmark_dial.flags 0
 pmark_dial.mark_use_part_end 0
-pmark_dial.ContentString1 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart></Mark>"
-pmark_dial.ContentString2 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart></Mark>"
-pmark_dial.ContentString3 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart></Mark>"
-pmark_dial.ContentString4 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart></Mark>"
+pmark_dial.ContentString1 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><Element name="PROFILE" value="" subType="24"><Format font="Arial" color="153" height="2.381" hidden="0"/></Element></MarkPart></Mark>"
+pmark_dial.ContentString2 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><Element name="PROFILE" value="" subType="24"><Format font="Arial" color="153" height="2.381" hidden="0"/></Element></MarkPart></Mark>"
+pmark_dial.ContentString3 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><Element name="PROFILE" value="" subType="24"><Format font="Arial" color="153" height="2.381" hidden="0"/></Element></MarkPart></Mark>"
+pmark_dial.ContentString4 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="25"><Format font="Arial" color="153" height="2.381" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><Element name="PROFILE" value="" subType="24"><Format font="Arial" color="153" height="2.381" hidden="0"/></Element></MarkPart></Mark>"
 pmark_dial.ChamferContentString ""
 pmark_dial.PourContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="MATERIAL" value="" subType="10"><Format font="Arial" color="155" height="2.500" hidden="0"/></Element></MarkPart></Mark>"
 pmark_dial.PourBreakContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>POUR BREAK<Format font="Arial" color="155" height="2.500" hidden="0"/></UserText></MarkPart></Mark>"
@@ -62,7 +62,7 @@ pmark_dial.ForSubassMain_en 1
 pmark_dial.ForSubassSecondary_en 1
 pmark_dial.UseHiddenLines_en 1
 pmark_dial.Rotation_en 1
-pmark_dial.txpl.text_placing_mode 1
+pmark_dial.txpl.text_placing_mode 0
 pmark_dial.txpl.quarter_1 1
 pmark_dial.txpl.quarter_2 2
 pmark_dial.txpl.quarter_3 4
@@ -80,26 +80,26 @@ pmark_dial.FontAttr.font_enable 1
 pmark_dial.FontAttr.text_colour_enable 1
 pmark_dial.FontAttr.height_enable 1
 pmark_dial.FrameAttr.frame_type 1
-pmark_dial.FrameAttr.line_colour 161
+pmark_dial.FrameAttr.line_colour 153
 pmark_dial.FrameAttr.frame_enable 1
 pmark_dial.FrameAttr.line_colour_enable 1
 pmark_dial.UnitAttr.Unit 0
 pmark_dial.UnitAttr.Precision 0
 pmark_dial.UnitAttr.Format 0
 pmark_dial.LocationAttributes.DesiredLocationOnPart_enable 1
-pmark_dial.LocationAttributes.DesiredLocationOnPart 0
+pmark_dial.LocationAttributes.DesiredLocationOnPart 1
 pmark_dial.LocationAttributes.LocationOnPart 1
 pmark_dial.LocationAttributes.Orientation_enable 1
-pmark_dial.LocationAttributes.AngleRelativeTo 0
+pmark_dial.LocationAttributes.AngleRelativeTo 1
 pmark_dial.LocationAttributes.Alignment_enable 1
-pmark_dial.LocationAttributes.Alignment 0
+pmark_dial.LocationAttributes.Alignment 1
 pmark_dial.LocationAttributes.PlacingFallback_enable 1
 pmark_dial.LocationAttributes.PlacingFallback 0
 pmark_dial.LocationAttributes.Offset_enable 1
 pmark_dial.LocationAttributes.Offset 0.000000
 pmark_dial.LocationAttributes.LeaderLineDesired_enable 1
-pmark_dial.LocationAttributes.LeaderLineDesired 0
-pmark_dial.LocationAttributes.LeaderLineInUse 0
+pmark_dial.LocationAttributes.LeaderLineDesired 2
+pmark_dial.LocationAttributes.LeaderLineInUse 2
 pmark_dial.LocationAttributes.MinimumMarkScale 0.000000
 pmark_dial.RebarGroupMarkAttributes.LineType 0
 pmark_dial.RebarGroupMarkAttributes.Type 0

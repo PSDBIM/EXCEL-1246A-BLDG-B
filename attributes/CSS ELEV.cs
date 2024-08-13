@@ -1,8 +1,8 @@
-csym_dial.in_file "standard"
+csym_dial.in_file "CSS ELEV"
 csym_dial.out_file "CSS ELEV"
 csym_dial.label_text "A"
 csym_dial.WidthOffset1 23.812500
-csym_dial.WidthOffset2 -45.442187
+csym_dial.WidthOffset2 -142.676562
 csym_dial.LengthOffset 12.700000
 csym_dial.ArrowLength 0.000000
 csym_dial.ArrowWidth 0.000000
@@ -142,9 +142,9 @@ csym_dial.SectionMarkA3.HorizontalOffset_en 1
 csym_dial.SectionMarkA3.VerticalOffset_en 1
 csym_dial.SectionMarkA3.TextRotation_en 1
 csym_dial.SectionMarkA3.Alignment_en 1
-csym_dial.SectionMarkA3.FontAttr.font_name "Arial Bold"
-csym_dial.SectionMarkA3.FontAttr.text_colour 153
-csym_dial.SectionMarkA3.FontAttr.height 3.175000
+csym_dial.SectionMarkA3.FontAttr.font_name "romsim"
+csym_dial.SectionMarkA3.FontAttr.text_colour 155
+csym_dial.SectionMarkA3.FontAttr.height 2.500000
 csym_dial.SectionMarkA3.FontAttr.font_enable 1
 csym_dial.SectionMarkA3.FontAttr.text_colour_enable 1
 csym_dial.SectionMarkA3.FontAttr.height_enable 1
@@ -168,9 +168,9 @@ csym_dial.SectionMarkA4.HorizontalOffset_en 1
 csym_dial.SectionMarkA4.VerticalOffset_en 1
 csym_dial.SectionMarkA4.TextRotation_en 1
 csym_dial.SectionMarkA4.Alignment_en 1
-csym_dial.SectionMarkA4.FontAttr.font_name "Arial"
-csym_dial.SectionMarkA4.FontAttr.text_colour 153
-csym_dial.SectionMarkA4.FontAttr.height 2.381250
+csym_dial.SectionMarkA4.FontAttr.font_name "romsim"
+csym_dial.SectionMarkA4.FontAttr.text_colour 155
+csym_dial.SectionMarkA4.FontAttr.height 2.500000
 csym_dial.SectionMarkA4.FontAttr.font_enable 1
 csym_dial.SectionMarkA4.FontAttr.text_colour_enable 1
 csym_dial.SectionMarkA4.FontAttr.height_enable 1
@@ -206,7 +206,7 @@ csym_dial.SectionMarkA5.FrameAttr.frame_enable 1
 csym_dial.SectionMarkA5.FrameAttr.line_colour_enable 1
 csym_dial.ViewLabelMarkA1.aInFile ""
 csym_dial.ViewLabelMarkA1.aOutFile ""
-csym_dial.ViewLabelMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>ELEVATION ALONG GRID C<Format font="Arial Bold" color="153" height="6.350" hidden="0" override="1"/></UserText></MarkPart></Mark>"
+csym_dial.ViewLabelMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>ELEVATION<Format font="Arial Bold" color="153" height="6.350" hidden="0" override="1"/></UserText></MarkPart></Mark>"
 csym_dial.ViewLabelMarkA1.ShowOn 0
 csym_dial.ViewLabelMarkA1.TextPosition 0
 csym_dial.ViewLabelMarkA1.TextRotation 0
@@ -220,9 +220,9 @@ csym_dial.ViewLabelMarkA1.HorizontalOffset_en 1
 csym_dial.ViewLabelMarkA1.VerticalOffset_en 1
 csym_dial.ViewLabelMarkA1.TextRotation_en 1
 csym_dial.ViewLabelMarkA1.Alignment_en 1
-csym_dial.ViewLabelMarkA1.FontAttr.font_name "romsim"
-csym_dial.ViewLabelMarkA1.FontAttr.text_colour 155
-csym_dial.ViewLabelMarkA1.FontAttr.height 2.500000
+csym_dial.ViewLabelMarkA1.FontAttr.font_name "Arial Bold"
+csym_dial.ViewLabelMarkA1.FontAttr.text_colour 153
+csym_dial.ViewLabelMarkA1.FontAttr.height 6.350000
 csym_dial.ViewLabelMarkA1.FontAttr.font_enable 1
 csym_dial.ViewLabelMarkA1.FontAttr.text_colour_enable 1
 csym_dial.ViewLabelMarkA1.FontAttr.height_enable 1

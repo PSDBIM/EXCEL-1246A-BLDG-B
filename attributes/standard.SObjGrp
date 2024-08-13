@@ -6,14 +6,14 @@ TITLE_OBJECT_GROUP
     {
         0 
         0 
-        co_assembly 
-        proASSEMBLY_POSITION 
-        albl_Position_number 
+        co_part 
+        proNAME 
+        albl_Name 
         == 
         albl_Equals 
-        P1003 
+        Empty 
         0 
-        && 
+        Empty 
         }
     SECTION_OBJECT_GROUP 
     {
@@ -26,7 +26,7 @@ TITLE_OBJECT_GROUP
         albl_Equals 
         Empty 
         0 
-        && 
+        Empty 
         }
     SECTION_OBJECT_GROUP 
     {
@@ -39,7 +39,7 @@ TITLE_OBJECT_GROUP
         albl_Equals 
         Empty 
         0 
-        && 
+        Empty 
         }
     SECTION_OBJECT_GROUP 
     {
@@ -52,7 +52,7 @@ TITLE_OBJECT_GROUP
         albl_Equals 
         Empty 
         0 
-        && 
+        Empty 
         }
     SECTION_OBJECT_GROUP 
     {
@@ -65,7 +65,7 @@ TITLE_OBJECT_GROUP
         albl_Equals 
         Empty 
         0 
-        && 
+        Empty 
         }
     SECTION_OBJECT_GROUP 
     {
@@ -78,7 +78,7 @@ TITLE_OBJECT_GROUP
         albl_Equals 
         Empty 
         0 
-        && 
+        Empty 
         }
     SECTION_OBJECT_GROUP 
     {
@@ -91,20 +91,20 @@ TITLE_OBJECT_GROUP
         albl_Equals 
         Empty 
         0 
-        && 
+        Empty 
         }
     SECTION_OBJECT_GROUP 
     {
         0 
         0 
         co_assembly 
-        proASSEMBLY_POSITION 
-        albl_Position_number 
+        proNUMBERING_SERIE 
+        albl_Prefix 
         == 
         albl_Equals 
-        P3005 
+        Empty 
         0 
-        && 
+        Empty 
         }
     SECTION_OBJECT_GROUP 
     {
@@ -117,7 +117,7 @@ TITLE_OBJECT_GROUP
         albl_Equals 
         Empty 
         0 
-        && 
+        Empty 
         }
     SECTION_OBJECT_GROUP 
     {
@@ -130,7 +130,7 @@ TITLE_OBJECT_GROUP
         albl_Equals 
         Empty 
         0 
-        && 
+        Empty 
         }
     SECTION_OBJECT_GROUP 
     {
@@ -143,6 +143,6 @@ TITLE_OBJECT_GROUP
         albl_Equals 
         Empty 
         0 
-        && 
+        Empty 
         }
     }

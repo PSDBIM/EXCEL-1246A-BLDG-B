@@ -1,4 +1,4 @@
-wld_dial.in_file "CSS TACK"
+wld_dial.in_file "standard"
 wld_dial.out_file "CSS TACK"
 wld_dial.weld_colour_enable 1
 wld_dial.weld_colour 153
@@ -52,9 +52,9 @@ wld_dial.w_EffectiveThroatAbove 0.000000
 wld_dial.w_RootOpeningAbove_enable 1
 wld_dial.w_RootOpeningAbove 0.000000
 wld_dial.w_weld_enable 1
-wld_dial.w_weld "4-SIDESTACK."
+wld_dial.w_weld "TACK."
 wld_dial.edge_around_enable 1
-wld_dial.w_around 0
+wld_dial.w_around 1
 wld_dial.workshop_site_enable 1
 wld_dial.w_workshop 0
 wld_dial.w_Stitch_enable 1

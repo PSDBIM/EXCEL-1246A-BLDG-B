@@ -1,7 +1,7 @@
 TITLE_OBJECT_GROUP 
 {
     Version= 1.05 
-    Count= 11 
+    Count= 13 
     SECTION_OBJECT_GROUP 
     {
         0 
@@ -37,7 +37,7 @@ TITLE_OBJECT_GROUP
         albl_Name 
         != 
         albl_DoesNotEqual 
-        CANOPY 
+        "HSSOUTRIGGER" 
         0 
         && 
         }
@@ -141,7 +141,33 @@ TITLE_OBJECT_GROUP
         albl_Name 
         != 
         albl_DoesNotEqual 
-        RODS 
+        "BOTTOMFLANGEBRACE" 
+        0 
+        && 
+        }
+    SECTION_OBJECT_GROUP 
+    {
+        0 
+        1 
+        co_assembly 
+        proNAME 
+        albl_Name 
+        != 
+        albl_DoesNotEqual 
+        "CLIPANGLE" 
+        0 
+        && 
+        }
+    SECTION_OBJECT_GROUP 
+    {
+        0 
+        1 
+        co_assembly 
+        proNAME 
+        albl_Name 
+        != 
+        albl_DoesNotEqual 
+        BRACE 
         0 
         && 
         }

@@ -42,13 +42,13 @@ adraw_dial.UseDetailedObjectLevelSettings 0
 adraw_dial.UseDetailedObjectLevelSettings_en 1
 adraw_dial.dl.in_file ""
 adraw_dial.dl.out_file ""
-adraw_dial.dl.layout "AssyCallOffV"
+adraw_dial.dl.layout "AssemblyDrgs"
 adraw_dial.dl.size_searching_mode 1
 adraw_dial.dl.take_fixed 1
 adraw_dial.dl.take_calc 0
-adraw_dial.dl.width 430.000000
-adraw_dial.dl.height 277.000000
-adraw_dial.dl.sheet 76672
+adraw_dial.dl.width 431.000000
+adraw_dial.dl.height 266.000000
+adraw_dial.dl.sheet 85098
 adraw_dial.dl.projection_type 1
 adraw_dial.dl.side_view_beside 1
 adraw_dial.dl.CutViewsInLineWithMain 0
@@ -59,8 +59,8 @@ adraw_dial.dl.cut_scales "12 8"
 adraw_dial.dl.als_width 406.400000
 adraw_dial.dl.als_height 254.000000
 adraw_dial.dl.adjust_min_dist 1
-adraw_dial.dl.include_single_parts 1
-adraw_dial.dl.single_attrib_file "CSS PARTS"
+adraw_dial.dl.include_single_parts 0
+adraw_dial.dl.single_attrib_file "Excel-Plate-1"
 adraw_dial.dl.placing_direction 0
 adraw_dial.dl.ListHiddenObjectsInReports 1
 adraw_dial.dl.layout_en 1
@@ -568,7 +568,7 @@ adraw_dial.dd.dim_arrow_shape 1
 adraw_dial.dd.dim_arrow_height 0.992188
 adraw_dial.dd.dim_arrow_width 2.579687
 adraw_dial.dd.dim_units 0
-adraw_dial.dd.Exaggeration 1
+adraw_dial.dd.Exaggeration 0
 adraw_dial.dd.ExaggerationDirection 0
 adraw_dial.dd.ExaggerationOrigin 0
 adraw_dial.dd.ExaggerationWidth 4.960938
@@ -647,7 +647,7 @@ adraw_dial.dp.BoltDrawAs 0
 adraw_dial.dp.bolt_hole 0
 adraw_dial.dp.bolt_axis 0
 adraw_dial.dp.visible_colour 153
-adraw_dial.dp.hidden_colour 153
+adraw_dial.dp.hidden_colour 159
 adraw_dial.dp.reference_colour 152
 adraw_dial.dp.bolt_colour 0
 adraw_dial.dp.visible_linetype 1
@@ -718,9 +718,9 @@ adraw_dial.dp.PartHatch.HatchBackgroundColor_enable 1
 adraw_dial.dp.PartHatch.HatchBackgroundColor 0
 adraw_dial.dp.SectionHatch.hatch_type 0
 adraw_dial.dp.SectionHatch.hatch_name_en 1
-adraw_dial.dp.SectionHatch.hatch_name "None"
+adraw_dial.dp.SectionHatch.hatch_name "ANSI31"
 adraw_dial.dp.SectionHatch.hatch_color_en 1
-adraw_dial.dp.SectionHatch.hatch_color 155
+adraw_dial.dp.SectionHatch.hatch_color 159
 adraw_dial.dp.SectionHatch.hatch_angle_en 1
 adraw_dial.dp.SectionHatch.hatch_angle 0.000000
 adraw_dial.dp.SectionHatch.hatch_factor_type_en 1
@@ -797,36 +797,36 @@ adraw_dial.dnp.AddChamfers_en 1
 adraw_dial.dnp.inner_contours_en 1
 adraw_dial.dnp.PartHatch.hatch_type 0
 adraw_dial.dnp.PartHatch.hatch_name_en 1
-adraw_dial.dnp.PartHatch.hatch_name "None"
+adraw_dial.dnp.PartHatch.hatch_name ""
 adraw_dial.dnp.PartHatch.hatch_color_en 1
-adraw_dial.dnp.PartHatch.hatch_color 155
+adraw_dial.dnp.PartHatch.hatch_color 0
 adraw_dial.dnp.PartHatch.hatch_angle_en 1
 adraw_dial.dnp.PartHatch.hatch_angle 0.000000
 adraw_dial.dnp.PartHatch.hatch_factor_type_en 1
-adraw_dial.dnp.PartHatch.hatch_factor_type 1
+adraw_dial.dnp.PartHatch.hatch_factor_type 0
 adraw_dial.dnp.PartHatch.hatch_scale_x_en 1
-adraw_dial.dnp.PartHatch.hatch_scale_x 2.000000
+adraw_dial.dnp.PartHatch.hatch_scale_x 0.000000
 adraw_dial.dnp.PartHatch.hatch_scale_y_en 1
-adraw_dial.dnp.PartHatch.hatch_scale_y 1.000000
+adraw_dial.dnp.PartHatch.hatch_scale_y 0.000000
 adraw_dial.dnp.PartHatch.HatchAutomaticOrCustom_enable 1
-adraw_dial.dnp.PartHatch.HatchAutomaticOrCustom 1
+adraw_dial.dnp.PartHatch.HatchAutomaticOrCustom 0
 adraw_dial.dnp.PartHatch.HatchBackgroundColor_enable 1
 adraw_dial.dnp.PartHatch.HatchBackgroundColor 0
 adraw_dial.dnp.SectionHatch.hatch_type 0
 adraw_dial.dnp.SectionHatch.hatch_name_en 1
-adraw_dial.dnp.SectionHatch.hatch_name "None"
+adraw_dial.dnp.SectionHatch.hatch_name ""
 adraw_dial.dnp.SectionHatch.hatch_color_en 1
-adraw_dial.dnp.SectionHatch.hatch_color 155
+adraw_dial.dnp.SectionHatch.hatch_color 0
 adraw_dial.dnp.SectionHatch.hatch_angle_en 1
 adraw_dial.dnp.SectionHatch.hatch_angle 0.000000
 adraw_dial.dnp.SectionHatch.hatch_factor_type_en 1
-adraw_dial.dnp.SectionHatch.hatch_factor_type 1
+adraw_dial.dnp.SectionHatch.hatch_factor_type 0
 adraw_dial.dnp.SectionHatch.hatch_scale_x_en 1
-adraw_dial.dnp.SectionHatch.hatch_scale_x 2.000000
+adraw_dial.dnp.SectionHatch.hatch_scale_x 0.000000
 adraw_dial.dnp.SectionHatch.hatch_scale_y_en 1
-adraw_dial.dnp.SectionHatch.hatch_scale_y 1.000000
+adraw_dial.dnp.SectionHatch.hatch_scale_y 0.000000
 adraw_dial.dnp.SectionHatch.HatchAutomaticOrCustom_enable 1
-adraw_dial.dnp.SectionHatch.HatchAutomaticOrCustom 1
+adraw_dial.dnp.SectionHatch.HatchAutomaticOrCustom 0
 adraw_dial.dnp.SectionHatch.HatchBackgroundColor_enable 1
 adraw_dial.dnp.SectionHatch.HatchBackgroundColor 0
 adraw_dial.ds.in_file ""
@@ -977,7 +977,7 @@ adraw_dial.dpm.content_1 0
 adraw_dial.dpm.flags 0
 adraw_dial.dpm.mark_use_part_end 0
 adraw_dial.dpm.ContentString1 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Frame type="3" color="153" frame_id="103"><Mark><MarkPart groupid="0"><Element name="PART_POS" value="" subType="23"><Format font="Arial" color="153" height="4.762" hidden="0" override="1"/></Element></MarkPart></Mark></Frame></MarkPart></Mark>"
-adraw_dial.dpm.ContentString2 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="PART_POS" value="" subType="23"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><Element name="" value="" subType="29"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><Element name="" value="" subType="48"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart><MarkPart groupid="0"><Element name="" value="" subType="49"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart></Mark>"
+adraw_dial.dpm.ContentString2 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="PART_POS" value="" subType="23"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><Element name="" value="" subType="29"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart><MarkPart groupid="0"><LineFeed/></MarkPart></Mark>"
 adraw_dial.dpm.ContentString3 ""
 adraw_dial.dpm.ContentString4 ""
 adraw_dial.dpm.ChamferContentString ""
@@ -1186,7 +1186,7 @@ adraw_dial.dsm.in_all_views 1
 adraw_dial.dsm.OutOfPlane 0
 adraw_dial.dsm.text_type 0
 adraw_dial.dsm.text_colour 153
-adraw_dial.dsm.frame_type 8
+adraw_dial.dsm.frame_type 0
 adraw_dial.dsm.line_colour 153
 adraw_dial.dsm.Angle 0.000000
 adraw_dial.dsm.ArrowType 16
@@ -1198,7 +1198,7 @@ adraw_dial.dsm.mark_nsfs 0
 adraw_dial.dsm.content_1 0
 adraw_dial.dsm.flags 0
 adraw_dial.dsm.mark_use_part_end 0
-adraw_dial.dsm.ContentString1 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="" value="" subType="47"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart></Mark>"
+adraw_dial.dsm.ContentString1 ""
 adraw_dial.dsm.ContentString2 "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="" value="" subType="47"><Format font="Arial" color="153" height="3.175" hidden="0" override="1"/></Element></MarkPart></Mark>"
 adraw_dial.dsm.ContentString3 ""
 adraw_dial.dsm.ContentString4 ""
@@ -1253,7 +1253,7 @@ adraw_dial.dsm.txpl.text_freepl_min_en 1
 adraw_dial.dsm.txpl.text_freepl_margin_en 1
 adraw_dial.dsm.FontAttr.font_name "Arial"
 adraw_dial.dsm.FontAttr.text_colour 153
-adraw_dial.dsm.FontAttr.height 3.175000
+adraw_dial.dsm.FontAttr.height 2.381250
 adraw_dial.dsm.FontAttr.font_enable 1
 adraw_dial.dsm.FontAttr.text_colour_enable 1
 adraw_dial.dsm.FontAttr.height_enable 1
@@ -1509,8 +1509,8 @@ adraw_dial.drmark.RebarGroupMarkAttributes.LineType_en 1
 adraw_dial.drmark.RebarGroupMarkAttributes.Type_en 1
 adraw_dial.drmark.RebarGroupMarkAttributes.TaggedRebarDimMarkLocation_en 1
 adraw_dial.drmark.RebarGroupMarkAttributes.CloseRebarDimMarkToFather_en 1
-adraw_dial.dc.in_file "imp"
-adraw_dial.dc.out_file "imp"
+adraw_dial.dc.in_file "standard"
+adraw_dial.dc.out_file "standard"
 adraw_dial.dc.cut_scale 12.000000
 adraw_dial.dc.cut_on 1
 adraw_dial.dc.cut_length 0.198437

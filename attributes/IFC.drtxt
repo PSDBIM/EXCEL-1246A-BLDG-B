@@ -1,13 +1,13 @@
 text_dial.in_file "IFC"
 text_dial.out_file "IFC"
-text_dial.text_io "ISSUED FOR CONSTRUCTIONJULY-23-2021"
+text_dial.text_io "ISSUED FOR CONSTRUCTIONMAR-29-2021"
 text_dial.font_name "Arial"
 text_dial.type 0
 text_dial.text_type 0
 text_dial.mark_type 0
 text_dial.text_colour 153
 text_dial.frame_type 1
-text_dial.line_colour 153
+text_dial.line_colour 159
 text_dial.angle 0.000000
 text_dial.height 4.762500
 text_dial.arrow_type 17
@@ -49,8 +49,8 @@ text_dial.txpl.quarter_1 1
 text_dial.txpl.quarter_2 2
 text_dial.txpl.quarter_3 4
 text_dial.txpl.quarter_4 8
-text_dial.txpl.text_freepl_min 1.984375
-text_dial.txpl.text_freepl_margin 0.992188
+text_dial.txpl.text_freepl_min 10.000000
+text_dial.txpl.text_freepl_margin 1.000000
 text_dial.txpl.text_place_en 1
 text_dial.txpl.text_quarter_en 1
 text_dial.txpl.text_freepl_min_en 1

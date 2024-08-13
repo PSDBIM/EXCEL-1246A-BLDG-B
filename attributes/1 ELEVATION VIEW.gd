@@ -29,9 +29,9 @@ gdraw_dial.DetailLabel_en 1
 gdraw_dial.dd_en 1
 gdraw_dial.Dimensioning_en 1
 gdraw_dial.PourBreaks_en 1
-gdraw_dial.description "Exxx"
-gdraw_dial.title_1 "ELEVATION VIEW ALONG GRID LINE 1"
-gdraw_dial.title_2 ""
+gdraw_dial.description "E9"
+gdraw_dial.title_1 "ELEVATION VIEW ALONG GRID LINE F"
+gdraw_dial.title_2 "IFC APR-16-2018"
 gdraw_dial.title_3 " "
 gdraw_dial.StyleName "1 ELEVATION VIEW"
 gdraw_dial.UseDetailedObjectLevelSettings 1
@@ -1184,7 +1184,7 @@ gdraw_dial.drebar.MeshAttr.DrawHiddenLinesHiddenByPart_en 1
 gdraw_dial.drebar.MeshAttr.DrawHiddenLinesHiddenByRebar_en 1
 gdraw_dial.dview.in_file "Scale_1"
 gdraw_dial.dview.out_file ""
-gdraw_dial.dview.main_scale 72.000000
+gdraw_dial.dview.main_scale 50.000000
 gdraw_dial.dview.coord_sys 0
 gdraw_dial.dview.coord_sys_x_rotate 0
 gdraw_dial.dview.coord_sys_y_rotate 0
@@ -1275,7 +1275,7 @@ gdraw_dial.dview.ViewLabelLineLength_en 1
 gdraw_dial.dview.ViewLabelHorizontalPosition_en 1
 gdraw_dial.dview.ViewLabelMarkA1.aInFile ""
 gdraw_dial.dview.ViewLabelMarkA1.aOutFile ""
-gdraw_dial.dview.ViewLabelMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><Element name="NAME" value="" subType="82"><Format font="Arial" color="153" height="6.350" hidden="0" override="1"/></Element></MarkPart></Mark>"
+gdraw_dial.dview.ViewLabelMarkA1.ContentString "<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE Mark><Mark><MarkPart groupid="0"><UserText>ROOF FRAMING PLAN<Format font="Arial" color="153" height="6.350" hidden="0"/></UserText></MarkPart></Mark>"
 gdraw_dial.dview.ViewLabelMarkA1.ShowOn 0
 gdraw_dial.dview.ViewLabelMarkA1.TextPosition 0
 gdraw_dial.dview.ViewLabelMarkA1.TextRotation 0
@@ -1290,13 +1290,13 @@ gdraw_dial.dview.ViewLabelMarkA1.VerticalOffset_en 1
 gdraw_dial.dview.ViewLabelMarkA1.TextRotation_en 1
 gdraw_dial.dview.ViewLabelMarkA1.Alignment_en 1
 gdraw_dial.dview.ViewLabelMarkA1.FontAttr.font_name "Arial"
-gdraw_dial.dview.ViewLabelMarkA1.FontAttr.text_colour 153
-gdraw_dial.dview.ViewLabelMarkA1.FontAttr.height 6.350000
+gdraw_dial.dview.ViewLabelMarkA1.FontAttr.text_colour 165
+gdraw_dial.dview.ViewLabelMarkA1.FontAttr.height 3.175000
 gdraw_dial.dview.ViewLabelMarkA1.FontAttr.font_enable 1
 gdraw_dial.dview.ViewLabelMarkA1.FontAttr.text_colour_enable 1
 gdraw_dial.dview.ViewLabelMarkA1.FontAttr.height_enable 1
 gdraw_dial.dview.ViewLabelMarkA1.FrameAttr.frame_type 1
-gdraw_dial.dview.ViewLabelMarkA1.FrameAttr.line_colour 153
+gdraw_dial.dview.ViewLabelMarkA1.FrameAttr.line_colour 165
 gdraw_dial.dview.ViewLabelMarkA1.FrameAttr.frame_enable 1
 gdraw_dial.dview.ViewLabelMarkA1.FrameAttr.line_colour_enable 1
 gdraw_dial.dview.ViewLabelMarkA2.aInFile ""

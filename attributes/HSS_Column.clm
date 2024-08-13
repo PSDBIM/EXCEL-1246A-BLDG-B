@@ -1,11 +1,11 @@
-dia_part_attr.part_number_prefix "hss1-"
+dia_part_attr.part_number_prefix "hss"
 dia_part_attr.assembly_number_prefix "C"
 dia_part_attr.part_number_start_no 1
-dia_part_attr.assembly_number_start_no 1000
+dia_part_attr.assembly_number_start_no 1
 dia_part_attr.name "COLUMN"
 dia_part_attr.profile "HSS8X8X1/4"
-dia_part_attr.material "A500-GR.B"
-dia_part_attr.finish "1 S/C"
+dia_part_attr.material "A500-C"
+dia_part_attr.finish ""
 dia_part_attr.part_group "12"
 dia_part_attr.dx1 -609.600000
 dia_part_attr.dy1 0.000000
